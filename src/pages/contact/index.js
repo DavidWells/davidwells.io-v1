@@ -4,7 +4,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div>
-        new contact
+        new contact page
       </div>
     )
   }

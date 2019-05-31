@@ -14,8 +14,6 @@ class Post extends React.Component {
       description,
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
-    console.log('titile', title)
-    console.log('slug', slug)
 
     let catLinks
     if (categorySlug) {

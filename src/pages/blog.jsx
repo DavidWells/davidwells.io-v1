@@ -10,7 +10,6 @@ export default class BlogRoute extends React.Component {
     const items = []
     const { title, subtitle } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
-    console.log('posts', posts)
     posts.forEach(post => {
       items.push(<Post data={post} key={post.node.fields.slug} />)
     })
@@ -20,11 +19,11 @@ export default class BlogRoute extends React.Component {
         <div>
           <Helmet>
             <title>{title}</title>
-            <meta name="description" content={subtitle} />
+            <meta name='description' content={subtitle} />
           </Helmet>
           <Sidebar {...this.props} />
-          <div className="content">
-            <div className="content__inner">{items}</div>
+          <div className='content'>
+            <div className='content__inner'>{items}</div>
           </div>
         </div>
       </Layout>
