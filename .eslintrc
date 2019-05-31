@@ -6,13 +6,11 @@
     "graphql": true
   },
   "rules": {
-    "arrow-body-style": [
-      "error",
-      "as-needed",
-      { "requireReturnForObjectLiteral": true }
-    ],
-    "arrow-parens": ["error", "as-needed"],
-    "comma-dangle": ["error", "always-multiline"],
+    "arrow-body-style": "off",
+    "jsx-quotes": ["error", "prefer-single"],
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "object-curly-newline": "off",
     "function-paren-newline": "off",
     "no-console": "off",
     "prefer-destructuring": "off",
@@ -23,6 +21,8 @@
     "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
     "no-use-before-define": "off"
   }
 }
