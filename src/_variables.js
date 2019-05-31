@@ -1,4 +1,4 @@
-/****
+/**
 Global CSS variables for use in CSS and JS
 
 ## CSS usage:
@@ -14,7 +14,7 @@ Global CSS variables for use in CSS and JS
 
   const { blue } = variables
   ```
-****/
+*/
 
 const baseValue = 1
 const unit = 'rem'
