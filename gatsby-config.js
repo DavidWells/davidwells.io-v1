@@ -20,8 +20,7 @@ module.exports = {
     url: 'davidwells.io',
     siteUrl: 'https://davidwells.io',
     title: 'Blog by David Wells',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    subtitle: 'Serverless Architectures',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
