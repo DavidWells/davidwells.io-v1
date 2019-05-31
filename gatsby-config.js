@@ -1,10 +1,23 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
+/* hot module reloading for CSS variables */
+const postcssFile = require.resolve('./postcss.config.js')
+const postcssPlugins = (webpackInstance) => {
+  const varFile = require.resolve('./src/_variables.js')
+  const varFileContents = () => {
+    webpackInstance.addDependency(varFile)
+    delete require.cache[varFile]
+    return require(varFile)
+  }
+  webpackInstance.addDependency(postcssFile)
+  delete require.cache[postcssFile]
+  return require(postcssFile)({}, varFileContents())
+}
 
 module.exports = {
   siteMetadata: {
-    url: 'https://davidwells.io',
+    url: 'davidwells.io',
     siteUrl: 'https://davidwells.io',
     title: 'Blog by David Wells',
     subtitle:
@@ -40,6 +53,13 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: 'gatsby-better-postcss',
+      options: {
+        cssMatch: 'hi',
+        postCssPlugins: postcssPlugins,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -135,7 +155,7 @@ module.exports = {
         fonts: ['roboto:400,400i,500,700'],
       },
     },
-    {
+    /*{
       resolve: 'gatsby-plugin-sitemap',
       options: {
         query: `
@@ -167,7 +187,7 @@ module.exports = {
             }
           }),
       },
-    },
+    },*/
     // 'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',

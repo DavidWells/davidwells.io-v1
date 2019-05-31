@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
+import styles from './styles.css'
 import './style.scss'
 
 class Post extends React.Component {
@@ -27,7 +28,7 @@ class Post extends React.Component {
     }
 
     return (
-      <div className="post">
+      <div className={"post " + styles.mo}>
         <div className="post__meta">
           <time
             className="post__meta-time"
@@ -45,7 +46,7 @@ class Post extends React.Component {
         </h2>
         <p className="post__description">{description}</p>
         <Link className="post__readmore" to={slug}>
-          Read
+          Readx
         </Link>
       </div>
     )
