@@ -1,0 +1,37 @@
+$borderColor: #a5a5a5;
+$buttonPadding: 12px;
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 400;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  text-decoration: none;
+  font-style: normal;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+  }
+}
+
+.blue {
+  color: #fff;
+  background: #0685c4;
+  padding: 10px 20px;
+  border-radius: 2px;
+  margin: 0;
+  display: inline-block;
+  transition: background 0.2s;
+  &:hover {
+    background: #02639d;
+  }
+}

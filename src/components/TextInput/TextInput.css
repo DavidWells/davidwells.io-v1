@@ -1,0 +1,35 @@
+.inputWrapper {
+  position: relative;
+}
+.inputWrapper, .input {
+  width: 100%;
+  border-radius: 0px;
+}
+.inputWrapper {
+  margin-bottom: 20px;
+}
+.input {
+  padding: 15px 10px;
+  border: 1px solid #949494;
+  box-shadow: none;
+  -webkit-appearance: none;
+  &:focus {
+    border: 1px solid $black2;
+    outline: none;
+  }
+}
+.validation {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  right: 5px;
+  top:0;
+  font-size: 1.3rem;
+}
+@media (max-width: 720px) {
+  .input {
+    font-size: 16px;
+  }
+}
