@@ -1,0 +1,155 @@
+$contentWidth: 650px;
+.postPage {
+  max-width: 100%;
+  overflow: hidden;
+}
+.postWrapper {
+  width: 100%;
+}
+.contentWrapper {
+  margin-top: 50px;
+  width: 100%;
+  h1, h2, h3, h4, h5, h6, p, iframe, .postMeta, .loadingWrapper {
+    padding-left: $contentPadding;
+  }
+  iframe {
+    padding-right: $contentPadding;
+  }
+  a {
+    color: #4659ff;
+  }
+  blockquote {
+    margin-left: $contentPadding;
+    p, li, ul, a {
+      padding-left: 0px;
+    }
+  }
+  li p {
+    padding-left: 5px;
+  }
+  li ul {
+    padding-left: 20px;
+  }
+  ol, ul {
+    padding-left: 100px;
+  }
+  h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, .postMeta, .loadingWrapper {
+    width: $contentWidth;
+    max-width: $contentWidth;
+    min-width: $contentWidth;
+  }
+  img, iframe {
+    max-width: 100%;
+  }
+  .title {
+    margin-bottom: 0px;
+  }
+  .postMeta {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 22px;
+  }
+  .postContent {
+    margin-top: 25px;
+    margin-bottom: 60px;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+.editLink {
+  display: flex;
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  background: white;
+  a {
+    border: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  svg, :global(.SVGInline) {
+    display: block;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.authorBox {
+  margin-top: 30px;
+  display: flex;
+  box-shadow: 0 0 3px rgba(0,0,0,.2);
+  padding: 20px;
+}
+.authorImage {
+  width: 90px;
+  min-width: 90px;
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.comments {
+  margin-bottom: 40px;
+  padding: 0px 30px;
+}
+
+@media (max-width: 960px) {
+  .postWrapper, .comments {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .contentWrapper {
+    width: 100%;
+    min-width: 100%;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contentWrapper h1 {
+    font-size: 2.2rem;
+    font-size: 2rem;
+    line-height: 1.3;
+    letter-spacing: -.025rem;
+  }
+  .postPage .title {
+    margin-bottom: 10px;
+  }
+  .postPage img[align="right"] {
+    float: none;
+    clear: both;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .authorBox {
+    flex-direction: column;
+  }
+  .contentWrapper {
+    margin-top: 10px;
+    h1, h2, h3, h4, h5, h6, p, iframe, .postMeta, .loadingWrapper {
+      padding-left: 5px;
+    }
+    blockquote {
+      margin-left: 5px;
+      p, li, ul, a {
+        padding-left: 0px;
+      }
+    }
+    ol, ul {
+      padding-left: 15px;
+    }
+    h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, .postMeta, .loadingWrapper {
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+}

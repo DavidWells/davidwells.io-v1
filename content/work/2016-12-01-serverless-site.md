@@ -3,7 +3,7 @@ title: Serverless Website
 description: Offline first, static site powered by React & markdown
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-site-thumb.jpg
 date: 2016-12-01
-layout: Portfolio
+layout: portfolio
 ---
 
 # Serverless.com

@@ -3,7 +3,8 @@ title: Netlify + CodeSandbox Deployments
 description: Deploy netlify sites from Code Sandbox
 thumbnail: https://www.fillmurray.com/460/300
 date: 2018-11-29
-layout: Portfolio
+draft: true
+layout: portfolio
 ---
 
 # Netlify + CodeSandbox
@@ -15,6 +16,9 @@ This was an integration project with CodeSandbox. We wanted to add a way for Cod
 ##  Demo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S4Nshf2IGmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+https://twitter.com/CompuIves/status/1110633418704986113
 
 
 Images here

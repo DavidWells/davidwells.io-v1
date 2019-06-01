@@ -3,7 +3,7 @@ title: Duplicate and Merge Posts
 description: Duplicate existing pages & posts, edit them, then merge them back into the original
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1426452006_Duplicate_and_edit_the_existing_post.jpg
 date: 2015-03-15
-layout: Portfolio
+layout: portfolio
 ---
 
 # Duplicate and Merge Posts

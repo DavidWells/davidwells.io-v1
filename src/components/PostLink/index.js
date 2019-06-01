@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import { format } from 'date-fns'
 
 import styles from './styles.css'
-import './style.scss'
 
 class Post extends React.Component {
   render() {
@@ -27,7 +26,7 @@ class Post extends React.Component {
     }
 
     return (
-      <div className={`post ${styles.mo}`}>
+      <div className={styles.postLink}>
         <div className='post__meta'>
           <time
             className='post__meta-time'
@@ -38,15 +37,12 @@ class Post extends React.Component {
           <span className='post__meta-divider' />
           {catLinks}
         </div>
-        <h2 className='post__title'>
-          <Link className='post__title-link' to={slug}>
+        <Link className='post__title-link' to={slug}>
+          <h2 className={styles.title}>
             {title}
-          </Link>
-        </h2>
-        <p className='post__description'>{description}</p>
-        <Link className='post__readmore' to={slug}>
-          Readx
+          </h2>
         </Link>
+        <p className='post__description'>{description}</p>
       </div>
     )
   }

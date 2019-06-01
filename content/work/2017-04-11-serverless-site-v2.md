@@ -3,7 +3,7 @@ title: Serverless Website v2
 description: Static site powered by React, markdown and serverless APIs
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-site-v2-thumbnail.jpg
 date: 2017-04-11
-layout: Portfolio
+layout: portfolio
 ---
 
 # Serverless.com v2

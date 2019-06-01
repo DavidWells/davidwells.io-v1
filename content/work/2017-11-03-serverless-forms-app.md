@@ -3,7 +3,7 @@ title: Serverless Forms Service
 description: Serverless Forms Service to collect form data and view via Admin UI
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-forms-service-logo.jpg
 date: 2017-11-03
-layout: Portfolio
+layout: portfolio
 ---
 
 # Serverless Forms

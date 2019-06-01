@@ -3,7 +3,7 @@ title: Teach your child to swim
 description: E-commerce site build
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/04/1428113712_media_1428113452441.jpg
 date: 2014-04-04
-layout: Portfolio
+layout: portfolio
 ---
 
 # Teach Your Child To Swim.com

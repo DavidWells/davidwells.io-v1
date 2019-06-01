@@ -3,6 +3,8 @@ const path = require('path')
 const slash = require('slash')
 
 const dateRegex = /[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])-/g
+const rootDir = path.join(__dirname)
+console.log('rootDir', rootDir)
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -12,9 +14,7 @@ exports.createPages = ({ graphql, actions }) => {
     const pageTemplate = path.resolve('./src/templates/page-template.jsx')
     const tagTemplate = path.resolve('./src/templates/tag-template.jsx')
     const talkTemplate = path.resolve('./src/templates/talk-template.jsx')
-    const categoryTemplate = path.resolve(
-      './src/templates/category-template.jsx'
-    )
+    const categoryTemplate = path.resolve('./src/templates/category-template.jsx')
 
     graphql(`
       {
@@ -43,20 +43,21 @@ exports.createPages = ({ graphql, actions }) => {
       }
 
       _.each(result.data.allMarkdownRemark.edges, edge => {
-        if (_.get(edge, 'node.frontmatter.layout') === 'page') {
+        const layout = _.get(edge, 'node.frontmatter.layout')
+        if (layout === 'page' || layout === 'portfolio') {
           createPage({
             path: edge.node.fields.slug,
             component: slash(pageTemplate),
             context: { slug: edge.node.fields.slug },
           })
-        } else if (_.get(edge, 'node.frontmatter.layout') === 'talk') {
+        } else if (layout === 'talk') {
           createPage({
             path: edge.node.fields.slug,
             component: slash(talkTemplate),
             context: { slug: edge.node.fields.slug },
           })
-        } else if (_.get(edge, 'node.frontmatter.layout') === 'post') {
-          console.log('edge.node.fields.slug', edge.node.fields.slug)
+        } else if (layout === 'post') {
+          // console.log('edge.node.fields.slug', edge.node.fields.slug)
           createPage({
             path: edge.node.fields.slug,
             component: slash(postTemplate),
@@ -115,13 +116,21 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     // console.log('node', node)
     const parsedFilePath = path.parse(node.absolutePath)
 
+    const dirPath = path.dirname(node.absolutePath)
     const dirName = path.basename(path.dirname(node.absolutePath))
     const baseFile = path.basename(node.absolutePath)
+
+    // check for files in root content dir
+    const reg = new RegExp(`/${dirName}$`)
+    const fileBase = dirPath.replace(reg, '')
 
     let base = baseFile
     if (baseFile === 'index.md') {
       const parentParent = path.basename(path.dirname(parsedFilePath.dir))
       base = `${parentParent}/${formatFileName(path.basename(parsedFilePath.dir))}`
+      if (fileBase === rootDir) {
+        base = ''
+      }
     } else {
       base = `${dirName}/${formatFileName(baseFile)}`
     }

@@ -3,7 +3,8 @@ title: Netlify Functions
 description: Resource for learning about Netlify Serverless functions
 thumbnail: https://www.fillmurray.com/460/300
 date: 2018-11-29
-layout: Portfolio
+draft: true
+layout: portfolio
 ---
 
 # Netlify Functions

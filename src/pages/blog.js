@@ -1,9 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Post from '../components/Post'
-import Sidebar from '../components/Sidebar'
+import Layout from '../layouts/Default'
+import PostLink from '../components/PostLink'
 
 export default class BlogRoute extends React.Component {
   render() {
@@ -11,20 +10,19 @@ export default class BlogRoute extends React.Component {
     const { title, subtitle } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
     posts.forEach(post => {
-      items.push(<Post data={post} key={post.node.fields.slug} />)
+      items.push(
+        <PostLink data={post} key={post.node.fields.slug} />
+      )
     })
 
     return (
       <Layout>
-        <div>
-          <Helmet>
-            <title>{title}</title>
-            <meta name='description' content={subtitle} />
-          </Helmet>
-          <Sidebar {...this.props} />
-          <div className='content'>
-            <div className='content__inner'>{items}</div>
-          </div>
+        <Helmet>
+          <title>{title}</title>
+          <meta name='description' content={subtitle} />
+        </Helmet>
+        <div className='content'>
+          <div className='content__inner'>{items}</div>
         </div>
       </Layout>
     )

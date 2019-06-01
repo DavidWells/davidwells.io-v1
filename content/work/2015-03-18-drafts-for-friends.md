@@ -3,7 +3,7 @@ title: Drafts for friends
 description: Share WordPress drafts with no login required to view. Built with React
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/08/drafts-for-friends-2.png
 date: 2015-03-18
-layout: Portfolio
+layout: portfolio
 ---
 
 # Drafts for Friends

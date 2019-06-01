@@ -3,6 +3,7 @@ title: "Clean Analytics"
 descriptions: "How to keep analytics data nice and clean"
 author: DavidWells
 date: 2019-05-09 09:30:00
+draft: true
 layout: post
 ---
 

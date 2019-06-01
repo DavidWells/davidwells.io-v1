@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import PostTemplateDetails from '../components/PostTemplateDetails'
+import Layout from '../layouts/Default'
+import PostTemplateDetails from '../layouts/Post'
 
 export default class TalkTemplate extends React.Component {
   render() {
@@ -16,7 +16,7 @@ export default class TalkTemplate extends React.Component {
         <div>
           <Helmet>
             <title>{`${postTitle} - ${title}`}</title>
-            <meta name="description" content={description} />
+            <meta name='description' content={description} />
           </Helmet>
           <PostTemplateDetails {...this.props} />
         </div>

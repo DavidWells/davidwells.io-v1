@@ -43,6 +43,8 @@ module.exports = {
   fontSizeH4: formatFont(1.25),
   fontSizeH5: baseFontSize,
   fontSizeH6: formatFont(0.85),
+  // Content padding
+  contentPadding: '50px',
   // -- Indexes
   zIndexHighest: 300,
   zIndexHigher: 200,

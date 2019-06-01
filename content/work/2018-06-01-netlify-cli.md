@@ -3,7 +3,8 @@ title: Netlify CLI
 description: Netlify's extendable command line tool
 thumbnail: https://www.fillmurray.com/460/300
 date: 2018-06-01
-layout: Portfolio
+draft: true
+layout: portfolio
 ---
 
 # Netlify CLI

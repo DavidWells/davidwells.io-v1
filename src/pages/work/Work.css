@@ -1,0 +1,271 @@
+.container {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+}
+.switcher {
+  padding: 20px;
+  padding-right: 0px;
+  border: 0px solid #0685c4;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  padding-top: 0px;
+}
+
+.listToggle {
+  width: 25px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  &.active span {
+   background: #666;
+  }
+  span {
+    width: 100%;
+    height: 4px;
+    background: #ccc;
+    transition: all 0.3s ease;
+  }
+}
+.gridToggle {
+  width: 25px;
+  height: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  cursor: pointer;
+  &.active span {
+    background: #666;
+  }
+  span {
+     width: 42%;
+     height: 8px;
+     background: #ccc;
+     transition: all 0.3s ease;
+  }
+}
+
+.options {
+  text-align: right;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.switcher {
+  a, a:hover {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    &:after {
+      content: " ";
+      display: table;
+    }
+    li {
+      display: flex;
+      position: relative;
+    }
+  }
+}
+
+.item a {
+  width: 100%;
+  border-bottom: none;
+  &:focus, &:active {
+    outline: none;
+  }
+}
+
+.list {
+  ul {
+    padding-left: 30px;
+    margin-top: 15px;
+  }
+  li {
+    padding: 20px 0;
+    white-space: nowrap;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    border-bottom: none;
+  }
+  .item {
+    width: 100%;
+  }
+  .thumbnailWrapper {
+    width: 19%;
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+  }
+  .thumbnailInner {
+    display: flex;
+    align-items: center;
+  }
+  .thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    border: solid 1px #e3e3e3;
+    /*background: url('https://s3-us-west-2.amazonaws.com/assets.davidwells.io/images/loader.gif') no-repeat;*/
+  }
+  .details {
+    width: 70%;
+    padding: 0 55px;
+    overflow: hidden;
+    white-space: normal;
+    overflow: hidden;
+    white-space: normal;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    h3 {
+      margin: 0px;
+      padding: 0px;
+      font-size: 2.5rem;
+    }
+  }
+  .description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .button {
+    max-height: 40px;
+    margin-right: 5px;
+  }
+}
+
+.grid {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 35px;
+  }
+  h3 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .item {
+    width: 27%;
+    margin-right: 3%;
+    margin-left: 2%;
+    margin-bottom: 45px;
+  }
+  .thumbnailWrapper {
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .thumbnail {
+    max-width: 100%;
+    min-height: 180px;
+    max-height: 180px;
+    border: solid 1px #e3e3e3;
+  }
+  .description {
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    padding: 0px;
+    line-height: 20px;
+    /* text-align: left; */
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .button {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .grid {
+    .item {
+      width: 47%;
+    }
+  }
+  .list {
+    .thumbnailWrapper {
+      min-height: auto;
+    }
+    .description {
+      font-size: 13px;
+      line-height: 18px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    .item {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  .list {
+    .button {
+      display: none;
+    }
+    .details {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .grid {
+    .thumbnailWrapper {
+      min-width: 80%;
+      max-width: 80%;
+      text-align: center;
+      display: block;
+      margin: auto;
+    }
+    .thumbnail {
+      min-height: 150px;
+      max-height: 150px;
+    }
+    .description {
+      padding: 0 20px;
+    }
+  }
+  .list {
+    ul {
+      padding-left: 0px;
+    }
+    .thumbnailWrapper {
+      width: 30%;
+    }
+    .details {
+      width: 70%;
+      padding: 0 20px 0 20px;
+      h3 {
+        font-size: 18px;
+      }
+    }
+  }
+  .options {
+    margin-right: 25px;
+  }
+}

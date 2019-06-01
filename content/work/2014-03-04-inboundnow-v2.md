@@ -3,7 +3,7 @@ title: Inbound Now v2
 description: WordPress Ecommerce Build for Inbound Now
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1425428730_Homepage.jpg
 date: 2014-03-04
-layout: Portfolio
+layout: portfolio
 ---
 
 # InboundNow.com v2

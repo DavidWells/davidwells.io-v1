@@ -3,7 +3,7 @@ title: Mulesoft Component Library
 description: React component library for Mulesoft product teams
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/mulesoft-component-library-thumb.jpg
 date: 2016-09-01
-layout: Portfolio
+layout: portfolio
 ---
 
 # Mulesoft Component Library

@@ -3,7 +3,8 @@ title: Netlify AWS CloudFormation Resource
 description: Deploy netlify sites as part of CloudFormation stack
 thumbnail: https://www.fillmurray.com/460/300
 date: 2018-11-29
-layout: Portfolio
+draft: true
+layout: portfolio
 ---
 
 # Netlify AWS CloudFormation Resource

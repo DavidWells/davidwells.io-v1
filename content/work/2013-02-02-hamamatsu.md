@@ -3,7 +3,7 @@ title: Hamamatsu
 description: Hamamatsu needed a new consumer facing site to educate people on the types of research they conduct.
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1425428439_The_Living_Image-450x347.jpg
 date: 2013-02-02
-layout: Portfolio
+layout: portfolio
 ---
 
 # Hamamatsu

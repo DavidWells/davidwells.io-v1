@@ -12,16 +12,20 @@ const defaultSidebar = () => {
 
   const links = [
     {
-      url: '/',
-      text: 'What are functions?'
+      url: '/work',
+      text: 'Work'
     },
     {
-      url: '/examples',
-      text: 'Examples'
+      url: '/talks',
+      text: 'Talks'
     },
     {
-      url: '/tutorials',
-      text: 'Tutorials'
+      url: '/blog',
+      text: 'Blog'
+    },
+    {
+      url: '/contact',
+      text: 'Contact'
     },
   ]
 
@@ -48,9 +52,18 @@ const Sidebar = ({ children }) => {
     <div className={styles.sidebar}>
       <div className={styles.sidebarFixed}>
         <div className={styles.sidebarInner}>
-          <Link to='/'>
-            Homepage
-          </Link>
+          <div className={styles.homeNav}>
+            <Link to='/'>
+              <h1>
+                David Wells
+              </h1>
+            </Link>
+            <h2>Full Stack Developer</h2>
+            <h3>Serverless Architectures<br />User Experience & Product</h3>
+            <span className={styles.mobileTag}>
+              Serverless, User Experience & Product
+            </span>
+          </div>
           <nav className={styles.links}>
             {children || defaultSidebar()}
           </nav>

@@ -3,7 +3,7 @@ title: America for President
 description: WordPress site build
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1425424248_america_for_president-450x347.jpg
 date: 2012-02-25
-layout: Portfolio
+layout: portfolio
 ---
 
 # America for President

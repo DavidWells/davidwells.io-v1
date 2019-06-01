@@ -3,7 +3,7 @@ title: Kill Writers Block
 description: React powered title generator. Buzzfeed eat your heart out
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/08/kill-writers-block.png
 date: 2015-03-03
-layout: Portfolio
+layout: portfolio
 ---
 
 # Kill Writers Block

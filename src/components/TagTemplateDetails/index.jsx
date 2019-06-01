@@ -1,5 +1,5 @@
 import React from 'react'
-import Post from '../Post'
+import PostLink from '../PostLink'
 
 export default class TagTemplateDetails extends React.Component {
   render() {
@@ -7,7 +7,7 @@ export default class TagTemplateDetails extends React.Component {
     const tagTitle = this.props.pageContext.tag
     const posts = this.props.data.allMarkdownRemark.edges
     posts.forEach(post => {
-      items.push(<Post data={post} key={post.node.fields.slug} />)
+      items.push(<PostLink data={post} key={post.node.fields.slug} />)
     })
 
     return (

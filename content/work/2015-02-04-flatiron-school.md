@@ -3,7 +3,7 @@ title: Flatiron School
 description: WordPress site build for FlatIron Dev School
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1425432581_Homepage.jpg
 date: 2015-02-04
-layout: Portfolio
+layout: portfolio
 ---
 
 # Flatiron School

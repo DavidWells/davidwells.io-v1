@@ -3,7 +3,7 @@ title: SecondLife
 description: WordPress site build for SecondLife
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/04/1428007349_media_1428006526917.jpg
 date: 2014-10-02
-layout: Portfolio
+layout: portfolio
 ---
 
 # SecondLife

@@ -1,14 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Sidebar from '../components/Sidebar'
-import Layout from '../components/Layout'
+import Layout from '../layouts/Default'
 
-class NotFoundRoute extends React.Component {
+export default class NotFoundRoute extends React.Component {
   render() {
     return (
       <Layout>
         <div>
-          <Sidebar {...this.props} />
           <div className='content'>
             <div className='content__inner'>
               <div className='page'>
@@ -26,8 +24,6 @@ class NotFoundRoute extends React.Component {
     )
   }
 }
-
-export default NotFoundRoute
 
 export const pageQuery = graphql`
   query NotFoundQuery {

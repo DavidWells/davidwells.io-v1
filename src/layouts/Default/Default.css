@@ -20,7 +20,6 @@ $sidebarWidth: 23%;
   flex-grow: 1;
   width: 77%;
   min-width: 77%;
-  background: $secondary;
   min-height: 100vh;
   h1:first-of-type {
     margin-top: 0px;

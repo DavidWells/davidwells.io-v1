@@ -28,13 +28,14 @@ This workshop will teach you how to get started with serverless functions, and h
 
 ### Prerequisites:
 
-*   A good grasp on JavaScript fundamentals.
-*   Familiarity with package managers npm or yarn
-*   A laptop with the following
-    *   [Node](https://docs.npmjs.com/getting-started/installing-node) installed
-    *   [Git](https://git-scm.com/downloads) installed
-    *   A [Netlify account](https://netlify.com/)
-    *   The [Netlify CLI](https://cli.netlify.com/) installed
+1. A good grasp on JavaScript fundamentals.
+2. Familiarity with package managers npm or yarn
+3. A laptop with the following
+
+    - [Node](https://docs.npmjs.com/getting-started/installing-node) installed
+    - [Git](https://git-scm.com/downloads) installed
+    - A [Netlify account](https://netlify.com/)
+    - The [Netlify CLI](https://cli.netlify.com/) installed
 
 ### What to bring:
 

@@ -1,18 +1,17 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Post from '../components/Post'
-import Sidebar from '../components/Sidebar'
+import Layout from '../layouts/Default'
+import PostLink from '../components/PostLink'
 
-class IndexRoute extends React.Component {
+export default class TalksRoute extends React.Component {
   render() {
     const items = []
     const { title, subtitle } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
-    console.log('posts', posts)
+
     posts.forEach(post => {
-      items.push(<Post data={post} key={post.node.fields.slug} />)
+      items.push(<PostLink data={post} key={post.node.fields.slug} />)
     })
 
     return (
@@ -20,11 +19,10 @@ class IndexRoute extends React.Component {
         <div>
           <Helmet>
             <title>{title}</title>
-            <meta name="description" content={subtitle} />
+            <meta name='description' content={subtitle} />
           </Helmet>
-          <Sidebar {...this.props} />
-          <div className="content">
-            Hi
+          <div className='content'>
+            <div className='content__inner'>{items}</div>
           </div>
         </div>
       </Layout>
@@ -32,10 +30,8 @@ class IndexRoute extends React.Component {
   }
 }
 
-export default IndexRoute
-
 export const pageQuery = graphql`
-  query IndexQuery {
+  query TalkQuery {
     site {
       siteMetadata {
         title
@@ -58,7 +54,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      filter: { frontmatter: { layout: { eq: "post" }, draft: { ne: true } } }
+      filter: { frontmatter: { layout: { eq: "talk" }, draft: { ne: true } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

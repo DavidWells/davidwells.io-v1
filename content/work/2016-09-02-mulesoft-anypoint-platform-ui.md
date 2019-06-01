@@ -3,7 +3,7 @@ title: Mulesoft Anypoint Platform UI
 description: Dashboard for Mulesoft's Anypoint Plafform
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/mulesoft-anypoint-dashboard-thumb.png
 date: 2016-09-02
-layout: Portfolio
+layout: portfolio
 ---
 
 # Anypoint Platform UI

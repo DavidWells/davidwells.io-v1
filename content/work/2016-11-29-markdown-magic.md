@@ -3,7 +3,7 @@ title: Markdown Magic
 description: Add a little magic to your markdown
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/markdown-magic-logo.jpg
 date: 2016-11-29
-layout: Portfolio
+layout: portfolio
 ---
 
 # Markdown Magic

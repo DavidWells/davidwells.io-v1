@@ -4,7 +4,7 @@ description: Inbound Marketing Tools for WordPress
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2016/04/inbound-site.jpg
 author: David Wells
 date: 2016-04-09
-layout: Portfolio
+layout: portfolio
 ---
 
 # Inbound Now

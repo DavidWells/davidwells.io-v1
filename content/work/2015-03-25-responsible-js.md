@@ -4,7 +4,7 @@ description: Give Users the choice of what mobile experience they want
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1427247477_media_1427246900777.jpg
 author: David Wells
 date: 2015-03-25
-layout: Portfolio
+layout: portfolio
 ---
 
 # Responsible.js

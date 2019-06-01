@@ -3,7 +3,7 @@ title: Easy Markdown WordPress Plugin
 description: Write github flavored markdown in WordPress without the hassle
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2016/05/easy-md.png
 date: 2016-05-14
-layout: Portfolio
+layout: portfolio
 repo: https://github.com/DavidWells/easy-markdown
 ---
 

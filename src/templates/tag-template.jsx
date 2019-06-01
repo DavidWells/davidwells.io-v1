@@ -1,8 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Sidebar from '../components/Sidebar'
+import Layout from '../layouts/Default'
 import TagTemplateDetails from '../components/TagTemplateDetails'
 
 class TagTemplate extends React.Component {
@@ -14,7 +13,6 @@ class TagTemplate extends React.Component {
       <Layout>
         <div>
           <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
-          <Sidebar {...this.props} />
           <TagTemplateDetails {...this.props} />
         </div>
       </Layout>

@@ -3,7 +3,7 @@ title: WordPress Landing Pages
 description: Create landing pages for your WordPress site. Monitor and improve conversion rates, & run A/B split tests.
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/04/1428099274_media_1428099093133.jpg
 date: 2013-04-03
-layout: Portfolio
+layout: portfolio
 ---
 
 # WordPress Landing Pages

@@ -2,10 +2,9 @@ import kebabCase from 'lodash/kebabCase'
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from '../components/Layout'
-import Sidebar from '../components/Sidebar'
+import Layout from '../layouts/Default'
 
-class CategoriesRoute extends React.Component {
+export default class CategoriesRoute extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
     const categories = this.props.data.allMarkdownRemark.group
@@ -14,7 +13,6 @@ class CategoriesRoute extends React.Component {
       <Layout>
         <div>
           <Helmet title={`All Categories - ${title}`} />
-          <Sidebar {...this.props} />
           <div className='content'>
             <div className='content__inner'>
               <div className='page'>
@@ -50,8 +48,6 @@ class CategoriesRoute extends React.Component {
     )
   }
 }
-
-export default CategoriesRoute
 
 export const pageQuery = graphql`
   query CategoryesQuery {

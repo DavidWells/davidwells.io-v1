@@ -3,7 +3,7 @@ title: Serverless Onboarding
 description: Serverless new user onboarding flow
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-onboarding-v2-thumb.jpg
 date: 2017-10-03
-layout: Portfolio
+layout: portfolio
 ---
 
 # Serverless User Onboarding
