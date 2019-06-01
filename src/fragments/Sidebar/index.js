@@ -58,8 +58,10 @@ const Sidebar = ({ children }) => {
                 David Wells
               </h1>
             </Link>
-            <h2>Full Stack Developer</h2>
-            <h3>Serverless Architectures<br />User Experience & Product</h3>
+            <div className={styles.about}>
+              <h2>Full Stack Developer</h2>
+              <h3>Serverless Architectures<br />User Experience & Product</h3>
+            </div>
             <span className={styles.mobileTag}>
               Serverless, User Experience & Product
             </span>

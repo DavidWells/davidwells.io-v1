@@ -229,27 +229,42 @@ pre[class*="language-"] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-    color: #07a;
+  color: #07a;
 }
 
 .token.function {
-    color: #DD4A68;
+  color: #DD4A68;
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-    color: #e90;
+  color: #e90;
 }
 
 .token.important,
 .token.bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 .token.italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .token.entity {
     cursor: help;
+}
+@media (max-width: 960px) {
+  .gatsby-highlight {
+    margin-left: -$mobileContentPadding;
+    margin-right: -$mobileContentPadding;
+  }
+}
+@media (max-width: 768px) {
+  .gatsby-highlight pre code {
+    font-size: 1.3rem;
+    padding-left: 15px;
+    &:before {
+      display: none;
+    }
+  }
 }

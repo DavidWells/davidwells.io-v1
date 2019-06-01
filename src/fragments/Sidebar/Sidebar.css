@@ -62,6 +62,7 @@ $sidebarWidth: 23%;
     font-size: 30px;
     line-height: 30px;
     margin-left: -1px;
+    color: #525252;
   }
   h2 {
     margin-top: 10px;
@@ -85,6 +86,9 @@ $sidebarWidth: 23%;
 }
 .mobileTag {
   display: none;
+  font-weight: 300;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -96,13 +100,28 @@ $sidebarWidth: 23%;
     position: inherit;
     height: auto;
   }
+  .sidebarInner {
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 720px) {
+  .mobileTag {
+    display: block;
+  }
+  .about {
+    display: none;
+  }
   .sidebar {
     border-right: none;
   }
   .sidebarInner {
     padding-bottom: 10px;
+  }
+  .links {
+    display: flex;
+    a {
+      margin-right: 15px;
+    }
   }
 }

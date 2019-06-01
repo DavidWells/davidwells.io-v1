@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { format } from 'date-fns'
-
-import styles from './styles.css'
+import styles from './PostLink.css'
 
 class Post extends React.Component {
   render() {
@@ -27,7 +26,7 @@ class Post extends React.Component {
 
     return (
       <div className={styles.postLink}>
-        <div className='post__meta'>
+        <div className={styles.meta}>
           <time
             className='post__meta-time'
             dateTime={format(date, 'MMMM D, YYYY')}

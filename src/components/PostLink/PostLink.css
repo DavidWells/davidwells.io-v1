@@ -22,3 +22,19 @@
   margin: 0px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .postLink {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .postLink:first-of-type {
+    border-top: 1px solid #e2e2e2;
+  }
+  .meta {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 18px;
+  }
+}

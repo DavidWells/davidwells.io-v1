@@ -103,7 +103,7 @@ $contentWidth: 650px;
 @media (max-width: 960px) {
   .postWrapper, .comments {
     flex-direction: column;
-    padding: 10px;
+    padding: $mobileContentPadding;
   }
   .contentWrapper {
     width: 100%;
