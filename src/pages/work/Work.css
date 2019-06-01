@@ -233,6 +233,12 @@
   }
 }
 
+@media (max-width: 720px) {
+  .container {
+    border-top: 1px solid #e2e2e2;
+  }
+}
+
 @media (max-width: 650px) {
   .grid {
     .thumbnailWrapper {
