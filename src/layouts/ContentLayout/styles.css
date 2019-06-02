@@ -1,0 +1,9 @@
+.footer {
+  padding-left: $contentPadding;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 20px;
+  }
+}

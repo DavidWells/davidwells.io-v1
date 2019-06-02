@@ -3,6 +3,7 @@ title: Remove Duplicate Items from an Array with JavaScript
 author: David Wells
 date: 2016-01-29
 layout: post
+category: "Snippets"
 tags:
   - javascript
 ---

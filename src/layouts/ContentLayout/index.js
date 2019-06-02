@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { format } from 'date-fns'
 import Content from '../../fragments/Content'
+import Disqus from '../../components/Disqus'
 import styles from './styles.css'
 
 class ContentLayout extends React.Component {
@@ -34,7 +35,11 @@ class ContentLayout extends React.Component {
     if (comments) {
       commentsBlock = (
         <div>
-          comments
+          <hr />
+          <Disqus
+            postNode={post}
+            siteMetadata={this.props.data.site.siteMetadata}
+          />
         </div>
       )
     }
@@ -42,23 +47,13 @@ class ContentLayout extends React.Component {
     let metaDisplay
     if (footer) {
       metaDisplay = (
-        <div className='xxpost-single__footer'>
+        <div className={styles.footer}>
           <div className={styles.postMeta}>
             <em>
               Published {format(post.frontmatter.date, 'D MMM YYYY')}
             </em>
           </div>
           {tagsBlock}
-          <hr />
-          <p className='xxpost-single__footer-text'>
-            <a
-              href={`https://twitter.com/${author.twitter}`}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <br /> <strong>{author.name}</strong> on Twitterx
-            </a>
-          </p>
         </div>
       )
     }

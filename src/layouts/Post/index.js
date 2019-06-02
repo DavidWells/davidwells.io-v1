@@ -1,9 +1,9 @@
 import React from 'react'
-import Content from '../Content'
+import ContentLayout from '../ContentLayout'
 
 const PostLayout = (props) => {
   return (
-    <Content {...props} comments />
+    <ContentLayout {...props} comments />
   )
 }
 

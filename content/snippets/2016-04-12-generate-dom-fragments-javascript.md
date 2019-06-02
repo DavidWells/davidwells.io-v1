@@ -3,6 +3,7 @@ title: Generate DOM Fragments with JavaScript
 author: David Wells
 date: 2016-04-12
 layout: post
+category: "Snippets"
 tags:
   - javascript
 ---

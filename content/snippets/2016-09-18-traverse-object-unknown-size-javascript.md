@@ -3,6 +3,7 @@ title: Recursively Traverse an object of unknown size in Javascript
 author: David Wells
 date: 2016-09-18
 layout: post
+category: "Snippets"
 tags:
   - javascript
 ---

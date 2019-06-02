@@ -3,6 +3,7 @@ title: Remove every regex match from a string except for the first occurrence wi
 author: David Wells
 date: 2016-04-13
 layout: post
+category: "Snippets"
 tags:
   - javascript
   - regex

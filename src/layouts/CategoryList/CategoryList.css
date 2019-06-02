@@ -2,3 +2,9 @@
   margin-top: 30px !important;
   margin-left: $contentPadding;
 }
+
+@media (max-width: 768px) {
+  .title {
+    margin-left: 20px;
+  }
+}

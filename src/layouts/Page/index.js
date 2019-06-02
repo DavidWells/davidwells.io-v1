@@ -1,8 +1,8 @@
 import React from 'react'
-import Content from '../Content'
+import ContentLayout from '../ContentLayout'
 
 export default class PageLayout extends React.Component {
   render() {
-    return <Content {...this.props} footer={false} />
+    return <ContentLayout {...this.props} footer={false} />
   }
 }

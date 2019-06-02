@@ -3,8 +3,10 @@ title: Find all Javascript files in a project & count line numbers
 author: David Wells
 date: 2016-05-15
 layout: post
+category: "Snippets"
 tags:
   - bash
+  - cli
 ---
 
 Find all javascript files in a project, excluding `node_modules` and output their line number length

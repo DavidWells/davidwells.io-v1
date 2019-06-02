@@ -16,7 +16,7 @@ export default class CategoryList extends React.Component {
         <div className='content__inner'>
           <div className='page'>
             <h1 className={styles.title}>
-              All Posts in &quot;{category}&quot; category
+              All Posts in &quot;{category}&quot;
             </h1>
             <div className='page__body'>
               {items}

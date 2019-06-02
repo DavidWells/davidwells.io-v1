@@ -22,7 +22,7 @@ module.exports = {
     title: 'Blog by David Wells',
     subtitle: 'Serverless Architectures',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'davidwells',
     menu: [
       {
         label: 'Blog',

@@ -3,6 +3,7 @@ title: Loop up through DOM node parents and look for a matches
 author: David Wells
 date: 2016-04-26
 layout: post
+category: "Snippets"
 tags:
   - javascript
 ---
