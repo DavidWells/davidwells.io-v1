@@ -28,7 +28,7 @@ $sidebarWidth: 23%;
   a {
     text-decoration: none;
     color: #8b8b8b;
-    font-weight: 300;
+    font-weight: 700;
   }
 }
 .sidebarInner {
@@ -99,29 +99,31 @@ $sidebarWidth: 23%;
   .sidebarFixed {
     position: inherit;
     height: auto;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  .links {
+    display: flex;
+    a {
+      margin-right: 20px;
+    }
   }
   .sidebarInner {
     padding-left: 20px;
   }
-}
-
-@media (max-width: 720px) {
   .mobileTag {
     display: block;
   }
   .about {
     display: none;
   }
-  .sidebar {
-    border-right: none;
-  }
   .sidebarInner {
     padding-bottom: 10px;
   }
-  .links {
-    display: flex;
-    a {
-      margin-right: 15px;
-    }
+}
+
+@media (max-width: 720px) {
+  .sidebar {
+    border-right: none;
   }
+
 }

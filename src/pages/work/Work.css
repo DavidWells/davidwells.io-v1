@@ -2,9 +2,11 @@
   width: 100%;
   vertical-align: top;
   display: inline-block;
+  a {
+    color: #464646;
+  }
 }
 .switcher {
-  padding: 20px;
   padding-right: 0px;
   border: 0px solid #0685c4;
   border-top: 0px;
@@ -233,12 +235,6 @@
   }
 }
 
-@media (max-width: 720px) {
-  .container {
-    border-top: 1px solid #e2e2e2;
-  }
-}
-
 @media (max-width: 650px) {
   .grid {
     .thumbnailWrapper {
@@ -247,6 +243,12 @@
       text-align: center;
       display: block;
       margin: auto;
+    }
+    .item {
+      margin-left: 0;
+      margin-right: 0;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e2e2e2;
     }
     .thumbnail {
       min-height: 150px;
@@ -262,16 +264,22 @@
     }
     .thumbnailWrapper {
       width: 30%;
+      margin-left: 20px;
+    }
+    .item {
+      padding-right: 10px;
     }
     .details {
       width: 70%;
       padding: 0 20px 0 20px;
       h3 {
         font-size: 18px;
+        margin-bottom: 5px;
       }
     }
   }
   .options {
     margin-right: 25px;
+    margin-top: 15px;
   }
 }

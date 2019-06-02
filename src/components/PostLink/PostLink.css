@@ -6,15 +6,19 @@
   padding-left: 50px;
   padding-top: 25px;
   padding-bottom: 25px;
+  padding-right: 20px;
   border-top: 1px solid #e2e2e2;
   overflow-x: hidden;
-
+  &:first-of-type {
+    border-top: none;
+  }
   a {
+    color: #464646;
     text-decoration: none;
   }
 }
-.postLink:first-of-type {
-  border-top: none;
+.meta {
+  font-size: 12px;
 }
 .title {
   font-size: 20px;
@@ -22,14 +26,11 @@
   margin: 0px;
   cursor: pointer;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .postLink {
     padding-left: 30px;
     padding-right: 20px;
-  }
-  .postLink:first-of-type {
-    border-top: 1px solid #e2e2e2;
+    padding-right: 5px;
   }
   .meta {
     font-size: 12px;
