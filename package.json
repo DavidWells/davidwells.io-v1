@@ -11,8 +11,7 @@
     "clean": "npm run clean:public",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'"
   },
   "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
   "keywords": [
@@ -22,7 +21,7 @@
     "theme",
     "starter"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "David Wells <hello@davidwells.io>",
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.6",
@@ -32,10 +31,8 @@
     "gatsby-plugin-catch-links": "^2.0.15",
     "gatsby-plugin-feed": "^2.2.1",
     "gatsby-plugin-google-analytics": "^2.0.20",
-    "gatsby-plugin-google-fonts": "latest",
     "gatsby-plugin-offline": "^2.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.1.2",
     "gatsby-plugin-sitemap": "^2.1.0",
     "gatsby-remark-copy-linked-files": "^2.0.13",
@@ -47,7 +44,6 @@
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.20",
     "lodash": "^4.17.11",
-    "node-sass": "^4.9.3",
     "postcss-cssnext": "^3.1.0",
     "postcss-nested": "^4.1.2",
     "postcss-simple-vars": "^5.0.2",
@@ -67,10 +63,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
-    "gh-pages": "^1.1.0",
     "icon-pipeline": "0.0.4",
-    "lost": "^8.2.0",
-    "postcss-pxtorem": "^4.0.1",
     "prettier": "^1.10.2"
   }
 }
