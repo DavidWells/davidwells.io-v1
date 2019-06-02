@@ -24,13 +24,16 @@ export default class Contact extends Component {
       alert('Please enter name, email and message') // eslint-disable-line
       return false
     }
+    if (!data.email.match(formValidation.isEmail.pattern)) {
+      alert('Please enter a valid email') // eslint-disable-line
+      return false
+    }
 
     this.setState({
       loading: true
     })
 
     console.log(data) // eslint-disable-line
-    // handle data
 
     fetch('https://opf3yjl84g.execute-api.us-west-1.amazonaws.com/prod/contact', {
       body: JSON.stringify(data),
@@ -104,7 +107,10 @@ export default class Contact extends Component {
           errorMessageClassName={styles.errorMessage}
           required
         />
-        <textarea name='message' placeholder='What can I help you with?' />
+        <textarea
+          name='message'
+          placeholder='What can I help you with?'
+        />
         <div className={styles.button}>
           <Button>
             Get in touch

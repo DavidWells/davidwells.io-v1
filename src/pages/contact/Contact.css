@@ -32,6 +32,7 @@
     border-radius: 0px;
     box-shadow: none;
     -webkit-appearance: none;
+    font-family: inherit;
     &:focus {
       border: 1px solid #191919;
       outline: none;
