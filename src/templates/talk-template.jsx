@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../layouts/Default'
-import PostTemplateDetails from '../layouts/Post'
+import Post from '../layouts/Post'
 
 export default class TalkTemplate extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class TalkTemplate extends React.Component {
             <title>{`${postTitle} - ${title}`}</title>
             <meta name='description' content={description} />
           </Helmet>
-          <PostTemplateDetails {...this.props} />
+          <Post {...this.props} />
         </div>
       </Layout>
     )
@@ -51,7 +51,8 @@ export const pageQuery = graphql`
         title
         tags
         date
-        description
+        description,
+        event
       }
     }
   }

@@ -10,6 +10,7 @@ class Post extends React.Component {
       date,
       category,
       description,
+      event
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
 
@@ -24,8 +25,22 @@ class Post extends React.Component {
       )
     }
 
+    let location
+    if (event) {
+      location = (
+        <span className={styles.location}>
+          - {event}
+        </span>
+      )
+    }
+
     return (
       <div className={styles.postLink}>
+        <Link className='post__title-link' to={slug}>
+          <h2 className={styles.title}>
+            {title}
+          </h2>
+        </Link>
         <div className={styles.meta}>
           <time
             className='post__meta-time'
@@ -33,15 +48,10 @@ class Post extends React.Component {
           >
             {format(date, 'MMMM YYYY')}
           </time>
+          {location}
           <span className='post__meta-divider' />
           {catLinks}
         </div>
-        <Link className='post__title-link' to={slug}>
-          <h2 className={styles.title}>
-            {title}
-          </h2>
-        </Link>
-        <p className='post__description'>{description}</p>
       </div>
     )
   }
