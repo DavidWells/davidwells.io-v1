@@ -13,7 +13,7 @@ $contentWidth: 650px;
     border-color: #e2e2e2;
     border-width: 0.5px;
   }
-  h1, h2, h3, h4, h5, h6, p, iframe, .postMeta, .loadingWrapper, table {
+  h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper, table {
     padding-left: $contentPadding;
   }
   iframe {
@@ -43,7 +43,7 @@ $contentWidth: 650px;
   ol, ul {
     padding-left: 100px;
   }
-  h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, .postMeta, .loadingWrapper {
+  h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, img:not([width]), .postMeta, .loadingWrapper {
     width: $contentWidth;
     max-width: $contentWidth;
     min-width: $contentWidth;
@@ -110,8 +110,8 @@ $contentWidth: 650px;
   padding: 0px 30px;
 }
 
-@media (max-width: 960px) {
-  .postWrapper, .comments {
+/* @media (max-width: 960px) {
+  .comments {
     flex-direction: column;
     padding: $mobileContentPadding;
   }
@@ -120,9 +120,15 @@ $contentWidth: 650px;
     min-width: 100%;
     padding: 0px;
   }
-}
+} */
 
 @media (max-width: 768px) {
+  .postWrapper {
+    padding: $mobileContentPadding;
+  }
+  .contentWrapper {
+    padding: 0px;
+  }
   .contentWrapper h1 {
     font-size: 2.2rem;
     font-size: 2rem;
@@ -145,7 +151,7 @@ $contentWidth: 650px;
   .contentWrapper {
     margin-top: 10px;
 
-    h1, h2, h3, h4, h5, h6, p, iframe, .postMeta, .loadingWrapper {
+    h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper {
       padding-left: 5px;
     }
     blockquote {
@@ -157,7 +163,7 @@ $contentWidth: 650px;
     ol, ul {
       padding-left: 30px;
     }
-    h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, .postMeta, .loadingWrapper {
+    h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, img:not([width]), .postMeta, .loadingWrapper {
       width: 100%;
       max-width: 100%;
       min-width: 100%;
