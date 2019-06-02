@@ -154,6 +154,9 @@ $contentWidth: 650px;
     h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper {
       padding-left: 5px;
     }
+    iframe {
+      padding-right: 0px;
+    }
     blockquote {
       margin-left: 5px;
       p, li, ul, a {
@@ -163,10 +166,13 @@ $contentWidth: 650px;
     ol, ul {
       padding-left: 30px;
     }
-    h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, img:not([width]), .postMeta, .loadingWrapper {
+    h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, img:not([width]), .postMeta, .loadingWrapper, iframe {
       width: 100%;
       max-width: 100%;
       min-width: 100%;
+    }
+    img {
+      max-width: 100%;
     }
   }
 }
