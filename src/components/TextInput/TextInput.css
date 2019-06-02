@@ -14,7 +14,7 @@
   box-shadow: none;
   -webkit-appearance: none;
   &:focus {
-    border: 1px solid $black2;
+    border: 1px solid #000;
     outline: none;
   }
 }

@@ -4,8 +4,8 @@ author: David Wells
 date: 2019-06-01
 layout: post
 tags:
-  - JavaScript
-  - Regex
+  - javascript
+  - regex
 ---
 
 Handy little regular expression to parse links from markdown files.

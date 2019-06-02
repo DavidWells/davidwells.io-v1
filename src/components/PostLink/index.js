@@ -17,7 +17,7 @@ class Post extends React.Component {
     let catLinks
     if (categorySlug) {
       catLinks = (
-        <span className='post__meta-category' key={categorySlug}>
+        <span className={styles.categoryLink} key={categorySlug}>
           <Link to={categorySlug} className='post__meta-category-link'>
             {category}
           </Link>

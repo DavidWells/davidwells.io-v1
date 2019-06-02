@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../layouts/Default'
-import CategoryTemplateDetails from '../components/CategoryTemplateDetails'
+import CategoryList from '../layouts/CategoryList'
 
 class CategoryTemplate extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class CategoryTemplate extends React.Component {
       <Layout>
         <div>
           <Helmet title={`${category} - ${title}`} />
-          <CategoryTemplateDetails {...this.props} />
+          <CategoryList {...this.props} />
         </div>
       </Layout>
     )

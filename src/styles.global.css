@@ -80,6 +80,109 @@ p {  letter-spacing: 0; }
   float: right;
   margin-left: 20px;
 }
+img[align="left"] {
+  margin-right: 20px;
+}
+img[align="right"] {
+  margin-left: 20px;
+}
+.right {
+  float: right;
+  margin-left: 35px;
+}
+.left {
+  float: left;
+  margin-right: 35px;
+}
+
+.center, .aligncenter {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/**
+ * Elements
+ */
+code {
+  display: inline-block;
+  padding: 1px 5px;
+  color: #e91e63;
+  background: rgba(0,0,0,0.04);
+}
+
+$tableGray1: #828282;
+table {
+  max-width: 960px;
+  margin: 10px 0;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: $tableGray1;
+  color: #FFF;
+}
+
+tr {
+  background: #e3e3e3;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #f3f3f3;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  font-weight: 300;
+}
+td ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+  li {
+    word-wrap: break-word;
+  }
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+blockquote {
+  display: inline-block;
+  padding-left: 18px;
+  padding-bottom: 0;
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-left: 10px solid #0685c4;
+}
+
+blockquote ul {
+  list-style: none;
+  li {
+    font-style: italic;
+    font-weight: 700;
+  }
+}
 
 /**
  * Code highlighting
@@ -126,37 +229,37 @@ pre code {
 
 code[class*="language-"],
 pre[class*="language-"] {
-    color: black;
-    background: none;
-    text-shadow: 0 1px white;
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    text-align: left;
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
-    line-height: 1.5;
+  color: black;
+  background: none;
+  text-shadow: 0 1px white;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
 
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
 
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-    text-shadow: none;
-    background: #b3d4fc;
+  text-shadow: none;
+  background: #b3d4fc;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    text-shadow: none;
-    background: #b3d4fc;
+  text-shadow: none;
+  background: #b3d4fc;
 }
 
 @media print {
@@ -173,29 +276,29 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-    background: #f5f2f0;
+  background: #f5f2f0;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-    padding: .1em;
-    border-radius: .3em;
-    white-space: normal;
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-    color: slategray;
+  color: slategray;
 }
 
 .token.punctuation {
-    color: #999;
+  color: #999;
 }
 
 .namespace {
-    opacity: .7;
+  opacity: .7;
 }
 
 .token.property,
@@ -205,7 +308,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-    color: #905;
+  color: #905;
 }
 
 .token.selector,
@@ -214,7 +317,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.inserted {
-    color: #690;
+  color: #690;
 }
 
 .token.operator,
@@ -222,8 +325,8 @@ pre[class*="language-"] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-    color: #a67f59;
-    background: hsla(0, 0%, 100%, .5);
+  color: #a67f59;
+  background: hsla(0, 0%, 100%, .5);
 }
 
 .token.atrule,
@@ -251,7 +354,7 @@ pre[class*="language-"] {
 }
 
 .token.entity {
-    cursor: help;
+  cursor: help;
 }
 @media (max-width: 960px) {
   .gatsby-highlight {
@@ -262,9 +365,27 @@ pre[class*="language-"] {
 @media (max-width: 768px) {
   .gatsby-highlight pre code {
     font-size: 1.3rem;
-    padding-left: 15px;
+    padding-left: 20px;
     &:before {
       display: none;
     }
+  }
+  .right {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .left {
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  img[align="left"] {
+    margin-right: 0px;
+  }
+  img[align="right"] {
+    margin-left: 0px;
   }
 }

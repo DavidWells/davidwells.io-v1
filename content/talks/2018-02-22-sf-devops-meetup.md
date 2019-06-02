@@ -1,6 +1,6 @@
 ---
 title: "Serverless DevOps"
-event: DevOps Exchange San Francisco @ Chartboost
+event: DevOps Exchange SF @ Chartboost
 date: 2018-02-22
 layout: talk
 ---
