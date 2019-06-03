@@ -5,14 +5,18 @@ import styles from './PostLink.css'
 
 class Post extends React.Component {
   render() {
-    const {
-      title,
-      date,
-      category,
-      description,
-      event
-    } = this.props.data.node.frontmatter
-    const { slug, categorySlug } = this.props.data.node.fields
+    const { data } = this.props
+    const node = (data && data.node) ? data.node : {}
+    const frontmatter = node.frontmatter || {}
+    const fields = node.fields || {}
+
+    const title = frontmatter.title || data.title
+    const date = frontmatter.date || data.date
+    const category = frontmatter.category || data.category
+    const description = frontmatter.description || data.description
+    const event = frontmatter.event || data.event
+
+    const { slug, categorySlug } = fields
 
     let catLinks
     if (categorySlug) {
@@ -34,13 +38,26 @@ class Post extends React.Component {
       )
     }
 
-    return (
-      <div className={styles.postLink}>
-        <Link className='post__title-link' to={slug}>
+    let link = (
+      <Link className='post__title-link' to={slug}>
+        <h2 className={styles.title}>
+          {title}
+        </h2>
+      </Link>
+    )
+    if (data.url) {
+      link = (
+        <a className='post__title-link' target='_blank' rel='noopener noreferrer' href={data.url}>
           <h2 className={styles.title}>
             {title}
           </h2>
-        </Link>
+        </a>
+      )
+    }
+
+    return (
+      <div className={styles.postLink}>
+        {link}
         <div className={styles.meta}>
           <time
             className='post__meta-time'
