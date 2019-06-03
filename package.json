@@ -1,12 +1,14 @@
 {
   "version": "3.0.0",
-  "name": "gatsby-v2-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "name": "david-wells-io",
+  "description": "Davids site",
+  "homepage": "https://davidwells.io",
   "main": "n/a",
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
+    "postbuild": "node scripts/sitemap.js",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
@@ -64,6 +66,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "icon-pipeline": "0.0.4",
+    "markdown-magic": "^0.1.25",
     "prettier": "^1.10.2"
   }
 }
