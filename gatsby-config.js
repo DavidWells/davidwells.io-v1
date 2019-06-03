@@ -142,11 +142,11 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    /*
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-google-analytics',
+    //   options: { trackingId: 'UA-73379983-2' },
+    // },
+    /* Sitemap plugin doesn't work https://github.com/DavidWells/new-site/issues/1
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
