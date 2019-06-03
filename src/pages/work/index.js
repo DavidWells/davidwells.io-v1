@@ -9,7 +9,7 @@ import styles from './Work.css'
 const numberOfLatestPosts = 40
 
 const Preview = ({ data }) => {
-  console.log('page', data)
+  // console.log('page', data)
   const { fields, frontmatter } = data.node
 
   const { draft, description, title, thumbnail } = frontmatter
