@@ -17,7 +17,7 @@ module.exports = {
   siteMetadata: {
     url: 'davidwells.io',
     siteUrl: 'https://davidwells.io',
-    title: 'Blog by David Wells',
+    title: 'David Wells',
     subtitle: 'Serverless Architectures',
     copyright: '© All rights reserved.',
     disqusShortname: 'davidwells',

@@ -4,9 +4,18 @@
 .postMeta {
   font-size: 14px;
 }
-
+.comments {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
 @media (max-width: 768px) {
   .footer {
     padding-left: 20px;
+  }
+  .comments {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

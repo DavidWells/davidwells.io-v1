@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { format } from 'date-fns'
+import Helmet from 'react-helmet'
 import Content from '../../fragments/Content'
-import Disqus from '../../components/Disqus'
+import disqus from './disqus-script'
 import styles from './styles.css'
 
 class ContentLayout extends React.Component {
@@ -36,10 +37,8 @@ class ContentLayout extends React.Component {
       commentsBlock = (
         <div>
           <hr />
-          <Disqus
-            postNode={post}
-            siteMetadata={this.props.data.site.siteMetadata}
-          />
+          <Helmet script={[{ type: 'text/javascript', innerHTML: disqus }]} />
+          <div className={styles.comments} id='disqus_thread' />
         </div>
       )
     }

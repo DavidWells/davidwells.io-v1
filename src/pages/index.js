@@ -13,7 +13,9 @@ export default class IndexRoute extends React.Component {
     return (
       <Layout>
         <Helmet>
-          <title>{title}</title>
+          <title>
+            David Wells - Full Stack Serverless Developer in San Francisco
+          </title>
           <meta name='description' content={subtitle} />
         </Helmet>
         <div className='content'>
