@@ -3,7 +3,7 @@ title: On Progress
 author: David Wells
 date: 2013-03-01 21:47:00
 layout: post
-permalink: http://davidwells.io/on-progress/
+category: "Thoughts"
 ---
 
 Sometimes I'm not sure where I'm going.

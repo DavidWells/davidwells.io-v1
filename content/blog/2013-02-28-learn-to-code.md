@@ -3,7 +3,7 @@ title: Learn to Code
 author: David Wells
 date: 2013-02-28 22:19:32
 layout: post
-permalink: http://davidwells.io/learn-to-code/
+category: "Thoughts"
 ---
 
 Anyone can learn how to code.

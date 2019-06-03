@@ -1,10 +1,9 @@
 ---
-title: When Everyone Wants a Peice
+title: When Everyone Wants a Piece
 author: David Wells
 date: 2013-02-20 15:00:17
 layout: post
-permalink: >
-  http://davidwells.io/when-everyone-wants-a-peice/
+category: "Thoughts"
 ---
 
 Sometimes it seems that everyone reaching out to you wants  something.

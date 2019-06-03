@@ -178,6 +178,14 @@ blockquote ul {
   }
 }
 
+hr {
+  border-color: #e2e2e2;
+  border-width: 0.5px;
+}
+
+#disqus_thread {
+  margin-left: 15px;
+}
 /**
  * Code highlighting
  */

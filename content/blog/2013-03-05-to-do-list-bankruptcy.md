@@ -3,8 +3,7 @@ title: To Do List Bankruptcy
 author: David Wells
 date: 2013-03-05 02:25:08
 layout: post
-permalink: >
-  http://davidwells.io/to-do-list-bankruptcy/
+category: "Thoughts"
 ---
 
 What does your to-do list look like?

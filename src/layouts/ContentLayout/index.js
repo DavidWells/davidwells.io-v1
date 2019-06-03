@@ -49,9 +49,7 @@ class ContentLayout extends React.Component {
       metaDisplay = (
         <div className={styles.footer}>
           <div className={styles.postMeta}>
-            <em>
-              Published {format(post.frontmatter.date, 'D MMM YYYY')}
-            </em>
+            Published {format(post.frontmatter.date, 'D MMM YYYY')}
           </div>
           {tagsBlock}
         </div>

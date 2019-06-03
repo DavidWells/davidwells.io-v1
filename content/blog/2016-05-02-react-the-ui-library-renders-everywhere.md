@@ -3,8 +3,7 @@ title: 'React, the UI library that renders everywhere*'
 author: DavidWells
 date: 2016-05-02 08:52:39
 layout: post
-permalink: >
-  http://davidwells.io/react-the-ui-library-renders-everywhere/
+category: "Frontend"
 ---
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2016/04/React-JS-150x150.png" alt="React-JS" width="150" height="150" class="right size-thumbnail wp-image-5265" />React is pretty amazing.

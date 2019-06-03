@@ -3,8 +3,7 @@ title: React PropType Best Practices
 author: DavidWells
 date: 2016-05-06 06:00:14
 layout: post
-permalink: >
-  http://davidwells.io/react-prop-type-best-practices/
+category: "Frontend"
 ---
 
 **Preface:** This is an opinionated guide on creating a clear and concise API for people consuming your React Components.

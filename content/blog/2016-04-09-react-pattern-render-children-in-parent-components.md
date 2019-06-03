@@ -3,8 +3,7 @@ title: Render Children Markup from in Parent Components in React
 author: DavidWells
 date: 2016-04-09 09:25:13
 layout: post
-permalink: >
-  http://davidwells.io/react-pattern-render-children-in-parent-components/
+category: "Frontend"
 ---
 
 A couple weeks ago I saw [Michael Jackson](https://twitter.com/mjackson) present his new library [http-client](https://github.com/mjackson/http-client) at the ReactJS meetup in SF.

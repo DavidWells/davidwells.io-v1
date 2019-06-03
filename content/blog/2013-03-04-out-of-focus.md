@@ -3,10 +3,10 @@ title: Out of Focus
 author: David Wells
 date: 2013-03-04 07:50:32
 layout: post
-permalink: http://davidwells.io/out-of-focus/
+category: "Thoughts"
 ---
 
-Recently I've been feeling more and more out of focus.
+Recently, I've been feeling more and more out of focus.
 
 I am in the middle of 6 concurrent projects and I'm solving too many problems at once.
 

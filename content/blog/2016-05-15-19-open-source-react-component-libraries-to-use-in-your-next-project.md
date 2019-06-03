@@ -3,9 +3,9 @@ title: 19 Open Source React Component Libraries to use in your next project
 author: DavidWells
 date: 2016-05-15 16:26:39
 layout: post
-permalink: >
-  http://davidwells.io/19-open-source-react-component-libraries-to-use-in-your-next-project/
+category: "Frontend"
 ---
+
 Building React components from scratch is a ton of fun.
 
 Tackling the reimplementation of common UI elements gives you the power to bring a ton of UX improvements.

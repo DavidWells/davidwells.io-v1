@@ -3,6 +3,7 @@ title: Getting Advice
 author: David Wells
 date: 2013-02-18 15:40:44
 layout: post
+category: "Thoughts"
 permalink: http://davidwells.io/getting-advice/
 ---
 

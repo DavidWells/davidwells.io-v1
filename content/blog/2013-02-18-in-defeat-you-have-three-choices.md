@@ -3,8 +3,7 @@ title: In Defeat You Have Three Choices
 author: David Wells
 date: 2013-02-18 02:26:22
 layout: post
-permalink: >
-  http://davidwells.io/in-defeat-you-have-three-choices/
+category: "Thoughts"
 ---
 
 Bad things happen in life. Sometimes more often then good.

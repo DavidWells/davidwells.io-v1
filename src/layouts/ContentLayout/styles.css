@@ -1,6 +1,9 @@
 .footer {
   padding-left: $contentPadding;
 }
+.postMeta {
+  font-size: 14px;
+}
 
 @media (max-width: 768px) {
   .footer {

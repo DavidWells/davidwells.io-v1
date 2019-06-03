@@ -3,8 +3,7 @@ title: 'Fixing broken use tags from inline SVG sprites [http vs. https]'
 author: DavidWells
 date: 2016-05-10 19:45:56
 layout: post
-permalink: >
-  http://davidwells.io/fixing-broken-use-tags-from-inline-svg-sprites/
+category: "Frontend"
 ---
 
 Inlined SVG sprites are the icons of tomorrow.

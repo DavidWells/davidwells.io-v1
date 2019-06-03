@@ -3,8 +3,7 @@ title: You Get What You Pay For
 author: David Wells
 date: 2013-02-24 23:00:42
 layout: post
-permalink: >
-  http://davidwells.io/you-get-what-you-pay-for/
+category: "Thoughts"
 ---
 
 If you are buying things purely based off the fact that it's the cheapest price, there are one of two things that are happening:

@@ -9,10 +9,6 @@ $contentWidth: 650px;
 .contentWrapper {
   margin-top: 50px;
   width: 100%;
-  hr {
-    border-color: #e2e2e2;
-    border-width: 0.5px;
-  }
   h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper, table {
     padding-left: $contentPadding;
   }

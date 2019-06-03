@@ -3,8 +3,7 @@ title: 'Practical Advice on "Learning to code"'
 author: DavidWells
 date: 2016-04-28 09:15:16
 layout: post
-permalink: >
-  http://davidwells.io/practical-advice-on-learning-to-code/
+category: "Thoughts"
 ---
 
 I stand behind the belief that everyone, somewhere deep down inside, has the ability to learn to code.

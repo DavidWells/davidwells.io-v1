@@ -3,7 +3,7 @@ title: Specialize. Now.
 author: David Wells
 date: 2013-02-21 15:25:00
 layout: post
-permalink: http://davidwells.io/specialize-now/
+category: "Thoughts"
 ---
 
 **What is it that you do?**

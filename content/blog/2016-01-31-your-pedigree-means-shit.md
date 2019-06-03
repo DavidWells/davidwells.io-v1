@@ -3,8 +3,7 @@ title: Your Pedigree Means Shit
 author: DavidWells
 date: 2016-01-31 16:16:09
 layout: post
-permalink: >
-  http://davidwells.io/your-pedigree-means-shit/
+category: "Thoughts"
 ---
 
 An interesting thought to ponder:

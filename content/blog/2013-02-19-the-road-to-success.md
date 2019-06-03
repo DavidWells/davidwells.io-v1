@@ -3,8 +3,7 @@ title: The Road to Success
 author: David Wells
 date: 2013-02-19 15:00:45
 layout: post
-permalink: >
-  http://davidwells.io/the-road-to-success/
+category: "Thoughts"
 ---
 
 Success. It comes in a variety of flavors, shapes, and sizes.

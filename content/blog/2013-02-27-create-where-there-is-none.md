@@ -3,8 +3,7 @@ title: Create Where There is None
 author: David Wells
 date: 2013-02-27 22:35:56
 layout: post
-permalink: >
-  http://davidwells.io/create-where-there-is-none/
+category: "Thoughts"
 ---
 
 It would seem that a mountain of opportunity exists in industries and situations where creativity seems vacant.

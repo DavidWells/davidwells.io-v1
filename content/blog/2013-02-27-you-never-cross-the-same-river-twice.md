@@ -3,8 +3,7 @@ title: You Never Cross the Same River Twice
 author: David Wells
 date: 2013-02-27 00:04:37
 layout: post
-permalink: >
-  http://davidwells.io/you-never-cross-the-same-river-twice/
+category: "Thoughts"
 ---
 
 <blockquote>"No man ever steps in the same river twice, for it's not the same river and he's not the same man." -Heraclitus Of Ephesus</blockquote>

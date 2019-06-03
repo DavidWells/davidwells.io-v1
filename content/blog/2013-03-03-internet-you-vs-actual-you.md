@@ -3,8 +3,7 @@ title: Internet You vs. Actual You
 author: David Wells
 date: 2013-03-03 03:05:44
 layout: post
-permalink: >
-  http://davidwells.io/internet-you-vs-actual-you/
+category: "Thoughts"
 ---
 
 How well does the Internet representation match your actual personalty?

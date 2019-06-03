@@ -3,8 +3,7 @@ title: What is Stopping You?
 author: David Wells
 date: 2013-02-22 23:04:12
 layout: post
-permalink: >
-  http://davidwells.io/what-is-stopping-you/
+category: "Thoughts"
 ---
 
 I've started many things in my life and failed/given up  a number of times.

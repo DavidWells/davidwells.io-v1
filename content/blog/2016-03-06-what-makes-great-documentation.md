@@ -3,8 +3,7 @@ title: What makes great documentation?
 author: DavidWells
 date: 2016-03-06 18:55:32
 layout: post
-permalink: >
-  http://davidwells.io/what-makes-great-documentation/
+category: "Thoughts"
 ---
 
 Documentation is one of the most critical pieces of any project.
