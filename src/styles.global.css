@@ -104,12 +104,6 @@ img[align="right"] {
 /**
  * Elements
  */
-code {
-  display: inline-block;
-  padding: 1px 5px;
-  color: #e91e63;
-  background: rgba(0,0,0,0.04);
-}
 
 $tableGray1: #828282;
 table {
@@ -188,9 +182,11 @@ blockquote ul {
  * Code highlighting
  */
 .gatsby-highlight pre code {
-  padding-left: $contentPadding;
+  padding-left: 52px;
   font-size: 1.5rem;
   position: relative;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
 }
 pre code {
   display:block;
@@ -221,10 +217,34 @@ pre code {
     content: 'YAML';
   }
 }
+pre.language-javascript, pre.language-yml, pre.language-css {
+  code:before {
+    position: absolute;
+    right:0;
+    top:5px;
+    padding: 0 0.5em;
+    color: rgba(0, 0, 0, 0.32);
+    font-size: 0.9em;
+  }
+}
+pre.language-javascript, pre.language-yml, pre.language-css {
+  code:before {
+    content: 'javascript';
+  }
+}
+pre.language-yml, pre.language-css {
+  code:before {
+    content: 'yaml';
+  }
+}
+pre.language-css {
+  code:before {
+    content: 'css';
+  }
+}
+
 /**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
+ * prism.js theme
  */
 
 code[class*="language-"],
@@ -239,14 +259,7 @@ pre[class*="language-"] {
   word-break: normal;
   word-wrap: normal;
   line-height: 1.5;
-
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
   tab-size: 4;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
   hyphens: none;
 }
 
@@ -263,10 +276,10 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 }
 
 @media print {
-    code[class*="language-"],
-    pre[class*="language-"] {
-        text-shadow: none;
-    }
+  code[class*="language-"],
+  pre[class*="language-"] {
+      text-shadow: none;
+  }
 }
 
 /* Code blocks */
@@ -284,6 +297,14 @@ pre[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
   white-space: normal;
+}
+
+code, :not(pre)>code[class=language-text] {
+  display: inline-block;
+  padding: 1px 5px;
+  color: #e91e63;
+  font-size: 14px;
+  background: rgba(0,0,0,0.04);
 }
 
 .token.comment,
@@ -347,12 +368,14 @@ pre[class*="language-"] {
 .token.italic {
     font-style: italic;
 }
+
 @media (max-width: 960px) {
   .gatsby-highlight {
     margin-left: -$mobileContentPadding;
     margin-right: -$mobileContentPadding;
   }
 }
+
 @media (max-width: 768px) {
   .gatsby-highlight pre code {
     font-size: 1.3rem;
