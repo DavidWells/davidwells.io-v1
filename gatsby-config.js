@@ -182,7 +182,7 @@ module.exports = {
       },
     },
     /**/
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline', // Service workers are bad kill them with 🔥
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
   ],

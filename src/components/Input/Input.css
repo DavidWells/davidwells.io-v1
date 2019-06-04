@@ -120,6 +120,7 @@ textarea.input {
     &.default {
       border-radius: 3px;
       border: 2px solid rgba(120,130,152,.25);
+      box-shadow: none;
     }
   }
 }
