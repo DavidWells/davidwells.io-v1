@@ -118,10 +118,10 @@ textarea.input {
   }
   .input {
     &.default {
-      appearance: none;
+      background-clip: padding-box;
       border-radius: 3px;
       border: 2px solid rgba(120,130,152,.25);
-      box-shadow: none;
+      outline: none;
     }
   }
 }
