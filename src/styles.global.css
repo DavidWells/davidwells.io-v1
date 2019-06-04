@@ -385,6 +385,9 @@ code, :not(pre)>code[class=language-text] {
 }
 
 @media (max-width: 768px) {
+	#disqus_thread {
+		margin-left: 0px;
+	}
   .gatsby-highlight pre code {
     font-size: 1.3rem;
     padding-left: 20px;

@@ -18,7 +18,7 @@ class ContentLayout extends React.Component {
     )
 
     const tagsBlock = (
-      <div className='post-single__tags'>
+      <div className={styles.tags}>
         <ul className='post-single__tags-list'>
           {tags &&
             tags.map((tag, i) => (
