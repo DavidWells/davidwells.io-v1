@@ -116,4 +116,9 @@ textarea.input {
   .validation {
     font-size: 11px;
   }
+  .input {
+    &.default {
+      border: 1px rgba(120,130,152,.25);
+    }
+  }
 }
