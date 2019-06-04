@@ -24,7 +24,7 @@ module.exports = {
   textSelection: '#80cbbf',
   // -- Colors
   primary: '#0685c4',
-  primaryHover: '#00c2b2',
+  primaryHover: '#009dea',
   secondary: '#f5f8f9',
   grey: '#8b8b8b',
   danger: '#fb6d77',

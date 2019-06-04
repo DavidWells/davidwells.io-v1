@@ -1,3 +1,4 @@
+/* eslint-disable global-require, import/no-dynamic-require */
 
 /* hot module reloading for CSS variables */
 const postcssFile = require.resolve('./postcss.config.js')

@@ -4,7 +4,7 @@ const CSS_PATTERN = /\.css$/
 const MODULE_CSS_PATTERN = /\.module\.css$/
 const GLOBAL_CSS_PATTERN = /\.global\.css$/
 
-const getOptions = pluginOptions => {
+const getOptions = (pluginOptions) => {
   const options = { ...pluginOptions }
 
   delete options.plugins
@@ -20,30 +20,33 @@ const getOptions = pluginOptions => {
   return options
 }
 
-const isCssRules = rule =>
-  rule.test &&
-  (rule.test.toString() === CSS_PATTERN.toString() ||
-    rule.test.toString() === MODULE_CSS_PATTERN.toString())
+const isCssRules = (rule) => {
+  const { test } = rule
+  return test &&
+  (test.toString() === CSS_PATTERN.toString() || test.toString() === MODULE_CSS_PATTERN.toString())
+}
 
-const findCssRules = config =>
-  config.module.rules.find(
-    rule => Array.isArray(rule.oneOf) && rule.oneOf.every(isCssRules)
-  )
 
-exports.onCreateWebpackConfig = (
-  { actions, stage, loaders, getConfig },
-  pluginOptions
-) => {
-  const isProduction = !stage.includes(`develop`)
+const findCssRules = config => {
+  return config.module.rules.find(rule => {
+    return Array.isArray(rule.oneOf) && rule.oneOf.every(isCssRules)
+  })
+}
+
+exports.onCreateWebpackConfig = ({ actions, stage, loaders, getConfig }, pluginOptions) => {
+  const isProduction = !stage.includes('develop')
   // console.log('isProduction', isProduction)
   // console.log('pluginOptions', pluginOptions)
-  const isSSR = stage.includes(`html`)
+  const isSSR = stage.includes('html')
   const config = getConfig()
   const cssRules = findCssRules(config)
   const postcssOptions = getOptions(pluginOptions)
   const postcssLoader = {
-    loader: resolve(`postcss-loader`),
-    options: { sourceMap: !isProduction, ...postcssOptions },
+    loader: resolve('postcss-loader'),
+    options: {
+      sourceMap: !isProduction,
+      ...postcssOptions
+    },
   }
   const postcssRule = {
     test: GLOBAL_CSS_PATTERN,
@@ -70,18 +73,12 @@ exports.onCreateWebpackConfig = (
 
   const postcssRules = { oneOf: [] }
 
-  switch (stage) {
-    case `develop`:
-    case `build-javascript`:
-    case `build-html`:
-    case `develop-html`:
-      postcssRules.oneOf.push(...[postcssRuleModules, postcssRule])
-      break
+  if (stage === 'develop' || stage === 'build-javascript' || stage === 'build-html' || stage === 'develop-html') {
+    postcssRules.oneOf.push(...[postcssRuleModules, postcssRule])
   }
 
   if (cssRules) {
     cssRules.oneOf.unshift(...postcssRules.oneOf)
-
     actions.replaceWebpackConfig(config)
   } else {
     actions.setWebpackConfig({ module: { rules: [postcssRules] } })

@@ -1,11 +1,13 @@
-// Hot reloading variables
+/* eslint-disable global-require */
+
+/* Hot reloading css variables */
 module.exports = (config, hotLoadedVariables) => [
-  require('postcss-cssnext')({ browsers: 'last 2 versions' }),
+  // require('postcss-cssnext')({ browsers: 'last 2 versions' }),
   require('postcss-simple-vars')({
     variables: function variables() {
       return hotLoadedVariables
     },
-    onVariables(variables) {
+    onVariables(variables) { // eslint-disable-line
       // console.log(variables)
     },
     unknown: function unknown(node, name, result) {
@@ -13,5 +15,5 @@ module.exports = (config, hotLoadedVariables) => [
     }
   }),
   require('postcss-nested'),
-  require('cssnano')()
+  require('cssnano')(),
 ]
