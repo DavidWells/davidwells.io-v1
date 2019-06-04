@@ -1,0 +1,323 @@
+html {
+	font: 400 16px/1.5 "Muli", "Helvetica Neue", sans-serif;
+	letter-spacing: -0.01em;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	word-wrap: break-word;
+}
+
+@media print {
+	html {
+		font: 400 11pt/1.5 "Helvetica Neue", sans-serif;
+		letter-spacing: 0.01em;
+	}
+}
+
+@media screen {
+	html {
+		overflow-y: scroll;
+	}
+}
+
+html, body{
+  margin:0;
+  padding:0;
+}
+body {
+  background-color: #57c5fa;
+  background: linear-gradient(#57c5fa,#0a81fe);
+  position: relative;
+}
+.background {
+  background: url(https://s3-us-west-2.amazonaws.com/assets.davidwells.io/images/resume-background.png);
+  background-image:linear-gradient(90deg, rgba(255,255,255,.25) 1px, rgba(0,0,0,0) 1px), linear-gradient(0deg, rgba(255,255,255,.25) 1px, rgba(0,0,0,0) 1px);
+  background-size: 20px 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity:.75;
+  top: 0;
+  left: 0;
+}
+.container {
+	background-color: #ffffff;
+	position: relative;
+	z-index: 3;
+}
+.print-url {
+	display: none;
+}
+
+@media screen {
+	.wrapper {
+
+	}
+	.container {
+		background-color: #ffffff;
+		border-radius: 0.125em;
+		box-shadow: 0 0 0.125in 0 rgba(0,0,0,0.25);
+		overflow: hidden;
+		padding: 1.25em;
+	}
+}
+
+@media screen and (min-width: 7.5in) {
+	.container {
+		padding: 0.5in 0.6in;
+	}
+}
+
+@media print {
+	.container {
+		padding: 0 0.5in;
+		padding-top: 0.5in;
+	}
+	.print-url {
+		display: block;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		left: 0;
+		top: 10px;
+	}
+}
+
+@media screen and (min-width: 7.5in) {
+	.wrapper {
+		padding: 0.5in 0;
+	}
+	.container {
+		margin: 0 auto;
+		width: 8.5in;
+	}
+}
+
+h1, p, ul {
+	margin-top: 1rem;
+}
+
+ul {
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+li {
+	margin-top: 0.125rem;
+}
+
+section {
+	margin-top: 2rem;
+}
+
+p, li {
+	font-size: 87.5%;
+	line-height: 1.5;
+}
+li {
+	text-align: justify;
+}
+
+p {
+	word-spacing: 1px;
+}
+
+time {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.p-job-title:before {
+	content: '-';
+	display: inline-block;
+}
+
+.p-description ul {
+	margin-top: 10px;
+}
+
+@media print {
+	p, li {
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen {
+	a {
+		box-shadow: 0 1px 0 0 rgba(99, 98, 98, 0.25);
+		color: #616161;
+	}
+
+	a:focus, a:hover {
+		box-shadow: 0 1px 0 0 rgba(25, 25, 25, 0.25);
+		color: #000;
+	}
+
+	a:active {
+		box-shadow: 0 1px 0 0 rgba(0,0,155,0.25);
+		color: #008;
+	}
+}
+
+@media print {
+	abbr[title] {
+		font-size: 0;
+		text-decoration: none;
+	}
+
+	abbr[title]::after {
+		content: attr(title);
+		display: inline-block;
+		font-size: 8pt;
+		letter-spacing: -0.01em;
+		opacity: 0.8;
+	}
+
+	a {
+		color: inherit;
+	}
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+/* header */
+
+.line {
+	display: block;
+}
+
+.p-contact {
+	border-bottom: 0.125em solid rgba(0,0,0,0.125);
+	margin-bottom: 2rem;
+}
+
+.p-contact-col-1 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.p-contact-col-1, .p-contact-col-2, .p-contact-col-3 {
+	display: block;
+	padding: 0.5rem 0;
+}
+
+@media print, screen and (min-width: 7.5in) {
+	.p-contact {
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+	.p-contact-col-1 {
+		display: flex;
+		margin-top: 0px;
+	}
+	.p-contact-col-2, .p-contact-col-3 {
+		display: flex;
+		justify-content: center;
+	}
+	.p-contact-col-2, .p-contact-col-3 {
+		font-size: 87.5%;
+		line-height: 1.125rem;
+		width: 30%;
+	}
+	.p-contact-col-1 {
+		line-height: 2.25rem;
+		width: 40%;
+	}
+	.p-contact-col-3 {
+		text-align: right;
+	}
+}
+
+.h-resume .p-summary h1 {
+	font-size: 1.3125rem;
+	margin-bottom: 1rem;
+}
+
+.h-resume .p-skill {
+	margin-top: 1rem;
+}
+.h-resume .p-skill h1, .h-resume .p-experience h1 {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.h-resume .p-affiliation {
+	margin: 2rem auto 1rem;
+	max-width: 80%;
+	text-align: center;
+}
+
+.u-photo {
+	box-shadow: 0 0 0 1px #aaaaaa6b;
+	float: right;
+	margin: 0.25em 0 1.5rem 1.85rem;
+	height: 11.25rem;
+	border-radius: 50%;
+}
+
+@media print, screen and (min-width: 7.5in) {
+	.u-photo {
+		height: auto;
+		margin-bottom: 2.25rem;
+		width: 2.5in;
+	}
+}
+
+.p-experience {
+	margin-top: 1rem;
+}
+
+.h-event {
+	list-style: none;
+	margin-top: .75em;
+}
+.h-event .p-name {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+.h-event .p-description p {
+	margin-top: 0.5rem;
+}
+
+.h-event .p-description li {
+	margin-top: 0.25em;
+	text-align: left;
+	width: 90%;
+}
+
+@media (max-width: 650px) {
+	.u-photo {
+		height: 7.25rem;
+	}
+	.p-contact-col-1, .p-contact-col-2, .p-contact-col-3 {
+		padding: 0.25rem 0;
+	}
+	.h-card {
+		font-size: 13px;
+	}
+	.h-event .p-name {
+		display: block;
+		font-size: 18px;
+		box-shadow: none;
+	}
+	.p-job-timeline {
+		display: block;
+		font-size: 10px;
+	}
+	.p-job-title:before {
+		display: none;
+	}
+	h1 {
+		margin-top: 0px;
+	}
+}
+
+@page {
+	margin: 0;
+}

@@ -8,7 +8,7 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "postbuild": "node scripts/sitemap.js",
+    "postbuild": "node scripts/sitemap.js && cp -R resume public",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
