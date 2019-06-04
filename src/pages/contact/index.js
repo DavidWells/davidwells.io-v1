@@ -1,9 +1,14 @@
 import React, { PropTypes, Component } from 'react' // eslint-disable-line
 import Page from '../../layouts/Default'
-import Form from '../../components/Form'
 import TextInput from '../../components/TextInput' // eslint-disable-line
 import formValidation from '../../utils/formValidation'
+
+import Form from '../../components/Form'
+import FieldSet from '../../components/FieldSet'
+import Input from '../../components/Input'
+import TextArea from '../../components/TextArea'
 import Button from '../../components/Button'
+
 import styles from './Contact.css'
 
 /* global fetch */
@@ -93,24 +98,42 @@ export default class Contact extends Component {
     }
     return (
       <Form className={styles.form} onSubmit={this.handleSubmit} trimOnSubmit>
-        <TextInput
-          name='name'
-          validation={(v) => { return v && v.length }}
-          placeholder='Name'
-          required
-        />
-        <TextInput
-          ref={(c) => { this.url = c }}
-          name='email'
-          validation={formValidation.isEmail}
-          placeholder='Email'
-          errorMessageClassName={styles.errorMessage}
-          required
-        />
-        <textarea
-          name='message'
-          placeholder='What can I help you with?'
-        />
+        <FieldSet className={styles.fieldSet}>
+          <label htmlFor='name'>
+            Name
+          </label>
+          <Input
+            name='name'
+            validation={(v) => { return v && v.length }}
+            placeholder='Name'
+            required
+          />
+        </FieldSet>
+
+        <FieldSet className={styles.fieldSet}>
+          <label htmlFor='email'>
+            Email
+          </label>
+          <Input
+            ref={(c) => { this.url = c }}
+            name='email'
+            validation={formValidation.isEmail}
+            placeholder='Email'
+            errorMessageClassName={styles.errorMessage}
+            required
+          />
+        </FieldSet>
+
+        <FieldSet className={styles.fieldSet}>
+          <label htmlFor='message'>
+            Message
+          </label>
+          <TextArea
+            placeholder='What can I help you with?'
+            name='message'
+          />
+        </FieldSet>
+
         <div className={styles.button}>
           <Button>
             Get in touch

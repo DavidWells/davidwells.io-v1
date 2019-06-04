@@ -22,27 +22,16 @@
 }
 .form {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  textarea {
-    padding: 15px 10px;
-    border: 1px solid #949494;
-    min-height: 140px;
-    border-radius: 0px;
-    box-shadow: none;
-    -webkit-appearance: none;
-    font-family: inherit;
-    &:focus {
-      border: 1px solid #191919;
-      outline: none;
-    }
+  max-width: 650px;
+  label {
+    display: none;
   }
-  .button {
-    margin-top: 20px;
-  }
-
 }
+
+.fieldSet {
+  margin-bottom: 25px;
+}
+
 @media (max-width: 900px) {
   .form {
     width: 100%;
