@@ -262,7 +262,7 @@ pre.language-css {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: black;
+  color: #005cc5;
   background: none;
   text-shadow: 0 1px white;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -314,7 +314,7 @@ pre[class*="language-"] {
 
 code, :not(pre)>code[class=language-text] {
   display: inline-block;
-  padding: 1px 5px;
+  padding: 3px 5px;
   color: #e91e63;
   font-size: 14px;
   background: rgba(0,0,0,0.04);
@@ -327,13 +327,18 @@ code, :not(pre)>code[class=language-text] {
   color: #999988;
 }
 
+.token.comment {
+	color: #7f7f71;
+	text-shadow: none;
+}
+
 .token.namespace {
   opacity: .7;
 }
 
 .token.string,
 .token.attr-value {
-  color: #e3116c;
+  color: #032f62;
 }
 .token.punctuation,
 .token.operator {
@@ -360,7 +365,15 @@ code, :not(pre)>code[class=language-text] {
   color: #00a4db;
 }
 
-.token.function,
+
+.token.keyword {
+	color: #d73a49;
+}
+.token.function {
+	color: #6f42c1;
+}
+
+
 .token.deleted,
 .language-autohotkey .token.tag {
   color: #9a050f;
