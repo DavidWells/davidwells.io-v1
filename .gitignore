@@ -6,3 +6,4 @@ npm-debug.log
 .gatsby-context.js
 .idea
 .DS_Store
+.netlify
