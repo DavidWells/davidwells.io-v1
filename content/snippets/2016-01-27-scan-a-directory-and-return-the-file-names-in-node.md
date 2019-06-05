@@ -3,7 +3,7 @@ title: Scan a directory and return the file names in Node
 author: David Wells
 date: 2016-01-27
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
   - node

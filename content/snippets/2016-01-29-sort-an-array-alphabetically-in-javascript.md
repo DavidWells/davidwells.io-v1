@@ -3,7 +3,7 @@ title: Sort an Array Alphabetically in Javascript
 author: David Wells
 date: 2016-01-29
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
 ---

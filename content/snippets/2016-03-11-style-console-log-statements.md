@@ -3,7 +3,7 @@ title: Style console.log statements
 author: David Wells
 date: 2016-03-11
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
 ---

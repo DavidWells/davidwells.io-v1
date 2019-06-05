@@ -3,6 +3,7 @@ title: How to run JavaScript function on a specific day of the year
 author: David Wells
 date: 2015-04-02 21:08:24
 layout: post
+category: snippets
 permalink: >
   http://davidwells.io/run-javascript-function-on-a-specific-day/
 ---

@@ -3,8 +3,10 @@ title: 'What is Electron & What can developers do with it?'
 author: DavidWells
 date: 2016-04-19 06:50:28
 layout: post
-permalink: >
-  http://davidwells.io/what-is-electron-and-why-you-should-care/
+category: dev
+tags:
+  - electron
+  - desktop
 ---
 Quite simply put, electron is a way for developers to use HTML, CSS, and JS to create cross platform (Mac, PC, & Linux) desktop applications.
 

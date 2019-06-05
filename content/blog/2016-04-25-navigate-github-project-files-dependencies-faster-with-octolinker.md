@@ -3,8 +3,9 @@ title: 'Navigate Github project files & dependencies faster with Octolinker'
 author: DavidWells
 date: 2016-04-25 06:45:04
 layout: post
-permalink: >
-  http://davidwells.io/navigate-github-project-files-dependencies-faster-with-octolinker/
+category: dev
+tags:
+  - tools
 ---
 
 Reading source code on github is probably 30% of every developer's job. (that's science)

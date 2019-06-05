@@ -3,8 +3,7 @@ title: Navigate GitHub projects like a Boss with the OctoTree Chrome Extension
 author: DavidWells
 date: 2016-06-01 10:25:24
 layout: post
-permalink: >
-  http://davidwells.io/navigate-github-projects-like-boss-octotree/
+category: dev
 ---
 Speeding up your workflow is important.
 

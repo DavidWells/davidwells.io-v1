@@ -3,8 +3,7 @@ title: Using Alfred to speed up common developer tasks
 author: DavidWells
 date: 2016-05-03 22:27:57
 layout: post
-permalink: >
-  http://davidwells.io/using-alfred-speed-common-developer-tasks/
+category: "Tools"
 ---
 
 [Alfred](https://www.alfredapp.com) is an amazingly useful tool for quickly opening programs and turning a bunch of clicks into simple commands.

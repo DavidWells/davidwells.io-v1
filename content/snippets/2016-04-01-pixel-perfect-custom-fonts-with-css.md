@@ -3,7 +3,7 @@ title: Pixel Perfect Custom Fonts with CSS
 author: David Wells
 date: 2016-04-01
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - css
 ---

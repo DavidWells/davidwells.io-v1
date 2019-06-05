@@ -3,8 +3,10 @@ title: Speed up your AVA (or Mocha) testing feedback loop using the .only flag
 author: DavidWells
 date: 2016-04-22 06:30:26
 layout: post
-permalink: >
-  http://davidwells.io/speed-up-your-ava-or-mocha-testing-feedback-loop-using-the-only-flag/
+category: dev
+tags:
+  - tools
+  - testing
 ---
 Setting up testing and debugging testing can be a real pain in the keister.
 

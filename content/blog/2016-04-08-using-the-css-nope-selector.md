@@ -3,7 +3,10 @@ title: Using the CSS NOPE selector for ultimate specificity
 author: DavidWells
 date: 2016-04-08 07:30:52
 layout: post
-category: "Frontend"
+category: dev
+tags:
+  - react
+  - css
 ---
 CSS lives in the global namespace and we don't always have the ability to control happens in the global namespace. Collisions happen quite often.
 

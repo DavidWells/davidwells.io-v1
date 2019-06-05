@@ -3,8 +3,10 @@ title: 'Calm.js & Form Validation for Angry, Irate, Shouting People'
 author: David Wells
 date: 2015-04-04 01:13:26
 layout: post
-permalink: >
-  http://davidwells.io/calm-js-form-validation-for-angry-people/
+category: dev
+tags:
+  - frontend
+  - projects
 ---
 Just whipped together <a href="https://github.com/DavidWells/calm.js">calm.js</a>
 

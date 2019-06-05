@@ -3,7 +3,9 @@ title: Better Developer Blogging with Easy Markdown
 author: DavidWells
 date: 2016-05-09 20:27:26
 layout: post
-permalink: http://davidwells.io/easy-markdown/
+category: dev
+tags:
+  - "markdown"
 ---
 > TLDR; Write posts in WordPress using github flavored markdown without wanting to kill yourself.
 

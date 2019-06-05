@@ -3,7 +3,7 @@ title: Get user defined window global variables with javascript
 author: David Wells
 date: 2019-06-03
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
   - script

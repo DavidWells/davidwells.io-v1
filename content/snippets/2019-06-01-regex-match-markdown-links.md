@@ -3,7 +3,7 @@ title: Regex to match markdown links
 author: David Wells
 date: 2019-06-01
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
   - regex

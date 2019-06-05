@@ -3,7 +3,7 @@ title: Disable Scrolling with JavaScript
 author: David Wells
 date: 2016-03-15
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
 ---

@@ -3,8 +3,11 @@ title: Fixing UX for Responsive Sites
 author: David Wells
 date: 2015-03-25 21:31:54
 layout: post
-permalink: >
-  http://davidwells.io/fixing-ux-for-responsive-sites/
+category: dev
+tags:
+  - frontend
+  - projects
+  - ux
 ---
 
 > Preface: this post isn't against responsive design, far from it. It's about fixing the glaring User experience issues faced on most responsive sites.

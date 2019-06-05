@@ -3,7 +3,9 @@ title: Autocomplete for React Component PropTypes
 author: DavidWells
 date: 2016-07-07 21:07:39
 layout: post
-category: "Frontend"
+category: dev
+tags:
+  - Frontend
 ---
 
 <p>Want IDE autocompletion without typescript or flow?</p>

@@ -3,7 +3,7 @@ title: Forcing async functions to run sync in node.js
 author: David Wells
 date: 2018-09-29
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
 ---

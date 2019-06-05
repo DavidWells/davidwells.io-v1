@@ -3,7 +3,7 @@ title: Set visible text color based on a dynamic background color
 author: David Wells
 date: 2016-07-01
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
   - node

@@ -3,7 +3,9 @@ title: The Serverless Revolution
 author: DavidWells
 date: 2016-04-29 10:06:00
 layout: post
-category: "Serverless"
+category: dev
+tags:
+  - serverless
 ---
 Imagine building an application, deploying it, and having it infinitely scale without managing servers.
 

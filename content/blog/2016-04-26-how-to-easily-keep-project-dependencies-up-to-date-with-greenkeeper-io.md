@@ -3,8 +3,9 @@ title: How to easily keep project dependencies up to date with greenkeeper.io
 author: DavidWells
 date: 2016-04-26 06:58:52
 layout: post
-permalink: >
-  http://davidwells.io/how-to-easily-keep-project-dependencies-up-to-date-with-greenkeeper-io/
+category: dev
+tags:
+  - tools
 ---
 
 The modular nature of the JavaScript ecosystem is vast and truly incredible.

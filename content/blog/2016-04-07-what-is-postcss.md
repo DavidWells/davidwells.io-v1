@@ -3,7 +3,11 @@ title: What is PostCSS?
 author: DavidWells
 date: 2016-04-07 00:10:22
 layout: post
-permalink: http://davidwells.io/what-is-postcss/
+category: dev
+tags:
+  - tools
+  - postcss
+  - css
 ---
 
 I bet you are probably wondering what the heck is this PostCSS thing all about.

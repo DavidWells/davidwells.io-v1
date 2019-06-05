@@ -3,8 +3,9 @@ title: 'Future JavaScript: How React, Angular 2, and Library XYZ can live togeth
 author: David Wells
 date: 2015-04-01 18:46:50
 layout: post
-permalink: >
-  http://davidwells.io/future-javascript-how-react-angular-2-and-library-xyz-can-live-together-in-harmony/
+category: dev
+tags:
+  - frontend
 ---
 
 The world of JavaScript is insanely vast.

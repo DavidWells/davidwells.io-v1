@@ -3,7 +3,10 @@ title: 19 Open Source React Component Libraries to use in your next project
 author: DavidWells
 date: 2016-05-15 16:26:39
 layout: post
-category: "Frontend"
+category: dev
+tags:
+  - "Frontend"
+  - "react"
 ---
 
 Building React components from scratch is a ton of fun.

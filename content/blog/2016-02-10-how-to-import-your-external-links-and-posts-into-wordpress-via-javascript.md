@@ -3,8 +3,9 @@ title: How to programmatically import your external blog post links into WordPre
 author: DavidWells
 date: 2016-02-10 19:13:14
 layout: post
-permalink: >
-  http://davidwells.io/how-to-import-your-external-links-and-posts-into-wordpress-via-javascript/
+category: dev
+tags:
+  - wordpress
 ---
 
 I recently imported all the links to external posts I'd written into this blog.

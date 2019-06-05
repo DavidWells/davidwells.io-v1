@@ -3,8 +3,9 @@ title: 'See for Yourself: Angular, React, & Ember Visible Render Speeds Compared
 author: David Wells
 date: 2015-04-06 04:12:17
 layout: post
-permalink: >
-  http://davidwells.io/angular-react-ember-visible-render-speeds-compared/
+category: dev
+tags:
+  - frontend
 ---
 
 <blockquote><strong>Preface:</strong> This isn't anywhere near conclusive evidence. Please test and play with the different frameworks (libs) yourself to see for yourself.</blockquote>

@@ -3,7 +3,10 @@ title: Do I really need CSS modules?
 author: DavidWells
 date: 2016-05-04 22:48:14
 layout: post
-category: "Frontend"
+category: dev
+tags:
+  - "Frontend"
+  - css
 ---
 
 You might have heard about [PostCSS](http://davidwells.io/what-is-postcss/) and CSS modules but you are still recovering from the onslaught of 10,000 other frontend build process changes.

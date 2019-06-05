@@ -3,8 +3,10 @@ title: Speed up your GIT workflow with git open
 author: DavidWells
 date: 2016-04-05 09:29:13
 layout: post
-permalink: >
-  http://davidwells.io/speed-up-your-git-workflow/
+category: dev
+tags:
+  - tools
+  - cli
 ---
 
 Repetitive tasks suck.

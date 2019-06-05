@@ -3,8 +3,9 @@ title: A JavaScript Community Thank You Letter
 author: DavidWells
 date: 2016-04-27 09:24:49
 layout: post
-permalink: >
-  http://davidwells.io/javascript-community-thank-you-letter/
+category: dev
+tags:
+  - Frontend
 ---
 
 Working in technology today, especially around JavaScript, is amazing.

@@ -3,8 +3,10 @@ title: Create and Deploy Static Sites and Demos in Seconds
 author: DavidWells
 date: 2016-04-21 06:25:54
 layout: post
-permalink: >
-  http://davidwells.io/create-deploy-static-sites-demos-seconds/
+category: dev
+tags:
+  - tools
+  - frontend
 ---
 
 [Surge.sh](http://surge.sh) is one of my favorite developer tools.

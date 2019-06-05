@@ -3,7 +3,7 @@ title: Cross Browser SVG Sprites with JavaScript
 author: David Wells
 date: 2016-05-15
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
   - svg

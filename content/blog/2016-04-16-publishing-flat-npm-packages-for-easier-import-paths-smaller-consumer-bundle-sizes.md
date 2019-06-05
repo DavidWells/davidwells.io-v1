@@ -3,8 +3,7 @@ title: 'Publishing flat npm packages for easier import paths & smaller consumer 
 author: DavidWells
 date: 2016-04-16 20:56:53
 layout: post
-permalink: >
-  http://davidwells.io/publishing-flat-npm-packages-for-easier-import-paths-smaller-consumer-bundle-sizes/
+category: Dev
 ---
 I recently published a library on npm named `react-dom-primitives`.
 

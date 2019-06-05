@@ -3,7 +3,7 @@ title: Regex to match HTML elements & React Components including attributes
 author: David Wells
 date: 2016-04-11
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - javascript
   - regex

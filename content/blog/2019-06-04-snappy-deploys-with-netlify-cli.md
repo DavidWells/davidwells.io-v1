@@ -4,6 +4,7 @@ descriptions: "How to speed up your Netlify workflow with faster deploys"
 author: DavidWells
 date: 2019-06-04 09:30:00
 layout: post
+category: dev
 ---
 
 Like Ricky Bobby once said...

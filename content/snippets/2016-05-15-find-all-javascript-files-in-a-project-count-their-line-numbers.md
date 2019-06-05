@@ -3,7 +3,7 @@ title: Find all Javascript files in a project & count line numbers
 author: David Wells
 date: 2016-05-15
 layout: post
-category: "Snippets"
+category: snippets
 tags:
   - bash
   - cli
