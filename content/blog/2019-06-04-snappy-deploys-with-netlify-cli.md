@@ -1,5 +1,5 @@
 ---
-title: "Faster deploy preview urls with Netlify CLI"
+title: "Speed up your Netlify deploy workflow with the CLI"
 descriptions: "How to speed up your Netlify workflow with faster deploys"
 author: DavidWells
 date: 2019-05-09 09:30:00
