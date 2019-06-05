@@ -1,20 +1,22 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import TagList from '../layouts/TagList'
 
 class TagTemplate extends React.Component {
   render() {
-    const { title } = this.props.data.site.siteMetadata
-    const { tag } = this.props.pageContext
+    const { location, data, pageContext } = this.props
+    const { title } = data.site.siteMetadata
+    const { tag } = pageContext
 
     return (
       <Layout>
-        <div>
-          <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
-          <TagList {...this.props} />
-        </div>
+        <SEO
+          title={`All Posts tagged as "${tag}" - ${title}`}
+          slug={location.pathname}
+        />
+        <TagList {...this.props} />
       </Layout>
     )
   }
@@ -29,18 +31,11 @@ export const pageQuery = graphql`
         title
         subtitle
         copyright
-        menu {
-          label
-          path
-        }
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

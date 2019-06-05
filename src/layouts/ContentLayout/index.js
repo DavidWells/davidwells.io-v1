@@ -2,28 +2,24 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { format } from 'date-fns'
 import Helmet from 'react-helmet'
+import SEO from '../../components/SEO'
 import Content from '../../fragments/Content'
 import disqus from './disqus-script'
 import styles from './styles.css'
 
 class ContentLayout extends React.Component {
   render() {
-    const { author } = this.props.data.site.siteMetadata
-    const { comments, footer } = this.props
-    const post = this.props.data.markdownRemark
+    const { comments, footer, data } = this.props
+    const post = data.markdownRemark
     const tags = post.fields.tagSlugs
-
-    const homeBlock = (
-      <div></div>
-    )
 
     const tagsBlock = (
       <div className={styles.tags}>
-        <ul className='post-single__tags-list'>
+        <ul>
           {tags &&
             tags.map((tag, i) => (
-              <li className='post-single__tags-list-item' key={tag}>
-                <Link to={tag} className='post-single__tags-list-item-link'>
+              <li key={tag}>
+                <Link to={tag}>
                   {post.frontmatter.tags[i]}
                 </Link>
               </li>
@@ -57,7 +53,6 @@ class ContentLayout extends React.Component {
 
     return (
       <div>
-        {homeBlock}
         <Content
           title={post.frontmatter.title}
           html={post.html}

@@ -24,9 +24,3 @@ export default class Base extends React.Component {
     )
   }
 }
-
-/*
-<Helmet>
-  <meta name='description' content={config.siteDescription} />
-</Helmet>
- */

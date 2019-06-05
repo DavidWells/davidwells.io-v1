@@ -1,25 +1,24 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import Page from '../layouts/Page'
 
 class PageTemplate extends React.Component {
   render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata
+    const { subtitle } = this.props.data.site.siteMetadata
     const page = this.props.data.markdownRemark
     const { title: pageTitle, description: pageDescription } = page.frontmatter
     const description = pageDescription !== null ? pageDescription : subtitle
 
     return (
       <Layout>
-        <div>
-          <Helmet>
-            <title>{`${pageTitle} - ${title}`}</title>
-            <meta name='description' content={description} />
-          </Helmet>
-          <Page {...this.props} />
-        </div>
+        <SEO
+          title={pageTitle}
+          description={description}
+          slug={page.fields.slug}
+        />
+        <Page {...this.props} />
       </Layout>
     )
   }
@@ -33,19 +32,11 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
-        copyright
-        menu {
-          label
-          path
-        }
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

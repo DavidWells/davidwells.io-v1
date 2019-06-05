@@ -1,28 +1,30 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import PostLink from '../components/PostLink'
 
 export default class TalksRoute extends React.Component {
   render() {
-    const items = []
-    const { title, subtitle } = this.props.data.site.siteMetadata
-    const posts = this.props.data.allMarkdownRemark.edges
+    const { data } = this.props
+    const posts = data.allMarkdownRemark.edges
 
-    posts.forEach(post => {
-      items.push(<PostLink data={post} key={post.node.fields.slug} />)
+    const items = posts.map((post, i) => {
+      return (
+        <PostLink data={post} key={`${post.node.fields.slug}-${i}`} /> // eslint-disable-line
+      )
     })
 
     return (
       <Layout>
         <div>
-          <Helmet>
-            <title>{title}</title>
-            <meta name='description' content={subtitle} />
-          </Helmet>
+          <SEO
+            title={'David\'s Talks & Workshops'}
+            description='Talks and workshops from David'
+            slug='/talks'
+          />
           <div className='content'>
-            <div className='content__inner'>{items}</div>
+            {items}
           </div>
         </div>
       </Layout>
@@ -35,20 +37,12 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        subtitle
         copyright
-        menu {
-          label
-          path
-        }
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

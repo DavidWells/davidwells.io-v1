@@ -1,25 +1,26 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import Post from '../layouts/Post'
 
 export default class TalkTemplate extends React.Component {
   render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata
-    const post = this.props.data.markdownRemark
+    const { data } = this.props
+    const { title, subtitle } = data.site.siteMetadata
+    const post = data.markdownRemark
     const { title: postTitle, description: postDescription } = post.frontmatter
     const description = postDescription !== null ? postDescription : subtitle
 
     return (
       <Layout>
-        <div>
-          <Helmet>
-            <title>{`${postTitle} - ${title}`}</title>
-            <meta name='description' content={description} />
-          </Helmet>
-          <Post {...this.props} />
-        </div>
+        <SEO
+          title={`${postTitle} - ${title}`}
+          description={description}
+          slug={post.fields.slug}
+        />
+
+        <Post {...this.props} />
       </Layout>
     )
   }
@@ -31,7 +32,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
-        copyright
         author {
           name
           twitter

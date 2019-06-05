@@ -186,6 +186,11 @@ hr {
 #disqus_thread {
   margin-left: 15px;
 }
+
+.anchor {
+	text-decoration: none;
+	border-bottom: none !important;
+}
 /**
  * Code highlighting
  */

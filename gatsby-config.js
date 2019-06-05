@@ -19,35 +19,14 @@ module.exports = {
     url: 'davidwells.io',
     siteUrl: 'https://davidwells.io',
     title: 'David Wells',
-    subtitle: 'Serverless Architectures',
+    subtitle: 'David Wells personal site',
     copyright: '© All rights reserved.',
     disqusShortname: 'davidwells',
-    menu: [
-      {
-        label: 'Blog',
-        path: '/blog',
-      },
-      {
-        label: 'Talks',
-        path: '/talks',
-      },
-      {
-        label: 'About me',
-        path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
-    ],
     author: {
       name: 'David Wells',
       email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      twitter: 'DavidWells',
+      github: 'DavidWells',
     },
   },
   plugins: [
@@ -135,9 +114,16 @@ module.exports = {
           //   resolve: 'gatsby-remark-responsive-iframe',
           //   options: { wrapperStyle: 'margin-bottom: 1.0725rem' },
           // },
+          'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+            },
+          },
         ],
       },
     },
@@ -145,44 +131,12 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-29316392-1' },
-    },
-    /* Sitemap plugin doesn't work https://github.com/DavidWells/new-site/issues/1
-    {
-      resolve: 'gatsby-plugin-sitemap',
       options: {
-        query: `
-            {
-              site {
-                siteMetadata {
-                  siteUrl
-                }
-              }
-              allSitePage(
-                filter: {
-                  path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
-                }
-              ) {
-                edges {
-                  node {
-                    path
-                  }
-                }
-              }
-          }`,
-        output: '/sitemap.xml',
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
-            return {
-              url: site.siteMetadata.url + edge.node.path,
-              changefreq: 'daily',
-              priority: 0.7,
-            }
-          }),
+        trackingId: 'UA-29316392-1'
       },
     },
-    /**/
-    // 'gatsby-plugin-offline', // Service workers are bad kill them with 🔥
+    /* Sitemap plugin doesn't work https://github.com/DavidWells/new-site/issues/1 */
+    /* 'gatsby-plugin-offline', // Service workers are bad kill them with 🔥 */
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
   ],

@@ -1,6 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import PostLink from '../components/PostLink'
 import externalPosts from '../../content/blog/external-posts.json'
@@ -14,8 +14,8 @@ function getDate(obj) {
 
 export default class BlogRoute extends React.Component {
   render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata
-    const posts = this.props.data.allMarkdownRemark.edges
+    const { data, location } = this.props
+    const posts = data.allMarkdownRemark.edges
 
     // merge with external posts
     const allPosts = posts.concat(externalPosts)
@@ -37,12 +37,13 @@ export default class BlogRoute extends React.Component {
 
     return (
       <Layout>
-        <Helmet>
-          <title>{title}</title>
-          <meta name='description' content={subtitle} />
-        </Helmet>
+        <SEO
+          title='Serverless Dev, JavaScript, Node & React tips | David Wells Blog'
+          description='Software development tips and tricks in the JavaScript world. Node, React, UI, UX, and startup posts'
+          slug={location.pathname}
+        />
         <div className='content'>
-          <div className='content__inner'>{items}</div>
+          {items}
         </div>
       </Layout>
     )
@@ -56,18 +57,11 @@ export const pageQuery = graphql`
         title
         subtitle
         copyright
-        menu {
-          label
-          path
-        }
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

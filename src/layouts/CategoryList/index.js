@@ -4,11 +4,14 @@ import styles from './CategoryList.css'
 
 export default class CategoryList extends React.Component {
   render() {
-    const items = []
-    const { category } = this.props.pageContext
-    const posts = this.props.data.allMarkdownRemark.edges
-    posts.forEach(post => {
-      items.push(<PostLink data={post} key={post.node.fields.slug} />)
+    const { data, pageContext } = this.props
+    const { category } = pageContext
+    const posts = data.allMarkdownRemark.edges
+
+    const items = posts.map(post => {
+      return (
+        <PostLink data={post} key={post.node.fields.slug} />
+      )
     })
 
     return (

@@ -1,42 +1,30 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import Helmet from 'react-helmet'
 import kebabCase from 'lodash/kebabCase'
+import SEO from '../components/SEO'
+import Content from '../fragments/Content'
 import Layout from '../layouts/Default'
 
 export default class TagsRoute extends React.Component {
   render() {
-    const { title } = this.props.data.site.siteMetadata
-    const tags = this.props.data.allMarkdownRemark.group
-
+    const { data, location } = this.props
+    const tags = data.allMarkdownRemark.group
     return (
       <Layout>
-        <div>
-          <Helmet title={`All Tags - ${title}`} />
-          <div className='content'>
-            <div className='content__inner'>
-              <div className='page'>
-                <h1 className='page__title'>Tags</h1>
-                <div className='page__body'>
-                  <div className='tags'>
-                    <ul className='tags__list'>
-                      {tags.map(tag => (
-                        <li key={tag.fieldValue} className='tags__list-item'>
-                          <Link
-                            to={`/tags/${kebabCase(tag.fieldValue)}/`}
-                            className='tags__list-item-link'
-                          >
-                            {tag.fieldValue} ({tag.totalCount})
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <SEO title='All Blog Tags' slug={location.pathname} />
+        <Content title='All Tags'>
+          <div>
+            <ul>
+              {tags.map(tag => (
+                <li key={tag.fieldValue}>
+                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                    {tag.fieldValue} ({tag.totalCount})
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
+        </Content>
       </Layout>
     )
   }
@@ -47,20 +35,11 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        subtitle
-        copyright
-        menu {
-          label
-          path
-        }
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

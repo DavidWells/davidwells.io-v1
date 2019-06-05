@@ -67,6 +67,7 @@ This will deploy your site to a draft URL and return back the link. Share this l
 Deploy path:        /Users/david/David/davidwells.io/public
 Configuration path: /Users/david/David/davidwells.io/netlify.toml
 Deploying to draft URL...
+
 ✔ Finished hashing 3047 files
 ✔ CDN requesting 2816 files
 ✔ Finished uploading 2844 assets

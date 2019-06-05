@@ -1,8 +1,6 @@
-/*eslint-disable */
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
 import { Link, graphql } from 'gatsby'
-import Helmet from 'react-helmet'
-import PostLink from '../../components/PostLink'
+import SEO from '../../components/SEO'
 import Layout from '../../layouts/Default'
 import styles from './Work.css'
 
@@ -25,7 +23,7 @@ const Preview = ({ data }) => {
       <Link to={fields.slug}>
         <span className={styles.thumbnailWrapper}>
           <span className={styles.thumbnailInner}>
-            <img className={styles.thumbnail} src={thumbnail} />
+            <img className={styles.thumbnail} src={thumbnail} alt={description} />
           </span>
         </span>
         <div className={styles.details}>
@@ -41,9 +39,8 @@ const Preview = ({ data }) => {
   )
 }
 
-
 export default class Work extends Component {
-  constructor (props, context) {
+  constructor(props, context) {
     super(props, context)
     this.state = {
       display: 'list'
@@ -56,15 +53,14 @@ export default class Work extends Component {
     })
   }
   render() {
-    const items = []
-    const { title, subtitle } = this.props.data.site.siteMetadata
-    const posts = this.props.data.allMarkdownRemark.edges
+    const { location, data } = this.props
+    const posts = data.allMarkdownRemark.edges
     const { display } = this.state
     const viewType = styles[display]
 
-    let renderContent = (
+    const renderContent = (
       <ul className={styles.postList}>
-        {posts.map((page, i) => (
+        {posts.map((page) => (
           <Preview key={page.node.fields.slug} data={page} />
         ))}
       </ul>
@@ -74,23 +70,23 @@ export default class Work extends Component {
     const gridActivce = (display === 'grid') ? ` ${styles.active}` : ''
     return (
       <Layout>
-        <Helmet>
-          <title>{title}</title>
-          <meta name='description' content={subtitle} />
-        </Helmet>
+        <SEO
+          title='Davids Portfolio of Work & Projects'
+          slug={location.pathname}
+        />
         <div className={styles.container}>
-          <div className={styles.switcher + ' ' + viewType}>
+          <div className={`${styles.switcher} ${viewType}`}>
             <div className={styles.options}>
-              <div onClick={this.toggleView} className={styles.listToggle + listActivce}  data-view="list">
-                <span data-view="list" className=""></span>
-                <span data-view="list" className=""></span>
-                <span data-view="list" className=""></span>
+              <div onClick={this.toggleView} className={styles.listToggle + listActivce} data-view='list'>
+                <span data-view='list' className='' />
+                <span data-view='list' className='' />
+                <span data-view='list' className='' />
               </div>
-              <div onClick={this.toggleView} className={styles.gridToggle + gridActivce} data-view="grid">
-                <span data-view="grid" className="active"></span>
-                <span data-view="grid" className="active"></span>
-                <span data-view="grid" className="active"></span>
-                <span data-view="grid" className="active"></span>
+              <div onClick={this.toggleView} className={styles.gridToggle + gridActivce} data-view='grid'>
+                <span data-view='grid' className='active' />
+                <span data-view='grid' className='active' />
+                <span data-view='grid' className='active' />
+                <span data-view='grid' className='active' />
               </div>
             </div>
 
@@ -101,82 +97,10 @@ export default class Work extends Component {
       </Layout>
     )
   }
-  renderx() {
-    const { phenomicLoading, isLoading, params } = this.props
-    const { display } = this.state
-    const viewType = styles[display]
-    const pageNumber = (params && params.page) ? parseInt(params.page, 10) : 0
-    const pagination = numberOfLatestPosts * pageNumber
-    const offset = pagination + numberOfLatestPosts
-    const latestPosts = enhanceCollection(this.context.collection, {
-      filter: { layout: 'Portfolio' },
-      sort: 'date',
-      reverse: true,
-    })
-    .slice(pagination, offset)
-    // console.log('latestPosts', latestPosts)
-
-    let renderContent = (
-      <ul className={styles.postList}>
-        {latestPosts.map((page, i) => (
-          <Preview key={i} page={page} />
-        ))}
-      </ul>
-    )
-
-    const listActivce = (display === 'list') ? ` ${styles.active}` : ''
-    const gridActivce = (display === 'grid') ? ` ${styles.active}` : ''
-    return (
-      <Page {...this.props} phenomicLoading={phenomicLoading}>
-        <div className={styles.container}>
-          <div className={styles.switcher + ' ' + viewType}>
-            <div className={styles.options}>
-              <div onClick={this.toggleView} className={styles.listToggle + listActivce}  data-view="list">
-                <span data-view="list" className=""></span>
-                <span data-view="list" className=""></span>
-                <span data-view="list" className=""></span>
-              </div>
-              <div onClick={this.toggleView} className={styles.gridToggle + gridActivce} data-view="grid">
-                <span data-view="grid" className="active"></span>
-                <span data-view="grid" className="active"></span>
-                <span data-view="grid" className="active"></span>
-                <span data-view="grid" className="active"></span>
-              </div>
-            </div>
-
-            {renderContent}
-
-          </div>
-        </div>
-      </Page>
-    )
-  }
 }
-
-
 
 export const pageQuery = graphql`
   query PortfolioQuery {
-    site {
-      siteMetadata {
-        title
-        subtitle
-        copyright
-        menu {
-          label
-          path
-        }
-        author {
-          name
-          email
-          telegram
-          twitter
-          github
-          rss
-          vk
-        }
-      }
-    }
     allMarkdownRemark(
       limit: 1000
       filter: { frontmatter: { layout: { eq: "portfolio" }, draft: { ne: true } } }

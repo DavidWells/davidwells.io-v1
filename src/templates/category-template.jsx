@@ -1,20 +1,22 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import CategoryList from '../layouts/CategoryList'
 
 class CategoryTemplate extends React.Component {
   render() {
-    const { title } = this.props.data.site.siteMetadata
-    const { category } = this.props.pageContext
+    const { data, location, pageContext } = this.props
+    const { title } = data.site.siteMetadata
+    const { category } = pageContext
 
     return (
       <Layout>
-        <div>
-          <Helmet title={`${category} - ${title}`} />
-          <CategoryList {...this.props} />
-        </div>
+        <SEO
+          title={`${category} posts - ${title}`}
+          slug={location.pathname}
+        />
+        <CategoryList {...this.props} />
       </Layout>
     )
   }
@@ -27,20 +29,12 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        subtitle
         copyright
-        menu {
-          label
-          path
-        }
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

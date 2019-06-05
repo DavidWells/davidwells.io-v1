@@ -2,7 +2,7 @@ import React, { PropTypes, Component } from 'react' // eslint-disable-line
 import Page from '../../layouts/Default'
 import TextInput from '../../components/TextInput' // eslint-disable-line
 import formValidation from '../../utils/formValidation'
-
+import SEO from '../../components/SEO'
 import Form from '../../components/Form'
 import FieldSet from '../../components/FieldSet'
 import Input from '../../components/Input'
@@ -143,8 +143,11 @@ export default class Contact extends Component {
     )
   }
   render() {
+    const { location } = this.props
     return (
       <Page {...this.props} >
+        <SEO title='Contact David Wells' slug={location.pathname} />
+
         <div className={styles.page}>
           <h1>Contact David</h1>
           {this.renderLoader()}
