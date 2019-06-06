@@ -1,13 +1,10 @@
 ---
 title: Netlify AWS CloudFormation Resource
 description: Deploy netlify sites as part of CloudFormation stack
-thumbnail: https://www.fillmurray.com/460/300
+thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/netlify-cloudformation-thumb.jpg
 date: 2018-11-29
-draft: true
 layout: portfolio
 ---
-
-# Netlify AWS CloudFormation Resource
 
 Deploy Netlify sites as part of serverless, SAM, or raw AWS cloudformation stacks.
 
