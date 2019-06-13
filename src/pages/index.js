@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import SEO from '../components/SEO'
 import Layout from '../layouts/Default'
 import Content from '../fragments/Content'
+import styles from './Index.css'
 
 export default class IndexRoute extends React.Component {
   render() {
@@ -15,7 +16,7 @@ export default class IndexRoute extends React.Component {
           description='David Gregory Wells is full stack serverless developer located in the SF bay area.'
           slug={location.pathname}
         />
-        <div className='content'>
+        <div className={styles.homeWrapper}>
           <Content html={thisPost.node.html} />
         </div>
       </Layout>

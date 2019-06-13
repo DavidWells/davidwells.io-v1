@@ -1,0 +1,8 @@
+.homeWrapper {
+  li a, p a {
+    color: #000 !important;
+  }
+  li a strong, p a strong {
+    color: #0679b2 !important;
+  }
+}
