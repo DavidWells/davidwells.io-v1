@@ -5,7 +5,7 @@ date: 2016-05-15 16:26:39
 layout: post
 category: dev
 tags:
-  - "Frontend"
+  - "frontend"
   - "react"
 ---
 

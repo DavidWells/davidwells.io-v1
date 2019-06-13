@@ -5,7 +5,7 @@ date: 2016-04-27 09:24:49
 layout: post
 category: dev
 tags:
-  - Frontend
+  - frontend
 ---
 
 Working in technology today, especially around JavaScript, is amazing.

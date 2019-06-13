@@ -5,7 +5,7 @@ date: 2016-05-10 19:45:56
 layout: post
 category: dev
 tags:
-  - "Frontend"
+  - "frontend"
   - "svg"
 ---
 

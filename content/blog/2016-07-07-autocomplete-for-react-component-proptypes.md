@@ -5,7 +5,7 @@ date: 2016-07-07 21:07:39
 layout: post
 category: dev
 tags:
-  - Frontend
+  - frontend
 ---
 
 <p>Want IDE autocompletion without typescript or flow?</p>
