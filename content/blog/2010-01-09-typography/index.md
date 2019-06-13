@@ -123,14 +123,74 @@ Quote break.
 
 # Code
 
+Javascript
+
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
+Python
+
 ```python
 s = "Python syntax highlighting"
 print s
+```
+
+Bash
+
+```bash
+npm run build
+```
+
+CSS
+
+```css
+/* Your Apps Source Code CSS using CSS4 */
+/* css4 custom properties */
+:root {
+--fontSize: 1rem;
+--mainColor: #12345678;
+}
+
+/* css4 var() &amp; calc() */
+body {
+  color: var(--mainColor);
+  font-size: var(--fontSize);
+  line-height: calc(var(--fontSize) * 1.5);
+  padding: calc((var(--fontSize) / 2) + 1px);
+}
+
+/* css4 filters */
+.blur {
+  filter: blur(4px);
+}
+```
+
+```js
+const optOutMiddleware = store => next => action => {
+  const { type } = action
+  if (type === 'trackStart' || type === 'pageStart' || type === 'trackStart') {
+    // Check cookie/localStorage/Whatever to see if visitor opts out
+
+    // Here I am checking user traits persisted to localStorage
+    const { user } = store.getState()
+
+    // user has optOut trait cancel action
+    if (user && user.traits.optOut) {
+      return next({
+        ...action,
+        ...{
+          abort: true,
+          reason: 'User opted out'
+        },
+      })
+    }
+  }
+  return next(finalAction)
+}
+
+export default optOutMiddleware
 ```
 
 ```

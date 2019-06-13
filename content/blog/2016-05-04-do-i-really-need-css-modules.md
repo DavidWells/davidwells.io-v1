@@ -9,13 +9,14 @@ tags:
   - css
 ---
 
-You might have heard about [PostCSS](http://davidwells.io/what-is-postcss/) and CSS modules but you are still recovering from the onslaught of 10,000 other frontend build process changes.
+You might have heard about [PostCSS](http://davidwells.io/blog/what-is-postcss/) and CSS modules but you are still recovering from the onslaught of 10,000 other frontend build process changes.
 
-The question you are asking yourself:
+**The question you are asking yourself:**
 
 > Do I **REALLY** need CSS modules?
 > Aren't they just another frontend hipster fad?
-> - You
+>
+> -- You
 
 Let's discuss!
 
@@ -28,13 +29,13 @@ Let's discuss!
 
 If you answered yes to any of these questions, then CSS modules are for you.
 
-**Congratulations!!!!**
+**Congratulations!!!! (You get modules & you get modules in Oprah voice)**
 
 If not, CSS modules might be overkill and you can revisit them at a later time.
 
-# Checklist Breakdown
+# Let's break it down
 
-Let's run through each of those
+Let's run through each of those items in the checklist.
 
 ## 1. Third-Party Environments
 
@@ -77,13 +78,15 @@ They are in the "WTF CSS!" boat, where they need to deal with these quirks of gl
 
 We need our styles to look how they should across all browsers, no matter what the environment (browser plugins etc) looks like.
 
-So localizing CSS with CSS modules + webpack/gulp/grunt solves these issues for us. =)
+So localizing CSS with CSS modules + webpack/gulp/grunt solves these issues for us.
 
-# CSS Modules Example:
+# CSS Modules Example
 
 This is a contrived example but illustrates what CSS modules do.
 
-Basically, they will take your normal CSS classes that might be generic like `.title` and converts it into a super unique `.FolderName__title_21311hgwjqgqjy` class.
+Basically, they will take your normal CSS classes that might be generic like `.title` and converts it into a super unique `.FolderName__title_xyz123s` class.
+
+**Input:**
 
 ```css
 /* style.css before CSS modules and PostCSS */
@@ -91,6 +94,8 @@ Basically, they will take your normal CSS classes that might be generic like `.t
   color: green;
 }
 ```
+
+**Output:**
 
 ```css
 /* style.css after CSS modules and PostCSS */
@@ -101,6 +106,8 @@ Basically, they will take your normal CSS classes that might be generic like `.t
 ```
 
 Now your markup is safe(r) from things messing with it.
+
+**Note:** you can minify class names in production for less characters shipped to client.
 
 # Handy CSS Modules Resources
 

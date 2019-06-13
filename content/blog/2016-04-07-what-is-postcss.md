@@ -13,7 +13,8 @@ tags:
 I bet you are probably wondering what the heck is this PostCSS thing all about.
 
 > "A post processor? WTF mate. I already have a preprocessor. (LESS/SASS/SCSS)"
-> - you
+>
+> -- You
 
 ### In a nutshell, PostCSS does the exact same thing as LESS/SASS/SCSS...
 
