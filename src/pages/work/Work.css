@@ -90,7 +90,7 @@
 
 .list {
   ul {
-    padding-left: 30px;
+    padding-left: 50px;
     margin-top: 15px;
   }
   li {
@@ -226,6 +226,9 @@
     }
   }
   .list {
+    ul {
+      padding-left: 30px;
+    }
     .button {
       display: none;
     }
