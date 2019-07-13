@@ -5,7 +5,8 @@ date: 2016-05-09 20:27:26
 layout: post
 category: dev
 tags:
-  - "markdown"
+  - markdown
+  - tools
 ---
 > TLDR; Write posts in WordPress using github flavored markdown without wanting to kill yourself.
 

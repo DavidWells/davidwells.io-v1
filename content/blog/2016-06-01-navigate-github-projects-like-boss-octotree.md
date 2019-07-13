@@ -4,6 +4,8 @@ author: DavidWells
 date: 2016-06-01 10:25:24
 layout: post
 category: dev
+tags:
+  - tools
 ---
 Speeding up your workflow is important.
 

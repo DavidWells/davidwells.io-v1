@@ -5,6 +5,8 @@ author: DavidWells
 date: 2019-05-09 09:30:00
 draft: true
 layout: post
+tags:
+  - analytics
 ---
 
 Collecting clean company wide metrics is hard.
