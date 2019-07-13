@@ -28,4 +28,5 @@ Claim your site after it deploys.
 
 ## Tweets
 
-https://twitter.com/CompuIves/status/1110633418704986113
+- https://twitter.com/CompuIves/status/1110633418704986113
+- https://twitter.com/kentcdodds/status/1143505484864872449
