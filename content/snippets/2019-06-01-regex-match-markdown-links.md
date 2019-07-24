@@ -11,6 +11,8 @@ tags:
 
 Handy little regular expression to parse links from markdown files.
 
+Links in markdown look like this:
+
 ```md
 [View the analytics docs](https://getanalytics.io/)
 ```
@@ -18,7 +20,11 @@ Handy little regular expression to parse links from markdown files.
 To parse `.md` links programmatically with a regular expression use this pattern:
 
 ```js
-const regex = /^\[([\w\s\d]+)\]\((https?:\/\/[\w\d./?=#]+)\)$/
+/* Match only links that are fully qualified with https */
+const fullLinkOnlyRegex = /^\[([\w\s\d]+)\]\((https?:\/\/[\w\d./?=#]+)\)$/
+
+/* Match full links and relative paths */
+const regex = /^\[([\w\s\d]+)\]\(((?:\/|https?:\/\/)[\w\d./?=#]+)\)$/
 
 const string = "[View the analytics docs](https://getanalytics.io/)"
 
@@ -31,10 +37,10 @@ console.log(myMatch)
 const [ full, text, url ] = myMatch
 
 console.log(text)
-// View the analytics docs
+// 'View the analytics docs'
 
 console.log(url)
-// https://getanalytics.io/
+// 'https://getanalytics.io/'
 ```
 
 See the demo on [regex101](https://regex101.com/r/m9dndl/1)
@@ -67,7 +73,9 @@ console.log('links', matches)
 const singleMatch = /\[([^\[]+)\]\((.*)\)/
 for (var i = 0; i < matches.length; i++) {
   var text = singleMatch.exec(matches[i])
-  console.log('Link #' + i, text)
+  console.log(`Match #${i}:`, text)
+  console.log(`Word  #${i}: ${text[1]}`)
+  console.log(`Link  #${i}: ${text[2]}`)
 }
 ```
 
