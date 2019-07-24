@@ -11,15 +11,11 @@ tags:
 
 Handy little regular expression to parse links from markdown files.
 
-Background: Markdown links look like:
-
 ```md
 [View the analytics docs](https://getanalytics.io/)
 ```
 
-Quite often we need to render out the links from these, like in a [gatsby site](https://getanalytics.io/)
-
-To parse markdown links programmatically with a regular expression you can use this pattern:
+To parse `.md` links programmatically with a regular expression use this pattern:
 
 ```js
 const regex = /^\[([\w\s\d]+)\]\((https?:\/\/[\w\d./?=#]+)\)$/
@@ -45,9 +41,13 @@ See the demo on [regex101](https://regex101.com/r/m9dndl/1)
 
 ## Parsing all links out of file
 
+To grab all the links of of a file, you can use this:
+
 ```js
-var regexMdLinks = /\[([^\[]+)\](\(.*\))/gm
-var mdContents = `
+const regexMdLinks = /\[([^\[]+)\](\(.*\))/gm
+
+// Example md file contents
+const mdContents = `
 Lorem ipsum dolor sit amet, consectetur adipiscing elit..
 
 [hello link](/admin/table_edit/table_edit.cfm?action=edit&table_name=organizationsXcategories)
@@ -61,10 +61,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit..
 [third link](https://google.com)
 `
 
-var matches = mdContents.match(regexMdLinks)
+const matches = mdContents.match(regexMdLinks)
 console.log('links', matches)
 
-var singleMatch = /\[([^\[]+)\]\((.*)\)/
+const singleMatch = /\[([^\[]+)\]\((.*)\)/
 for (var i = 0; i < matches.length; i++) {
   var text = singleMatch.exec(matches[i])
   console.log('Link #' + i, text)
