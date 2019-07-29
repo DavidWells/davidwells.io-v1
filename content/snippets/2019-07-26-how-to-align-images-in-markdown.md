@@ -11,7 +11,7 @@ tags:
 
 Markdown is awesome. It's a fantastic way to write content quickly without the overhead of formatting with a WYSIWYG editor. If you are unfamiliar with `.md` files checkout the basics [here](https://guides.github.com/features/mastering-markdown/) & [here](https://daringfireball.net/projects/markdown/).
 
-Writing text in markdown is super quick and easy, but **what about what about aligning images**?
+Writing text in markdown is super quick and easy, but **what about aligning images**?
 
 Read on to learn how! The full code can be found in this [github gist](https://gist.github.com/DavidWells/7d2e0e1bc78f4ac59a123ddf8b74932d/)
 
