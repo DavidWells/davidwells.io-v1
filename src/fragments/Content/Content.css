@@ -9,7 +9,7 @@ $contentWidth: 650px;
 .contentWrapper {
   margin-top: 50px;
   width: 100%;
-  h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper, table {
+  h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper, table, details {
     padding-left: $contentPadding;
   }
   iframe {
@@ -34,8 +34,11 @@ $contentWidth: 650px;
   li p {
     padding-left: 5px;
   }
-  li ul {
+  li ul, details ul {
     padding-left: 20px;
+  }
+  details p {
+    padding-left: 0px;
   }
   ol, ul {
     padding-left: 100px;
@@ -148,7 +151,7 @@ $contentWidth: 650px;
   .contentWrapper {
     margin-top: 10px;
 
-    h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper {
+    h1, h2, h3, h4, h5, h6, p, iframe, img, .postMeta, .loadingWrapper, table, details {
       padding-left: 5px;
     }
     iframe {

@@ -201,6 +201,9 @@ hr {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
 }
+details .gatsby-highlight {
+	margin-left: -$contentPadding;
+}
 pre code {
   display:block;
   background:white;
@@ -400,6 +403,9 @@ code, :not(pre)>code[class=language-text] {
     margin-left: -$mobileContentPadding;
     margin-right: -$mobileContentPadding;
   }
+	details .gatsby-highlight {
+		margin-left: -20px;
+	}
 }
 
 @media (max-width: 768px) {

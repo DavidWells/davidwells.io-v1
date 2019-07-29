@@ -49,7 +49,7 @@ class ContentLayout extends React.Component {
         </div>
       )
     }
-
+    /* add prev / next links https://github.com/gaearon/overreacted.io/blob/94cb9455c5f6bc5c3e86c5cb090244a58642e7d8/src/templates/blog-post.js#L222-L239 */
     return (
       <div>
         <Content
