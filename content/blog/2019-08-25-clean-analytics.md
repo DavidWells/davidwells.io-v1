@@ -10,7 +10,7 @@ tags:
 
 Collecting clean company wide metrics is hard.
 
-When every app/site/tool your company produces is instrumented at a different time, in a different way, by a different developer, the downstream effects can be rather troublesome.
+When every app, site & tool your company makes is instrumented in a different way, by a different developer, the downstream effects can be rather troublesome.
 
 > It’s the classic case of garbage in, garbage out.
 
@@ -53,15 +53,15 @@ After quite a bit of research on what “sane” naming conventions might look, 
 
 **Pattern**
 
-`Product => Object => Action`
+`Context => Object => Action`
 
 The format answers these questions:
 
-- Where is the event from?
-- What is the event effecting?
-- What was the action taken?
+- Where is the event from? `Context`
+- What is the event effecting? `Object`
+- What was the action taken? `Action`
 
-**Some event examples:**
+Some examples of how this might look in various contexts:
 
 - App => site => deployed
 - App => function => invoked
@@ -69,6 +69,12 @@ The format answers these questions:
 - Site => docs => searched
 - CLI => user => loggedIn
 - API => user => passwordReset
+
+The `context` of where the events originate is generically short but still descriptive enough for folks to understand where they originated from.
+
+Some examples of `context` context would be `app` (web ui), `site` (marketing site), `cli` (the command line interface), `api` (the backend api service), etc.
+
+These will vary depending on your application/org structure.
 
 ### Format/Syntax
 
@@ -112,7 +118,7 @@ These are recommended conventions to follow:
 
 ## Implementation
 
-It’s very important to optimize these collection points as soon as you can. Retrofitting a haphazard analytics implementation is much more of a challenge and requires more investigation what might break downstream of if event names are changing.
+It’s very important to optimize these collection points as soon as you can. Retrofitting a haphazard analytics implementation is much more of a challenge. It could require more cross team coordination & investigative work to make sure downstream systems will still operate as expected.
 
 Here are some practical next steps for getting things in a "cleaner" state:
 
@@ -128,7 +134,7 @@ Then, figure out your naming conventions that make sense for your organization.
 
 Then, talk to other stakeholders and agree on naming conventions.
 
-It’s nice for everyone to say “yes we will do it like this” but even better to bake naming convention validation directly into the code. This will prevent new folks from firing poorly named events and polluting downstream data science efforts. Think of this as “linting” for analytics.
+It’s nice for everyone to say “yes we will do it like this” but even better to bake naming convention validation [directly into the code](https://getanalytics.io/plugins/event-validation/). This will prevent new folks from firing poorly named events and polluting downstream data science efforts. Think of this as "linting" for analytics.
 
 Making it impossible for bad data to get through will make everyone’s life easier as they are trying to do things with it down the line.
 
@@ -140,25 +146,73 @@ I'd recommend using standard libraries across your organization & leveraging som
 
 The [analytics library](https://getanalytics.io/) makes validation easy via its plugin middleware architecture.
 
-Every page view, custom event, and identify call passed through a middelware chain that allows for adding safe guards to events flowing into third party tools.
+Every page view, custom event, and identify call is passed through a middleware chain that allows for adding safe guards to ensure data flowing into third party tools is clean.
 
-For example, every `tracking` call flows through a lifecycle that can ensure only clean data is passed on to third party tools. When application code calls `analytics.track()` the data flows through the middleware chain and if events are invalid, you can automatically format them to meet standards or warn the developer to conform to the conventions.
+When application code calls `analytics.track()` the data flows through the middleware chain and if events are invalid, you can automatically format them to meet standards or warn the developer to conform to the conventions.
+
+**Tracking events flow through this chain**
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/blog/analytics-track-lifecycle.png" />
 
-### An example
+Flip on [debug](https://getanalytics.io/debugging/) mode and you can watch as events flow through as you navigate your application.
 
-And this would be an example implementation of a plugin that validates all eventNames before passing them down the chain to go into `google-analytics`, `customerio`, or whatever other third party tracking solution your company uses.
+## Using analytics plugin
+
+Adding validation checks everywhere you track events can be a **large** task. That's one of the reasons why the analytics library is a nice abstraction layer to help do this in a single spot.
+
+Instead of going into 20 different files and adding `if/else` statements, we can simply add the [events validation plugin](https://getanalytics.io/plugins/event-validation/).
+
+The naming convention described in this post is codified in the plugin and will `noOp` any malformed events.
+
+```js
+import Analytics from 'analytics'
+import eventValidation from 'analytics-plugin-event-validation'
+import customerIOPlugin from 'analytics-plugin-customerio'
+
+const analytics = Analytics({
+  app: 'awesome-sauce',
+  plugins: [
+    eventValidation({
+      /* Context of where events are coming from */
+      context: 'app',
+      /* Allowed objects */
+      objects: [
+        'sites', // example app:sites_cdConfigured
+        'user',  // example app:user_signup
+        'widget' // example app:widget_created
+      ],
+      /* throw on validation errors if using in only dev env */
+      // throwOnError: true
+    }),
+    customerIOPlugin({
+      siteId: '123-xyz'
+    }),
+  ]
+})
+
+// Event names must now conform to this format:
+analytics.track('app:sites_whatever')
+analytics.track('app:user_action')
+analytics.track('app:widget_deleted')
+```
+
+## Bring your own convention
+
+If you aren't a fan of the proposed event syntax `content:object_action`, you can roll your own analytics plugin and bring your own validation logic.
+
+Here is an example:
 
 ```js
 import Analytics from 'analytics'
 import googleAnalytics from 'analytics-plugin-ga'
 
+/* Bring your own plugins */
 const customValidationPlugin = {
   NAMESPACE: 'company-xyz-event-validation',
   trackStart: ({ payload, abort }) => {
-    if (!isEventValid(payload.event)) {
-      // Abort the call or throw error in dev mode
+    /* Your custom event validation logic */
+    if (!payload.event.match(/^foo/)) {
+      /* Abort the call or throw error in dev mode */
       return abort('Event name does not meet validation requirements')
     }
   }
@@ -167,6 +221,7 @@ const customValidationPlugin = {
 const analytics = Analytics({
   app: 'app-name',
   plugins: [
+    // Attach custom validation plugin
     customValidationPlugin,
     googleAnalytics({
       trackingId: 'UA-121991123',
@@ -175,14 +230,16 @@ const analytics = Analytics({
 })
 
 // valid event
-analytics.track('app:user_didStuff')
+analytics.track('foo button clicked')
 
 // invalid event
 analytics.track('blahblah bad event name')
 // ^ no ops or throws depending on your validation logic in `trackStart`
 ```
 
-## Research
+For more on writing custom plugins see the [docs](https://getanalytics.io/plugins/writing-plugins/)
+
+## Research & links
 
 There are tons of great resources out there to learn more about advanced analytics.
 
