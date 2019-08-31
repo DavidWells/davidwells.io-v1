@@ -51,7 +51,7 @@
     "eslint-plugin-react": "^7.5.1",
     "gatsby": "^2.7.5",
     "gatsby-plugin-catch-links": "^2.0.15",
-    "gatsby-plugin-feed": "^2.2.1",
+    "gatsby-plugin-feed": "2.2.1",
     "gatsby-plugin-google-analytics": "^2.0.20",
     "gatsby-plugin-offline": "^2.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
