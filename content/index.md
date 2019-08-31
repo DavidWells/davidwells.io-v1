@@ -19,6 +19,6 @@ Today, I focus on **serverless cloud architecture**, **user experience**, and **
 * See some of my [**projects**](/work)
 * Watch some [**tech talks**](/talks)
 * Read the [**blog**](/blog)
-* Checkout the <a href="https://davidwells.io/resume"><strong>CV</strong></a>
+* Checkout the <a href="https://davidwells.io/resume" target="_blank"><strong>CV</strong></a>
 
 Have a question or need help on a project? [**Lets talk**](/contact)
