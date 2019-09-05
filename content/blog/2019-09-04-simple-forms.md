@@ -39,23 +39,42 @@ HTML forms have existed since the dawn on the web. Those input nodes are battle 
 
 Using native [form event listeners](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event) work great to solve this problem but the developer ergonomics around the DOM APIs and grabbing values from different types of inputs is the tricky bit.
 
-```js
-/* Get form selector */
-const form = document.querySelector('form[id=baz]')
+```html
+<html>
+  <body>
+    <!-- The awesome app form -->
+    <form id="baz" action="/" method="POST">
+      <label>
+        <span>Email address</span>
+        <input name="email"type="email" required />
+      </label>
 
-/* Make awesome app logic function */
-function doStuff(event) {
-  // 1. Get event.target
-  // 2. Loop over DOM nodes
-  // 3. Get current node values
-  // 4. Do app logic
-}
+      <button type="submit" name="submit" class="button">
+        Submit Form
+      </button>
+    </form>
 
-// Attach the listener
-form.addEventListener('submit', doStuff, false)
+    <!-- The codez -->
+    <script>
+    /* Get form selector */
+    const form = document.querySelector('form[id=baz]')
 
-// Remember to remove listener
-form.removeEventListener('submit', doStuff, false)
+    /* Make awesome app logic function */
+    function doStuff(event) {
+      // 1. Get event.target
+      // 2. Loop over DOM nodes
+      // 3. Get current node values
+      // 4. Do app logic
+    }
+
+    // Attach the listener
+    form.addEventListener('submit', doStuff, false)
+
+    // Lastly Remember to remove listener if in SPA
+    form.removeEventListener('submit', doStuff, false)
+    </script>
+  </body>
+</html>
 ```
 
 The code above isn't too bad but it can be quite cumbersome to loop over form inputs and grab values from different types of form elements.
@@ -71,25 +90,37 @@ There are two approaches to solving this.
 The first is using [get-form-data](https://github.com/insin/get-form-data), it's very tiny and let's you grab all values from a valid form element.
 
 ```js
-const form = document.querySelector('#productForm')
+const form = document.querySelector('form[id=baz]')
 
-const data = getFormData(form)
-console.log(JSON.stringify(data))
+/* Make awesome app logic function */
+function doStuff(event) {
+  const data = getFormData(form)
+  console.log(JSON.stringify(data))
+  // Do stuff with the form data
+}
+
+// Attach the listener
+form.addEventListener('submit', doStuff, false)
 ```
 
 It's super simple and works well in [react](https://github.com/insin/react-auto-form).
 
 ### 2. Using analytics-util-forms
 
-The second, is the [form utilities lib](https://github.com/DavidWells/analytics/tree/master/packages/analytics-util-forms). Form utilities is a tiny lib (2.6kB) for reading values from valid HTML forms. I created this form-utils library was created for use in some upcoming [**analytics plugins**](https://getanalytics.io/plugins).
+The second, is the [form utilities library](https://github.com/DavidWells/analytics/tree/master/packages/analytics-util-forms). This takes things 1 step further and will attach the event listeners to one or more forms for you.
+
+Form utilities is a tiny lib (2.6kB) for reading values from valid HTML forms. I created this form-utils library was created for use in some upcoming [**analytics plugins**](https://getanalytics.io/plugins).
 
 [Form utilities lib](https://www.npmjs.com/package/analytics-util-forms) exposes these methods `onSubmit`, `onChange`, & `listen`.
 
-Checkout the example HTML for more on how to use.
+You can listen to individual input changes, or full on "user clicked the submit button" events.
+
+Checkout the example HTML for more on how to use:
 
 - [Example HTML one](https://github.com/DavidWells/analytics/blob/master/packages/analytics-util-forms/examples/all-forms.html)
 - [Example HTML two](https://github.com/DavidWells/analytics/blob/master/packages/analytics-util-forms/examples/single.html)
 
+And read on to see the API.
 
 ### Listening to form submissions with form-utils
 
