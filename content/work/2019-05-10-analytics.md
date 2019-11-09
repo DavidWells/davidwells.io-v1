@@ -22,12 +22,14 @@ See the [API docs](https://getanalytics.io/api/) for everything it can do 🌈
 npm install analytics
 ```
 
+![how analytics works](https://user-images.githubusercontent.com/532272/68093602-42036880-fe4c-11e9-8bb9-008045da8a32.gif)
+
 Example usage:
 
 ```js
 import Analytics from 'analytics'
-import googleAnalyticsPlugin from 'analytics-plugin-ga'
-import customerIOPlugin from 'analytics-plugin-customerio'
+import googleAnalyticsPlugin from '@analytics/google-analytics'
+import customerIOPlugin from '@analytics/customerio'
 
 /* Initialize analytics */
 const analytics = Analytics({
