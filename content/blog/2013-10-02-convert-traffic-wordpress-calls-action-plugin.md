@@ -4,8 +4,6 @@ author: David Wells
 date: 2013-10-02 12:00
 layout: post
 category: "Marketing"
-
-  - wordpress
 ---
 
 We, [Inbound Now](https://inboundnow.com) are excited and proud to announce our latest **free** WordPress Plugin: [WordPress Calls to Action](http://wordpress.org/plugins/cta/) to help you do just that.
