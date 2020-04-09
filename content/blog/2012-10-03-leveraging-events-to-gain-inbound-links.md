@@ -4,7 +4,6 @@ author: David Wells
 date: 2012-10-03 12:00
 layout: post
 category: "Marketing"
-
 tags:
   - video
   - inbound now

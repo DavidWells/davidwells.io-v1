@@ -4,7 +4,6 @@ author: David Wells
 date: 2013-01-14 12:00
 layout: post
 category: "Marketing"
-# - wordpress
 canonicalUrl: https://www.inboundnow.com/introducing-the-free-wordpress-landing-page-plugin-framework/
 ---
 

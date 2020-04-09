@@ -4,7 +4,6 @@ author: David Wells
 date: 2013-02-11 12:00
 layout: post
 category: "Marketing"
-  - code
 tags:
   - wordpress
 ---
