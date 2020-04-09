@@ -4,11 +4,11 @@ author: David Wells
 date: 2019-08-05
 layout: post
 category: snippets
-tags:
-  - git
-  - github
-  - ci
- 	- devops
+#tags:
+#  - git
+#  - github
+#  - ci
+#  - devops
 ---
 
 
