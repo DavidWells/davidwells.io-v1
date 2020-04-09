@@ -1,5 +1,5 @@
 ---
-title: 'SEO: 5 Tips For Maximizing A Non-Profit&#039;s Website'
+title: "SEO: 5 Tips For Maximizing a Non-Profit's Website"
 author: David Wells
 date: 2010-04-16 08:00:07
 layout: post
@@ -8,8 +8,9 @@ permalink: >
 ---
 
 In a world where there are so many sources for information how can a Non-profit stand out from the crowd and get a lot of exposure for their cause with a minimum amount of effort? By using something you've probably heard about - search engine optimization [<strong>SEO</strong>]. Don't worry, SEO is not rocket science, it's pretty much common sense,<a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/04/nonprofit-seo1.png"><img class="alignright size-medium wp-image-1582" title="nonprofit-seo" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/04/nonprofit-seo-300x219.png" alt="" width="210" height="153" /></a> and it can be easily implemented on a website. If you have a site already then you can use these tips to make some alterations that can significantly change how your pages are assessed by the search engines, so that your key pages [the one's that will bring in the contributions/donations/volunteers etc.] show up high on their listings. Sounds good, doesn't it?
-<!--more-->
+
 <strong>Okay, here we go:</strong>
+
 <h5>1. <strong>Theme your website.</strong></h5>
 This might sound obvious but step back and think big picture: By breaking down your main theme into smaller themes, or categories, you not only make it easy for visitors to find information but search engines can easily work out what your site is about, which is always a good thing. So, if your cause is a dog rescue, the categories could be the process of a rescue, the dogs available for rescue, donations and education. Now break down each category into at least five chunks, with each chunk being a page on your site. The theme is strengthened by creating links between each of the pages in a category because links are really important to search engines. Tip number two explains why.
 <h3>2. Use links the smart way.</h3>

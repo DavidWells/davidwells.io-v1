@@ -11,7 +11,7 @@ Here at Socialize Your Cause, we are trying to ramp up our online video game. In
 We were fortunate enough to grab an interview with Shama Kabani Author of the <a href="http://zenofsocialmedia.com/">Zen of Social Media Marketing</a> before she took off for a conference in Europe!
 
 We talk about different ways for NPOs to break into social media who are just starting out, how social media isn't a cure all for all of your marketing needs but a piece of the overall puzzle, the importance of having a decent looking website for building trust with donors, using social media to really tell your organization's story, her take on the facebook open graph announcement and much, much more!
-<!--more-->
+
 <object width="540" height="304" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://vimeo.com/moogaloop.swf?clip_id=11387420&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed width="540" height="304" type="application/x-shockwave-flash" src="http://vimeo.com/moogaloop.swf?clip_id=11387420&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" allowfullscreen="true" allowscriptaccess="always" /></object>
 
 <a href="http://vimeo.com/11387420">Socialize Your Cause - Expert Interview Series with Shama Kabani</a> from <a href="http://vimeo.com/socializedcause">Socialize Your Cause</a> on <a href="http://vimeo.com">Vimeo</a>.

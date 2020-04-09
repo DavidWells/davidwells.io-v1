@@ -11,7 +11,7 @@ permalink: >
 Having a customized HTML signature is pretty easy to do nowadays. Having a fancier email signature will enable you to grab people's attention and point them in the direction of your social media outlets.
 
 For people that have no HTML skills, use <a href="http://www.wisestamp.com/">WiseStamp</a>. It allows you to automatically embed a right HTML signature into your email signature.
-<!--more-->
+
 Here are <a href="http://wisestamp.com/goodies/category/signature-examples/">some examples</a> of what you can muster up with WiseStamp.
 
 <h3>2. Adding a PayPal button to your email</h3>
@@ -30,7 +30,7 @@ Adding in social media profiles is the first step. The next is adding in viral R
 This will allow you to add messaging to a link so when people click it they are taken to twitter. When they log in, your message is automatically in the status update box for them to easily share.
 
 Here is an example made from the Link maker.<strong> <a href="http://tinyurl.com/yhkdaxe">"Tell your Tweeps about us!"</a></strong>
-<p style="text-align: center;"><a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/03/zeek.png"><img class="aligncenter size-full wp-image-912" title="zeek" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/03/zeek.png" alt="" width="520" height="395" /></a></p>
+<p><a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/03/zeek.png"><img class="aligncenter size-full wp-image-912" title="zeek" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/03/zeek.png" alt="" width="520" height="395" /></a></p>
 
 <h3>7. Addding events in the right syntax</h3>
 Many email service providers also serve as calendars to their users (Gmail for instance). By adding your events in the text in the correct way Gmail will automatically detect this event and add a button for the recipient to quickly add it to their calender. This just makes it easier for people to add your events to their calendar and actually remember things!

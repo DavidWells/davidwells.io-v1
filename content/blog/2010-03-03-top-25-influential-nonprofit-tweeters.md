@@ -9,7 +9,7 @@ permalink: >
 Whether you are new to twitter or consider yourself a seasoned veteran, it's always nice to have a role model. Below is a list of the most influential charity &amp; non-profit tweeters. A lot can be learned from looking at successful twitter accounts and it can be a great way to model how you and your organization should be using Twitter to spread your cause.
 
 Not only is this list a great place to start but it's also a chalk full of influencer's that you should be reaching out to and building relationships with. Starting from scratch with zero followers can be  discouraging to a lot of organizations trying to break into social media. By building relationships with people that have been in the space much longer than you, you get the opportunity for them to RT your messages to their follower base. Giving your message the reach it deserves.
-<!--more-->
+
 <h5><span style="text-decoration: underline;">A Word To the Wise</span></h5>
 <strong>Remember Social media is a give to get ecosystem</strong>. Don't ask for anything from these people (or any other for that matter) without first establishing a relationship and/or providing some value to them in the first place.
 

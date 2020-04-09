@@ -11,7 +11,7 @@ A picture is worth a thousand words, right? Which is why we think having powerfu
 Finding really great images is hard though. So, we though we would share some of our favorite places we source images from.
 
 With multiple team members, working on different computers, grabbing and sorting images, movies, and other multimedia can be a trying task. But, there are new tools (see: Zootool) available for free that allow you to easily bookmark, tag, store and share multimedia content. By using these tools and keeping good track on all sourced content, it will make it easier to give proper attribution when it’s time to use the content.
-<!--more-->
+
 <h3><a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/04/kitty1.png"><img class="alignright size-medium wp-image-1682" title="kitty" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/04/kitty-206x300.png" alt="" width="206" height="300" /></a><span style="text-decoration: underline;">14 Places to find photos</span></h3>
 <ul>
 	<li><a href="http://www.photobucket.com"><strong>Photobucket.com</strong></a></li>

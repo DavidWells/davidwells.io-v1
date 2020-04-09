@@ -16,7 +16,7 @@ Likewise, if there’s something happening in the economy that may be causing to
 With so many charities out there looking for support, supporters (and potential supporters) want assurances that their support is going in the right direction, that it’s being used for the right purposes and that they are being told everything they need to know to make an informed decision about supporting.
 
 Gone are the days when some charities could get away with fudging the truth, giving scant answers to the (hard) questions; and about time too, as it’s meant many of the cowboy groups have either had to change their ways or have ‘given up’.
-<!--more-->
+
 Often the more questions someone asks about why they should support, the more sincere they are in looking at supporting; these people often don’t just ask questions for the sake of it. They want to make sure their support is going to the right cause, to something they want to be associated with.
 
 <strong>Organisations that show, without prompting, how resources they receive are used are likely to have a greater respect and quite likely a higher, stronger and more solid band of supporters.</strong>

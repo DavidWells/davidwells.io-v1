@@ -14,7 +14,7 @@ RSS in it's early days, started out as a tool for people to use to be notified
 
 With an RSS reader you centralize all our your content for consumption in one place and can scroll through a number of different sites without having to wait for them to load or seeing the old stuff that you may have already read. Within the RSS reader you can categorize the different types of content you consume into folders and subfolders.
 
-<!--more-->
+
 The idea is, once everything is set up, that you will be able to read and consume more in a shorter period of time. Yay! Thanks, RSS.
 
 <a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/02/How-rss-works.gif"><img class="aligncenter size-full wp-image-460" title="How rss works" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/02/How-rss-works.gif" alt="" width="500" height="610" /></a>

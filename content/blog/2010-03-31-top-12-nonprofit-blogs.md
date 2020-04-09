@@ -12,7 +12,7 @@ There are a lot of blogs out there that deal with social media and digital marke
 We, here at Socialize Your Cause, have compiled a list of our favorite non-profit and social media blogs that you should be keeping tabs on if you are serious about using social media to further your cause.
 
 The blogs listed below are in no particular order. They are all amazing sites that help us out on a daily basis for what we do here at Socialize Your Cause, and we felt like sharing them with the world would be <strong>good karma</strong>! We also hope that the list will only<strong> <span style="font-weight: normal;">further the education needed for non-profit organizations dabbling in these new digital and social marketing mediums.</span></strong>
-<!--more-->
+
 We have added these blogs into an <a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/google-reader-subscriptions.xml">OPML file for you to download</a> and easily import into your Google Reader to keep up to date with their latest posts.
 
 <strong>Instructions on how to import these blogs into your </strong><a href="http://www.google.com/reader/"><strong>Google Reader</strong></a><strong> are below.</strong>

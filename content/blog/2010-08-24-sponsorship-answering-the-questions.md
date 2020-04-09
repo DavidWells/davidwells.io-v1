@@ -24,10 +24,10 @@ Before you embark on seeking sponsorship it’s a good idea do a stock take; che
 	<li>Where are the people you help? Where do they live, work and play?</li>
 	<li>Are the people you work with single, married, young, old, families?</li>
 	<li>What corporate sponsors have you worked with, had before?</li>
-	<li>What income generating ideas have you used in the past, how were these realised and what were the benefits to your organisation? Can any of these be used to help promote your sponsors?</li>
+	<li>What income generating ideas have you used in the past, how were these realized and what were the benefits to your organization? Can any of these be used to help promote your sponsors?</li>
 	<li>Do you have testimonials from corporate sponsors attesting to the value of your organization?</li>
-	<li>What is your marketing/communication process like; do you have methods to keep in touch with those your organisation works with as well as with supporters? If so what do you use? (e.g. newsletters, emails etc)</li>
-	<li>Are you monitoring what other organisations offering the same or similar services as you getting in the way of sponsorship?</li>
+	<li>What is your marketing/communication process like; do you have methods to keep in touch with those your organization works with as well as with supporters? If so what do you use? (e.g. newsletters, emails etc)</li>
+	<li>Are you monitoring what other organizations offering the same or similar services as you getting in the way of sponsorship?</li>
 	<li>Do you promote, talk about your sponsors? If so how? If not how will you change this to ensure your sponsors are acknowledging them for their support?</li>
 	<li>What marketing materials do you use, and will you make an effort to feature your sponsors in all marketing and communications processes?</li>
 	<li>Do you talk to the media about your sponsors?</li>

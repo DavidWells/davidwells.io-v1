@@ -11,7 +11,7 @@ Having a Blog is essential to any social media strategy. Your Blog is your home 
 <img class="alignright" style="display: inline; margin-left: 0px; margin-right: 0px;" title="wordpress icon_full" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2010/02/wordpress-icon_full.png" alt="wordpress icon full Wordpress Themes" width="252" height="225" align="right" />But which blogging platform is right for you? Blogger, tumblr, Vox, Posterous, Wordpress.com? Nay! It’s having a <strong>self hosted Wordpress site</strong>.
 
 The self hosted Wordpress site trumps them all. Guess what this site is? Self Hosted Wordpress!, Good guess =)
-<!--more-->
+
 Having a self hosting Wordpress site gives you the ability to customize the front in while giving you an extremely powerful and user friendly backend to add in your content. If you can write in a word document you can use a self hosted wordpress blog.
 
 One cool thing about wordpress is that it gives you the ability to apply already existing themes to your site to give it an exetremly professional and polished look. We have taken the liberty of amassing a MASSIVE list of great looking wordpress themes for you to choose from:
