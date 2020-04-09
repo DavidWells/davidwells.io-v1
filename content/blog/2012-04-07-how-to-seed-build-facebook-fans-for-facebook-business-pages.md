@@ -16,16 +16,16 @@ I've grown a number of facebook fan pages and I'm going to give you a quick tip 
 
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">Necessary Ingredients</h2>
+<h2>Necessary Ingredients</h2>
 To quickly seed fan page growth you will need the following:
 <ol>
-	<li><a href="http://www.mozilla.org/en-US/firefox/fx/" target="_blank">Firefox</a></li>
-	<li>The <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/" target="_blank">Greasemonkey extension for Firefox</a></li>
+	<li><a href="http://www.mozilla.org/en-US/firefox/fx/">Firefox</a></li>
+	<li>The <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Greasemonkey extension for Firefox</a></li>
 	<li>Friends, coworkers, and family. (You have some combination of these hopefully.)</li>
 </ol>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">Step 1 - Install Greasemonkey for Firefox</h2>
+<h2>Step 1 - Install Greasemonkey for Firefox</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/Step_1_-_Install_Greasemonkey_for_Firefox.png"/></div>
 <div class="StepInstructions">
 
@@ -40,7 +40,7 @@ The Facebook: InviteThemAll script works like a charm, I've tested and used it h
 </div>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">Step 2 - Install Facebook Invite Them All</h2>
+<h2>Step 2 - Install Facebook Invite Them All</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/Step_2_-_Install_Facebook_Invite_Them_All.png"/></div>
 <div class="StepInstructions">
 
@@ -53,7 +53,7 @@ This is helpful for sanity's sake and to <strong>actually get your coworkers to 
 </div>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">Step 3 - Invite Your Companies Collective Network</h2>
+<h2>Step 3 - Invite Your Companies Collective Network</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/Step_3_-_Invite_Your_Companies_Collective_Network.png"/></div>
 <div class="StepInstructions">
 
@@ -62,7 +62,7 @@ After you have installed greasemonkey and the Facebook Invite them all script in
 </div>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">a. Select Your Entire Network</h2>
+<h2>a. Select Your Entire Network</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/a._Select_Your_Entire_Network.png"/></div>
 <div class="StepInstructions">
 
@@ -73,7 +73,7 @@ This will allow you to see your entire network
 </div>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">b. Use the added greasemonkey functionality to select all friends with one click</h2>
+<h2>b. Use the added greasemonkey functionality to select all friends with one click</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/b._Use_the_added_greasemonkey_functionality_to_select_all_friends_with_one_click.png"/></div>
 <div class="StepInstructions">
 
@@ -84,7 +84,7 @@ Click select on the new select all bar, wait for it to do it's magic. It might t
 </div>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">c. If asked, continue the script.</h2>
+<h2>c. If asked, continue the script.</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/c._If_asked__continue_the_script..png"/></div>
 <div class="StepInstructions">
 
@@ -93,7 +93,7 @@ Click continue and let the script finish
 </div>
 </div>
 <div class="LessonStep top">
-<h2 class="StepTitle">d. Click Submit and Invite your Network to join the conversation on your fan page</h2>
+<h2>d. Click Submit and Invite your Network to join the conversation on your fan page</h2>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/04/d._Click_Submit_and_Invite_your_Network_to_join_the_conversation_on_your_fan_page.png"/></div>
 <div class="StepInstructions">
 

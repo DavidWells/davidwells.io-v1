@@ -3,6 +3,7 @@ title: How to Detect Specific Versions of Internet Explorer in PHP and Show Diff
 author: David Wells
 date: 2012-05-26 02:01:33
 layout: post
+category: dev
 permalink: >
   http://davidwells.io/how-to-detect-specific-versions-of-internet-explorer-in-php-and-show-different-fallback-content/
 ---

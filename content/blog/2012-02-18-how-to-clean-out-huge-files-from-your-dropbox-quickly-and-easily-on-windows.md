@@ -22,7 +22,7 @@ I will show you in 3 quick steps how to scan your drives, find the big ass files
 
 </div>
 <div class="LessonStep top">
-<h3 class="StepTitle">1. Scan Your Drives</h3>
+<h3>1. Scan Your Drives</h3>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/02/scan-directories-for-size.png"/></div>
 <div class="StepInstructions">
 
@@ -31,7 +31,7 @@ Select which drives you want to scan.
 </div>
 </div>
 <div class="LessonStep top">
-<h3 class="StepTitle">2. Visualize the size of Folders &amp; Files</h3>
+<h3>2. Visualize the size of Folders &amp; Files</h3>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/02/Visualize-the-size-of-Folders-Files.png"/></div>
 <div class="StepInstructions">
 
@@ -40,7 +40,7 @@ The cool thing about WinDirStat is it will order the sub folders in your dropbox
 </div>
 </div>
 <div class="LessonStep top">
-<h3 class="StepTitle">3. Delete</h3>
+<h3>3. Delete</h3>
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/02/delete-dropbox-files-quickly.png"/></div>
 <div class="StepInstructions">
 

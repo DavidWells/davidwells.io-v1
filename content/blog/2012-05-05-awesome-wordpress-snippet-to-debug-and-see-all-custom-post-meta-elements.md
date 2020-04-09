@@ -36,7 +36,7 @@ Place it in the single.php or custom page template loop and you can echo out all
 ```
 
 
-<p style="text-align: center;"><a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/05/all-variables.png"><img class=" wp-image-4316 aligncenter" title="all variables" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/05/all-variables-1024x768.png" alt="" width="614" height="461" /></a></p>
+<p><a href="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/05/all-variables.png"><img class=" wp-image-4316 aligncenter" title="all variables" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/05/all-variables-1024x768.png" alt="" width="614" height="461" /></a></p>
 I highly recommend saving it.
 
 Once you echo out all of your custom post meta you can set up conditional logic like:
