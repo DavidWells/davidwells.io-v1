@@ -20,7 +20,7 @@ If you run local events and are not implementing the strategies that Kane lays
 
 If you aren't running local events/meetups, Kane will tell you how you can and why you should.
 
-<iframe src="http://www.youtube.com/embed/WVKOgvj1ZDo?list=UUCqiE-EcfDjaKGXSxtegcyg&amp;hl=en_US" width="720" height="338" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/WVKOgvj1ZDo?list=UUCqiE-EcfDjaKGXSxtegcyg&amp;hl=en_US" width="720" height="338" frameborder="0"></iframe>
 
 ## [Subscribe to the Show](http://inboundnow.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
 

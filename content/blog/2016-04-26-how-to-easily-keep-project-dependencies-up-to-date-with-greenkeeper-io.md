@@ -24,7 +24,7 @@ Keeping these modules up to date can be a challenge...
 
 One way to curb the dependency blues is an awesome service call [greenkeeper.io](https://greenkeeper.io/).
 
-http://www.youtube.com/watch?v=COKpAj2sRs4
+https://www.youtube.com/watch?v=COKpAj2sRs4
 
 Greenkeeper will automatically track your project's dependencies and automatically submit pull requests to update anything that is outdated!
 

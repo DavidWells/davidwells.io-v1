@@ -19,7 +19,7 @@ Ricardo works for [Diverse Solutions](http://www.diversesolutions.com). He is an
 * How to Listen and be helpful in social media
 * Tips for writing killer headlines
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/G5Z9Mit5UTc" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/G5Z9Mit5UTc" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

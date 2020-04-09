@@ -18,7 +18,7 @@ If you'd like to get involved and do some interviews with some marketing legen
 
 This episodes guest if Rob Fugetta, author of _Brand Advocates: Turning Enthusiastic Customers into a Powerful Marketing Force._
 
-<iframe src="http://www.youtube.com/embed/OdxN8cCulcs" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/OdxN8cCulcs" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ### Transcript:
 

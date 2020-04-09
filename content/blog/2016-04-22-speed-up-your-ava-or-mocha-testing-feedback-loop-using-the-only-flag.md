@@ -46,7 +46,7 @@ test.only('shows content on mouseEnter', (t) => {
 })
 ```
 
-http://www.youtube.com/watch?v=tAymDbi7HSw
+https://www.youtube.com/watch?v=tAymDbi7HSw
 
 [Information on how to using .only with mocha](http://jaketrent.com/post/run-single-mocha-test/)
 

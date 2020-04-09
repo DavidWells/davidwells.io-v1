@@ -17,7 +17,7 @@ Navigating to a github repository to submit a pull request or check on a project
 
 # Introducing git open
 
-http://www.youtube.com/watch?v=G_SmisZxh4w
+https://www.youtube.com/watch?v=G_SmisZxh4w
 
 With [git open](https://github.com/paulirish/git-open) you can jump directly to the repo you are working on in your browser.
 

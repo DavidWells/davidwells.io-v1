@@ -19,7 +19,7 @@ I try my hardest to keep the show and this blog as practical as possible. Givin
 
 Without further ado, enjoy the show:  
 
-<iframe src="http://www.youtube.com/embed/RgtWNDcIhRI?list=UUCqiE-EcfDjaKGXSxtegcyg&amp;hl=en_US" width="720" height="338" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/RgtWNDcIhRI?list=UUCqiE-EcfDjaKGXSxtegcyg&amp;hl=en_US" width="720" height="338" frameborder="0"></iframe>
 
 ## [Subscribe to the Show](http://inboundly.wpengine.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
 

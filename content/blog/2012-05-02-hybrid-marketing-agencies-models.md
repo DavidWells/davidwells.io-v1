@@ -21,7 +21,7 @@ Paul the founder and CEO of PR 20/20. He started the agency in November 2005 wit
 *   Question to ask a prospective agency when considering outsourcing your marketing efforts
 *   How to Embrace failure and move the needle!
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/-9rg1wdgyrk?wmode=transparent" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/-9rg1wdgyrk?wmode=transparent" frameborder="0" allowfullscreen=""></iframe>
 
 ## RFPs must die
 

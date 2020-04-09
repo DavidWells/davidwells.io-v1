@@ -20,7 +20,7 @@ Not to panic though, you can fix this issue quickly and easily in a couple of st
 <div class="StepImage"> <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2012/03/Step_1_-_Log_into_your_FTP_client_and_delete_the_plugin_file_or_folder_from_your_wp-contentplugins_folder..png"/></div>
 <div class="StepInstructions">
 
-I use <a href="http://filezilla-project.org/">Filezilla</a> as my FTP client to connect to my server. Here is a <a href="http://www.youtube.com/watch?v=80rc8Ky__bs">quick video showing you how to connected to your server to manage your wordpress files </a>
+I use <a href="http://filezilla-project.org/">Filezilla</a> as my FTP client to connect to my server. Here is a <a href="https://www.youtube.com/watch?v=80rc8Ky__bs">quick video showing you how to connected to your server to manage your wordpress files </a>
 
 Once you find and delete the new plugin folder (or file) it will reset the site and automatically deactivate the plugin.
 

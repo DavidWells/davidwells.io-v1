@@ -19,7 +19,7 @@ DJ is the former Director of Community at Blue Sky Factory. He's also worked at 
 * Being and hiring a community manager
 * Project Awesome
 
-<iframe width="720" height="437" src="http://www.youtube.com/embed/wLrdket-42A" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="437" src="https://www.youtube.com/embed/wLrdket-42A" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

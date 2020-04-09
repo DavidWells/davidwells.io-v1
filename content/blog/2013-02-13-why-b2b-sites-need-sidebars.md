@@ -21,7 +21,7 @@ Responsive Design is can be used to do a lot of things but I sincerely believe t
 3.  Pushing CTAs above the content is a bad user experience
 4.  Responsive websites make your visitors re-learn your site layout and typically are done poorly (this is a personal reason).
 
-<iframe src="http://www.youtube.com/embed/zIFLdHbZjhc" width="640" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/zIFLdHbZjhc" width="640" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ### Responsive Design Can Work
 

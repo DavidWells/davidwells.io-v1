@@ -11,7 +11,7 @@ tags:
 
 Phil Simon returns to share insights from his new book the Age of the Platform!
 
-<iframe src="http://www.youtube.com/embed/gPbSMPSK_bY?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/gPbSMPSK_bY?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 **Full recap post here:**
 

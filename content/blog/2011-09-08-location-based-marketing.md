@@ -11,7 +11,7 @@ tags:
 
 Aaron Strout joins us for episode 35 of inbound now to discuss how to leverage geo aware services for marketing campaigns.
 
-<iframe width="600" height="335" src="http://www.youtube.com/embed/JFiPqVM4wsE" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="600" height="335" src="https://www.youtube.com/embed/JFiPqVM4wsE" frameborder="0" allowfullscreen=""></iframe>
 
 ## Show Notes
 

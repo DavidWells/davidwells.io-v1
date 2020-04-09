@@ -15,7 +15,7 @@ In episode 33, we explore how we can use advanced Google search queries to ident
 
 Well, for starters, its an additional source of traffic. It's also a way great way to increase the number of inbound links pointing to your domain.
 
-<iframe width="720" height="345" src="http://www.youtube.com/embed/VDPFl2Wpk3g" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="345" src="https://www.youtube.com/embed/VDPFl2Wpk3g" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

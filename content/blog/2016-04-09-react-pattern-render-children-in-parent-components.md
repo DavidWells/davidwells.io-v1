@@ -17,7 +17,7 @@ The child component manages it's state and passes that back up to the parent via
 
 # whatchu talkin bout willis? Watch this
 
-http://www.youtube.com/watch?v=sVHYWZoQ6g8
+https://www.youtube.com/watch?v=sVHYWZoQ6g8
 
 This pattern comes with pros and cons.
 

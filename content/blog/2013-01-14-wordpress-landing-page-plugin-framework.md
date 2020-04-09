@@ -17,7 +17,7 @@ The landing page plugin was specifically designed with inbound marketing best pr
 
 Landing pages are an ideal way to convert more of your passive website visitors into active leads or list subscribers.
 
-<iframe src="http://www.youtube.com/embed/BzcD6PgvLP4" width="640" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/BzcD6PgvLP4" width="640" height="480" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## What does the plugin do?
 
@@ -31,15 +31,15 @@ Landing pages are an ideal way to convert more of your passive website visitors 
 
 ### Create beautiful Landing Pages on your WordPress site.
 
-<img src="http://inboundly.com/wp-content/uploads/2013/01/Create_beautiful_Landing_Pages_on_your_WordPress_site.png"/>### Track conversion rates on your landing pages for continual optimization.
+<img src="http://inboundnow.com/wp-content/uploads/2013/01/Create_beautiful_Landing_Pages_on_your_WordPress_site.png"/>### Track conversion rates on your landing pages for continual optimization.
 
-<img src="http://inboundly.com/wp-content/uploads/2013/01/Track-conversion-rates-on-your-landing-pages-for-continua.png"/>### Easily clone existing landing pages and run A/B Split tests on variations.
+<img src="http://inboundnow.com/wp-content/uploads/2013/01/Track-conversion-rates-on-your-landing-pages-for-continua.png"/>### Easily clone existing landing pages and run A/B Split tests on variations.
 
-<img src="http://inboundly.com/wp-content/uploads/2013/01/Easily_clone_existing_landing_pages_and_run_AB_Split_test.png"/><img src="http://inboundly.com/wp-content/uploads/2013/01/AB-Split-Testing-in-WordPress.jpg"/>### Use your current WordPress theme or choose from our library of custom landing page designs.
+<img src="http://inboundnow.com/wp-content/uploads/2013/01/Easily_clone_existing_landing_pages_and_run_AB_Split_test.png"/><img src="http://inboundnow.com/wp-content/uploads/2013/01/AB-Split-Testing-in-WordPress.jpg"/>### Use your current WordPress theme or choose from our library of custom landing page designs.
 
-<img src="http://inboundly.com/wp-content/uploads/2013/01/Use_your_current_WordPress_theme_or_choose_from_our_libra.png"/>### Extend functionality with our growing repository of third party add ons.
+<img src="http://inboundnow.com/wp-content/uploads/2013/01/Use_your_current_WordPress_theme_or_choose_from_our_libra.png"/>### Extend functionality with our growing repository of third party add ons.
 
-<img src="http://inboundly.com/wp-content/uploads/2013/01/Extend_functionality_with_our_growing_repository_of_third.png"/>### Easily implement your own custom landing page design.
+<img src="http://inboundnow.com/wp-content/uploads/2013/01/Extend_functionality_with_our_growing_repository_of_third.png"/>### Easily implement your own custom landing page design.
 
 We have made it very easy for you to [create your own landing page templates](http://plugins.inboundnow.com/docs/dev/creating-templates/) with our framework.
 

@@ -25,7 +25,7 @@ He is a super-smart marketer and I'm glad I could get him on to chat about his v
 *   What Closed-loop marketing means and how you can use it
 *   Social media Stock Market Advice. (don't buy it)
 
-<iframe src="http://www.youtube.com/embed/57bNfoS3r4M?wmode=transparent" frameborder="0" width="720" height="335"></iframe>
+<iframe src="https://www.youtube.com/embed/57bNfoS3r4M?wmode=transparent" frameborder="0" width="720" height="335"></iframe>
 
 [Check out other episodes of the show](https://davidwells.io/tags/inbound-now/)
 

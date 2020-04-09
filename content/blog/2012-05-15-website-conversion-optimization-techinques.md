@@ -23,7 +23,7 @@ He blends together psychological principles, copywriting skills and marketing 
 *   How a Feature Box can grow your mailing list
 *   Critical Pages to Optimize for Conversions
 
-<iframe src="http://www.youtube.com/embed/qCsjgjmpUfo?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/qCsjgjmpUfo?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Be methodological in your website testing
 

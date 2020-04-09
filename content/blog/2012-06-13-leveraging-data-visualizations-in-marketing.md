@@ -21,7 +21,7 @@ I managed to grab a little bit of his time last week to dive into the world of 
 
 We chat specifically about how marketers/business owners can leverage the advanced pieces of content to drive more traffic and gain tons of inbound links. Enjoy the show!  
 
-<iframe src="http://www.youtube.com/embed/osxUtjd82gY?wmode=transparent" width="600" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/osxUtjd82gY?wmode=transparent" width="600" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## If you enjoyed the show, [Subscribe!](http://inboundly.wpengine.com/subscribe/)
 

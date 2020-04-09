@@ -13,4 +13,4 @@ In episode 34, we talk about how to use Twitter to find relevant Business conve
 
 We cover a bunch of the features of advanced Twitter search and how you can exclude the noise for different queries.
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/Actu6y_dUQY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/Actu6y_dUQY" frameborder="0" allowfullscreen=""></iframe>

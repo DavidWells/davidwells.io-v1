@@ -26,7 +26,7 @@ Shama is the author of _[The Zen of Social Media Marketing](http://zenofsocialm
 *   How much time you should spend on Google+
 *   The Google +1 Button
 
-<iframe src="http://www.youtube.com/embed/bbE6oFur-vY" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/bbE6oFur-vY" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

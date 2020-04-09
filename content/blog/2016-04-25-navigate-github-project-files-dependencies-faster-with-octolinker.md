@@ -29,6 +29,6 @@ Let's speed up these common github tasks in 2 steps:
 
 # See for yourself
 
-http://www.youtube.com/watch?v=JNk65tFTVAE
+https://www.youtube.com/watch?v=JNk65tFTVAE
 
 Huge time saver! I love this chrome extension and I think you will too.

@@ -27,7 +27,7 @@ Inlined SVG icon `<use>` tags referencing `<defs>` in an SVG sprite were not app
 
 The `use` references were broken for no apparent reason and all the icons were blank. Wtf internet!
 
-http://www.youtube.com/watch?v=QyL6wjlXO1I
+https://www.youtube.com/watch?v=QyL6wjlXO1I
 
 This was only happening in a couple random places and the culprit was different server configs.
 

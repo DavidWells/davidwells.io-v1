@@ -20,7 +20,7 @@ Michael is the founder of [SocialMediaExaminer.com](http://www.SocialMediaExamin
 * How Your business is like a rocket ship
 * Creating white papers and implementing white paper best practices
 
-<iframe src="http://www.youtube.com/embed/ZsuHJhCtdiM" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/ZsuHJhCtdiM" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

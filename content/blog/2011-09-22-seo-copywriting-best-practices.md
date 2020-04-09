@@ -11,7 +11,7 @@ tags:
 
 Brian Clark join us to share some great copywriting tips for creating content for both humans AND Search engines!
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/Vi6znkdCM3I" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/Vi6znkdCM3I" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript:
 

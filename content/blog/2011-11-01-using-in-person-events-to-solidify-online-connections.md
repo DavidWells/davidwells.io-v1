@@ -23,7 +23,7 @@ Joselin is the author of the upcoming book, _[The Ultimate Guide to Networking 2
 *   Event management systems
 *   5 phases of event planning and promotion with new media
 
-<iframe src="http://www.youtube.com/embed/k68rqMpfyhs" width="720" height="335" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/k68rqMpfyhs" width="720" height="335" frameborder="0"></iframe>
 
 ## **About Joselin's New Book**
 

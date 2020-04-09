@@ -15,7 +15,7 @@ It will allow you to launch static sites & demos to a live web URL in literally 
 
 # See for yourself
 
-http://www.youtube.com/watch?v=LZA8QVLOinE
+https://www.youtube.com/watch?v=LZA8QVLOinE
 
 ----
 

@@ -19,7 +19,7 @@ In this episode, I run through my current setup and how I use twitter on a daily
 
 You can follow along and implement the same strategies to streamline your day to day twitter activities and grow an audience.
 
-<iframe src="http://www.youtube.com/embed/9sw6YoQelU4" width="720" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/9sw6YoQelU4" width="720" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## [Subscribe to the Show](http://inboundnow.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
 

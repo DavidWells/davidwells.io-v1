@@ -25,7 +25,7 @@ John also owns [his own marketing agency](http://www.ducttapemarketing.com/), he
 * Podcasting tips from his years of experience
 * John's number one tip for marketers
 
-<iframe width="720" height="349" frameborder="0" src="http://www.youtube.com/embed/lDcMZKrP238"></iframe>
+<iframe width="720" height="349" frameborder="0" src="https://www.youtube.com/embed/lDcMZKrP238"></iframe>
 
 ## Transcript
 

@@ -20,7 +20,7 @@ Sarah Evans joins the show for episode #27 to chat about:
 
 Sarah, [@PRSarahEvans](http://twitter.com/PRsarahevans) , is the owner of [Sevans Strategy](http://sevansstrategy.com/), She's been mentioned in Forbes magazine as one of the top 14 women to follow on Twitter. She has a great blog over at [PRSarahEvans.com](http://prsarahevans.com/), and she's really the go-to girl in the online PR game.
 
-<iframe src="http://www.youtube.com/embed/wYNogBjDAVA" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/wYNogBjDAVA" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

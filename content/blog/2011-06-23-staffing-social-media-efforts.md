@@ -20,4 +20,4 @@ Jason has been running social media conferences and speaking in the social media
 * Why fan counts and social proofing matter
 * How Social Fresh connects with outside experts and incorporates them into their marketing strategy
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/nnPAqyXYPN4" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/nnPAqyXYPN4" frameborder="0" allowfullscreen=""></iframe>

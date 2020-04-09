@@ -19,6 +19,6 @@ I love the concept of baking in "missing" product features into sites via browse
 
 # Watch it in action
 
-http://www.youtube.com/watch?v=oRbUdq5rSEk
+https://www.youtube.com/watch?v=oRbUdq5rSEk
 
 Enjoy!

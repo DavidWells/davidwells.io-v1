@@ -22,7 +22,7 @@ Dan is the author of _[Me 2.0](http://www.personalbrandingbook.com/)_ and is a 
 * Personal branding myths and mistakes to avoid
 * How Dan got to the point where he essentially owns the first page of Google results for "personal branding"
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/hJxH9ea84gM" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/hJxH9ea84gM" frameborder="0" allowfullscreen=""></iframe>
 
 **David:** Hey, everybody. Welcome to Inbound Now. I'm your host, David Wells. We're joined here with a very special guest, Mr. Dan Schawbel.
 

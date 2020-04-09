@@ -20,7 +20,7 @@ In this episode we chat about:
 *   Does Email Design Matter?
 *   Short vs. Long term future of e-mail marketing
 
-<iframe src="http://www.youtube.com/embed/80v2ay_D6p4" width="720" height="450" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/80v2ay_D6p4" width="720" height="450" frameborder="0"></iframe>
 
 ## Full Transcript
 

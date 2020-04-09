@@ -34,7 +34,7 @@ In this episode, Noah explains how to foster creative growth and how to keep it 
 *   Real tangible things you can do to practice creativity
 *   & How to get outside your head to encourage those "eureka" moments
 
-<iframe src="http://www.youtube.com/embed/u96vhWwRUu4" width="600" height="338" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/u96vhWwRUu4" width="600" height="338" frameborder="0"></iframe>
 
 ## [Subscribe to the Show](http://inboundly.wpengine.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
 

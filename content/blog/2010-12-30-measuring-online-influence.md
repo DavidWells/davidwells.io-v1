@@ -17,7 +17,7 @@ We also dive into
 * **How to grow your online community**
 * **& what to look for in 2011 in regard to influence**
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/RaPfR-KvNd4" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/RaPfR-KvNd4" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript:
 

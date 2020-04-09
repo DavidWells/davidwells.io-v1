@@ -25,7 +25,7 @@ So like any good developer. I rolled my own.
 
 # Easy Markdown WordPress Plugin
 
-http://www.youtube.com/watch?v=dRMow19g0VU
+https://www.youtube.com/watch?v=dRMow19g0VU
 
 [Download Easy Markdown Plugin](https://github.com/davidwells/easy-markdown)
 

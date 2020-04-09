@@ -20,7 +20,7 @@ Jason runs [IWearYourShirt.com](http://www.iwearyourshirt.com/) and specializes 
 *   Tips on Growing a solid social media presence
 *   and 1 of the most important things he wishes he knew when starting a web-based company
 
-<iframe src="http://www.youtube.com/embed/79c0JFhdovQ?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/79c0JFhdovQ?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript:
 
