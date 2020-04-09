@@ -1,5 +1,5 @@
 ---
-title: A JavaScript Community Thank You Letter
+title: JavaScript Community 2016 Thank You Letter
 author: DavidWells
 date: 2016-04-27 09:24:49
 layout: post

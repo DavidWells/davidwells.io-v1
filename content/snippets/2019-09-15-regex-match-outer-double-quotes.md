@@ -79,3 +79,13 @@ str {'lol': 'hey"'there'}
 ```
 
 [Try it yourself](https://regex101.com/r/fpgWmW/1)
+
+
+## Match everying inside outer quotes
+
+```js
+/'[^\\']*(\\'[^\\']*)*'/g
+```
+
+
+https://regex101.com/r/WWrRQF/1

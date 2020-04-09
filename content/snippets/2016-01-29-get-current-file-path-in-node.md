@@ -1,5 +1,5 @@
 ---
-title: Get Current File Path in Node
+title: Get Current File Path in Node.js
 author: David Wells
 date: 2016-01-29
 layout: post

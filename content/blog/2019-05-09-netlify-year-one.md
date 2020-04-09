@@ -1,5 +1,5 @@
 ---
-title: "Happy Netliversary 🎉"
+title: "Happy Netliversary 🎉 - A look back at my first year at Netlify"
 descriptions: "A look back on all the things that we've built!"
 author: DavidWells
 date: 2019-05-09 09:30:00

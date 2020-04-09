@@ -10,7 +10,7 @@ If you are buying things purely based off the fact that it's the cheapest price,
 
 <blockquote><strong>1</strong>. The company selling the product at a lower cost has reached economies of scale and can afford to sell you the product at a cheaper cost than other competitors</blockquote>
 
-<h3 style="text-align: center;">or</h3>
+<h3>or</h3>
 
 <blockquote><strong>2.</strong> (This is much more likely than the first scenario) You are buying a sub-par product, whether tangible in the product itself, or in the followup support/service related to that item.</blockquote>
 What most people don't think about when purchasing a product is the <strong>aftermath of that decision</strong>.
