@@ -24,6 +24,9 @@
 .categoryLink {
   margin-left: 20px;
 }
+.externalLink {
+  margin-left: 5px;
+}
 .location {
   display: inline-block;
   margin-left: 5px;

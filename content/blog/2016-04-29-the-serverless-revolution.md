@@ -7,6 +7,7 @@ category: dev
 tags:
   - serverless
 ---
+
 Imagine building an application, deploying it, and having it infinitely scale without managing servers.
 
 **Sounds like a pipe dream right?**
@@ -28,7 +29,7 @@ So you toss the frontend on a CDN, which scales nicely. **Great!**
 
 **What about your backend Node logic and database?**
 
-Tossing the node app on a single linux box won't scale. **Oh no!**
+Tossing the node app on a single Linux box won't scale. **Oh no!**
 
 Now you need to figure out how to replicate servers, do load balancing, configure autoscaling, containerize everything with docker... the list goes. You need some serious ninja devOps skills to be sitting pretty for all of your traffic.
 
@@ -54,11 +55,11 @@ Now you are asking:
 >What's a "lambda"? It sounds delicious
 > - You
 
-You are right they delicious.
+You are right, they delicious.
 
 A lambda is a function that you can call on demand without needing a server of your own to run the process.
 
-**Think about it like an on demand NodeJS instance that will run whatever function you want when you hit it's API endpoint or trigger it with a custom event.**
+**Think about it like an on-demand NodeJS instance that will run whatever function you want when you hit it's API endpoint or trigger it with a custom event.**
 
 ```
 POST /lambda-api-gateway/my-api/run-my-custom-node-function
@@ -72,17 +73,17 @@ You now have an app out of the box that will scale to millions of requests witho
 
 **Additional bonus:** If your app is a ghost town, you won't be paying an hourly rate for an EC2 instance. You only pay for invocations of the functions and machine time used per 100ms.
 
-For startups/side projects this is a dream state.
+For startups/side projects, this is a dream state.
 
 Low cost, no maintenance, it just works.
 
 I can't tell you how many EC2 or digital ocean boxes I have setup for "my next big thing" only to pay a monthly fee of $20 per server. Those costs stack up quickly.
 
-Going serverless should be far more cost efficient for you.
+Going serverless should be far more cost-efficient for you.
 
-# Event driven computing
+# Event-driven computing
 
-Lamdba revolves around the idea of an event driven model.
+Lambda revolves around the idea of an event-driven model.
 
 **When X happens..**
 
@@ -101,13 +102,13 @@ Well... The "serverless" isn't without servers. You simply don't need to think a
 
 **Instead, focus on the real problems you are solving and where you provide value.**
 
-Focus on how to get more users, marketing, and the 20 million other things far more important to your business.
+Focus on how to get more users, marketing, and 20 million other things far more important to your business.
 
 Stop worrying about "how are our server boxes doing? Do we need to update anything? Are we secure? What the hell is heart bleed? Will we scale of we get featured on Oprah? etc."
 
 # Interested in learning more?
 
-Here are some the resources I've been using to get up to speed AWS lambda.
+Here are some of the resources I've been using to get up to speed AWS lambda.
 
 - [The lambda docs](https://aws.amazon.com/lambda/getting-started/)
 - [User Auth example with AWS lambda](https://github.com/danilop/LambdAuth)
@@ -118,4 +119,4 @@ Here are some the resources I've been using to get up to speed AWS lambda.
 - [Serverless Workshop](https://github.com/DavidWells/serverless-workshop)
 - [Netlify serverless functions workshop](https://github.com/DavidWells/netlify-functions-workshop)
 
-Props to [Austen Collins](https://twitter.com/austencollins) creator of the [serverless framework](https://github.com/serverless) for inspiring this post. I saw him demo the CLI today here in SF and I'm sold.
+Props to [Austen Collins](https://twitter.com/austencollins) creator of the [serverless framework](https://github.com/serverless) for inspiring this post. I saw him demo the CLI today here in SF, and I'm sold.

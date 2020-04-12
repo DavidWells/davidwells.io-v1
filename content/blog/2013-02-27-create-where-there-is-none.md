@@ -1,5 +1,5 @@
 ---
-title: Create Where There is None
+title: Create where there is none
 author: David Wells
 date: 2013-02-27 22:35:56
 layout: post
@@ -12,10 +12,10 @@ Banksy created art out of normal everyday street objects.
 
 Walt Disney created a magical wonderland out of a swamp.
 
-Steve jobs created a user friendly music player in a world where the more buttons/features used to win.
+Steve Jobs created a user-friendly music player in a world where more buttons/features used to win.
 
-Everyday people are finding stagnant situations and rewriting the rules.
+Every day people are finding stagnant situations and rewriting the rules.
 
-The next "problem" you encounter ask yourself, if I had the power to change this, what would I do differently to improve the experience?
+The next "problem" you encounter ask yourself if I had the power to change this, what would I do differently to improve the experience?
 
-Now remove <strong>if</strong> from that statement and <strong>do it.</strong>
+Now remove **if** from that statement and **do it.**

@@ -12,7 +12,7 @@ It's not rocket science. Watch this:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-Convinced yet?
+Are you convinced yet?
 
 I had no background in any computer science before I started my business, I majored in Marketing and Entrepreneurship.
 
@@ -24,6 +24,6 @@ How did I do it then?
 
 Everything that you need is freely available online.
 
-It also helps to meet someone who is a master. Having some hands on help when you hit the wall, is key.
+It also helps to meet someone who is a master. Having some hands-on help when you hit the wall is key.
 
-Now, go forth and <strong>future proof your skill set</strong>.
+Now, go forth and **future proof your skill set**.

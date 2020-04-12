@@ -8,6 +8,7 @@ tags:
   - tools
   - testing
 ---
+
 Setting up testing and debugging testing can be a real pain in the keister.
 
 As the number of tests you have starts to grow, things get slower and it can be hard to debug certain tests because your terminal output is rather large.

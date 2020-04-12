@@ -12,7 +12,7 @@ tags:
 
 AKA **PropTypes conventions**.
 
-These conventions have served me well and I hope they help you.
+These conventions have served me well, and I hope they help you.
 
 1. Keep things minimal
 2. Mirror DOM where possible
@@ -33,7 +33,7 @@ longAssPropNameThatEveryoneMustTypeForever
 propName
 ```
 
-Long long prop names are bad news.
+Long, long prop names are bad news.
 
 Try and make props as minimal as possible **while still retaining semantic meaning**
 
@@ -51,11 +51,11 @@ profileData
 
 # 2. Mirror DOM wherever possible
 
-Listen buddy, React doesn't give you license to reinvent the DOM API.
+Listen, buddy, React doesn't give you a license to reinvent the DOM API.
 
 If your prop is applying directly down to a native DOM API, call it with the same API.
 
-This will help new users of your component to not wonder "WTF does this prop do?" they will simply know because they know HTML.
+This will help new users of your component not to wonder, "WTF does this prop do?" they will know because they know HTML.
 
 ```
 // Bad
@@ -111,7 +111,7 @@ items
 
 # 4. Add comments
 
-By adding comments above prop types you achieve two things.
+By adding comments above prop types, you achieve two things.
 
 1. You give people looking at your source more context on what the prop controls
 2. You can now [automagically generate documentation](https://github.com/reactjs/react-docgen) from your src.
@@ -126,17 +126,17 @@ When creating configurable components, a natural gut reaction is to expose all t
 
 However, **I must warn you:**
 
-Once you expose props, you can't ever remove them in a backwards compatible way. You will need to support and map deprecated props to new ones or risk breaking consumer's UIs.
+Once you expose props, you can't ever remove them in a backward-compatible way. You will need to support and map deprecated props to new ones or risk breaking consumer's UIs.
 
 Only add props for use cases that exist today (and those that are right around the corner)
 
-If you allow for sprawl to occur, your component API will be massive and the consumer of the component will need to read your "prop manual" every time they use it.
+If you allow for sprawl to occur, your component API will be massive, and the consumer of the component will need to read your "prop manual" every time they use it.
 
 Be diligent around this one.
 
 # 6. Avoid Unnecessary Abstractions
 
-When wrapping third party libraries (like charts, maps, SDKs etc) in React components, try your hardest not to write new prop abstractions.
+When wrapping third party libraries (like charts, maps, SDKs, etc.) in React components, try your hardest not to write new prop abstractions.
 
 If the third party library has a standard API and heaps of documentation, why reinvent the wheel?
 
@@ -144,7 +144,7 @@ Leverage the already written documentation and examples so you don't need to cre
 
 **Take this one with a grain of salt.**
 
-There are use cases where you DO in fact want to limit the underlying libraries functionality or remap some of the underlying API with more convenient props.
+There are use cases where you DO, in fact, want to limit the underlying libraries' functionality or remap some of the underlying API with more convenient props.
 
 But remember:
 

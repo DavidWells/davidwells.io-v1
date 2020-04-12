@@ -16,7 +16,7 @@ I've created an [atom plugin](https://atom.io/packages/atom-react-autocomplete) 
 
 <img src="https://cloud.githubusercontent.com/assets/532272/16675986/dffd63ae-447a-11e6-9ca7-2076d514a8e9.gif" alt="demo" width="300" height="288" class="right size-medium wp-image-5323" />
 
-This works with any react component that has propTypes and it works on a per project basis for autocompleting isn't full of junk from unused components.
+This works with any react component that has propTypes, and it works on a per-project basis for autocompleting isn't full of junk from unused components.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UhR0JuWWhGI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 

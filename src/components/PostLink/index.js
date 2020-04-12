@@ -5,7 +5,7 @@ import styles from './PostLink.css'
 
 class Post extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, externalUrl } = this.props
     const node = (data && data.node) ? data.node : {}
     const frontmatter = node.frontmatter || {}
     const fields = node.fields || {}
@@ -34,6 +34,19 @@ class Post extends React.Component {
       location = (
         <span className={styles.location}>
           - {event}
+        </span>
+      )
+    }
+
+    let extern
+    if (externalUrl) {
+      const domain = externalUrl
+        .replace('http://', '')
+        .replace('https://', '').split(/[/?#]/)[0]
+        .replace(/^www\./, '')
+      extern = (
+        <span className={styles.externalLink}>
+          on {domain}
         </span>
       )
     }
@@ -68,6 +81,7 @@ class Post extends React.Component {
           {location}
           <span className='post__meta-divider' />
           {catLinks}
+          {extern}
         </div>
       </div>
     )

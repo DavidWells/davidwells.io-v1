@@ -12,9 +12,9 @@ tags:
 
 How do we keep certain functions protected & scoped down to specific users (i.e. admin/paid users)?
 
-In this post we will walk through the different strategies available for authorizing access to your serverless functions.
+In this post, we will walk through the different strategies available for authorizing access to your serverless functions.
 
-The [code in this repo](https://github.com/DavidWells/serverless-auth-strategies/) covers primarily AWS lambda functions but the general strategies can apply to any Functions as a service provider.
+The [code in this repo](https://github.com/DavidWells/serverless-auth-strategies/) covers AWS lambda functions primarily, but the general strategies can apply to any Functions as a service provider.
 
 ## Pick your auth provider
 
@@ -29,13 +29,13 @@ Some options out there include:
 - [Firebase](https://firebase.google.com/docs/auth/)
 - [... add more](https://github.com/DavidWells/serverless-auth-strategies/issues)
 
-Rolling your own auth is ill advised and against the serverless idea: "Focus on value to customers not the plumbing"
+Rolling your own auth is ill-advised and against the serverless idea: "Focus on value to customers, not the plumbing."
 
 Choose a provider and proceed!
 
 ## Choose a strategy
 
-There are many ways to protect for your functions.
+There are many ways to protect your functions.
 
 1. [Inline auth checking](#1-inline-auth-checking)
 2. [Middleware](#2-middleware)
@@ -50,7 +50,7 @@ The list below will walk through them and the pros/cons of each.
 
 ### 1. Inline auth checking
 
-Inlined function authentication happens inside your function code
+Inlined function authentication happens inside your function code.
 
 We do a check on the auth headers or the body of the request to verify the user is okay to access the function.
 
@@ -88,14 +88,14 @@ exports.handler = (event, context, callback) => {
 
 **Drawbacks of this approach:**
 
-- this authentication method is hard to share across multiple functions as your API grows and can lead to non DRY code
-- Caching can be a challenge and if your authentication is an expensive operation or takes a while this can result in a slower UX and cost you more in compute time.
+- this authentication method is hard to share across multiple functions as your API grows and can lead to non-DRY code
+- Caching can be a challenge, and if your authentication is an expensive operation or takes a while, this can result in a slower UX and cost you more in compute time.
 
 ### 2. Middleware
 
-Next up we have the middleware approach to authentication. This is still happening at the code level but now your logic that verifies the user is allowed to access the function is abstracted up a level into reusable middleware.
+Next up, we have the middleware approach to authentication. This is still happening at the code level, but now your logic that verifies the user is allowed to access the function is abstracted up a level into reusable middleware.
 
-MiddyJs does a great job at enabling a sane middleware approach in lambda functions
+MiddyJs does a great job at enabling a sane middleware approach in lambda functions.
 
 ```js
 const middy = require('middy')
@@ -150,7 +150,7 @@ You can also instrument this yourself as seen in the movie demo(link here)
 
 This middleware approach is using a familiar web framework with express PR flask and using their an auth module from their ecosystem.
 
-In the case of express, you can use passport strategies in a lambda function
+In the case of express, you can use passport strategies in a lambda function.
 
 ```js
 const express = require('express')
@@ -199,15 +199,15 @@ exports.handler = serverless(app)
 
 **Cons to this approach:**
 
-* This takes a step backwards in the "serverless" approach to doing things because you have an entire express app bootstrapping on every incoming request
+* This takes a step backward in the "serverless" approach to doing things because you have an entire express app bootstrapping on every incoming request
 * This will cost more over time with additional ms runtime because of express overhead
-* This introduces the idea that monoliths can work in lambda functions and this is considered an anti pattern
+* This introduces the idea that monoliths can work in lambda functions and this is considered an anti-pattern
 
 ### 4. Auth decorators
 
-Similar to auth middleware, decorators wrap the function code and return another function
+Similar to auth middleware, decorators wrap the function code and return another function.
 
-Some developers prefer this more explicit approach as opposed to middleware
+Some developers prefer this more explicit approach as opposed to middleware.
 
 ```js
 @AuthDecorator // <-- ref to auth wrapper function
@@ -234,11 +234,11 @@ They are essentially another function that checks if the user is authorized to a
 
 Similar to custom authorizers, you can verify requests at the proxy level.
 
-This works in [Netlify](https://www.netlify.com/docs/redirects/#role-based-redirect-rules) by checking for an http only secure cookie.
+This works in [Netlify](https://www.netlify.com/docs/redirects/#role-based-redirect-rules) by checking for an HTTP only secure cookie.
 
-If the `nf_jwt` cookie exists in the request headers, Netlify will deserialize it and pass it into the context object of the lambda function
+If the `nf_jwt` cookie exists in the request headers, Netlify will deserialize it and pass it into the context object of the lambda function.
 
-If the cookie is no valid, you can send the request to a non authorized endpoint (http code X)
+If the cookie is no valid, you can send the request to a non-authorized endpoint (HTTP code X)
 
 ```
 # If visitor has 'nf_jwt' with role set, let them see site.
@@ -248,9 +248,9 @@ If the cookie is no valid, you can send the request to a non authorized endpoint
 /.netlify/functions/protected-function /not-allowed 401!
 ```
 
-### 7. Single use access token
+### 7. Single-use access token
 
-Some third party services like AWS, and faunaDB make it possible to use single use tokens in the client to invoke their APIs directly.
+Some third-party services like AWS, and faunaDB make it possible to use single-use tokens in the client to invoke their APIs directly.
 
 This means no function middleman to make the API calls to other services.
 
@@ -262,6 +262,6 @@ This means no function middleman to make the API calls to other services.
 **Cons to this approach:**
 
 * More complex to setup
-* Provider must support secure single use access tokens
+* Provider must support secure single-use access tokens
 
-For more information on this approach see [AWS Cognito](https://docs.amazonaws.cn/en_us/cognito/latest/developerguide/authentication-flow.html) docs.
+For more information on this approach, see [AWS Cognito](https://docs.amazonaws.cn/en_us/cognito/latest/developerguide/authentication-flow.html) docs.

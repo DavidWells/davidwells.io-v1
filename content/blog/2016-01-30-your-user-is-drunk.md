@@ -1,5 +1,5 @@
 ---
-title: Your User is Drunk
+title: Your user is drunk
 author: DavidWells
 date: 2016-01-30 16:32:29
 layout: post
@@ -12,7 +12,7 @@ Much like helping a drunk friend brush their teeth, assume that your user is (ac
 
 Like your drunk buddy, guide them through 'common sense' activities and make it next to **impossible** for them to get tripped up.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/r2CbbBLVaPk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="315" src="https://www.youtube.com/embed/r2CbbBLVaPk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <br/>
 
@@ -31,7 +31,7 @@ What might be obvious to you might escape the drunk user.
 ## How to fix?
 
 - Back away. Take a breath
-- Get a brand spankin' new person to drive through your product
+- Get a brand-spankin' new person to drive through your product
 - Watch silently as they fail and encounter fiction
 - Take notes about these points of friction
 - Fix them

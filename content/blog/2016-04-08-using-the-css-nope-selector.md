@@ -8,34 +8,35 @@ tags:
   - react
   - css
 ---
-CSS lives in the global namespace and we don't always have the ability to control happens in the global namespace. Collisions happen quite often.
+
+CSS lives in the global namespace, and we don't always have the ability to control happens in the global namespace. Collisions happen quite often.
 
 Collisions from:
 
-1. Third party CSS from widgets, do-dads, whosZaMaWhatsIts, etc.
+1. Third-party CSS from widgets, do-dads, whosZaMaWhatsIts, etc.
 2. Browser Addons
 3. First party team members
-4. Other wordpress plugins/themes
+4. Other WordPress plugins/themes
 5. The list goes on...
 
 You will eventually run into one of the following scenarios:
 
 1. Some inconsiderate developer added some CSS to a project or a package with the `!important` tag and you would like to change it.
 2. You are running your markup/CSS in a third party environment and you want to ensure your styles work, **no matter what**.
-3. You need to override some CSS loading after yours, but the css loading after is using a super specific selector that you "can't" override.
+3. You need to override some CSS loading after yours, but the CSS loading after is using a super-specific selector that you "can't" override.
 
 Is all hope is lost? Nay good sir.
 
 I'm going to introduce you to what I affectionately call the **NOPE selector**.
 
-It will trump all important rules and css specificity and get your CSS working the way it should.
+It will trump all `!important` rules and CSS specificity and get your CSS working the way it should.
 
 > Disclaimer: "With great power comes great responsibility"
 > - Uncle Ben
 
 This trick is meant to get you out of a pinch. Not to be a lazy ass.
 
-If you can fix your css problems the correct way, do it. If you can't, use this Jedi CSS hack.
+If you can fix your CSS problems the correct way, do it. If you can't, use this Jedi CSS hack.
 
 Okay, now that we are on the same page. Here is goes:
 
@@ -66,7 +67,7 @@ The above code will turn `.your-selector` color to `#BADA55` while ignoring `red
 
 Are other global CSS selectors messing with your code? **NOPE** =)
 
-When getting ultra specific with selectors you can override third party CSS pretty easily.
+When getting ultra-specific with selectors you can override third party CSS pretty easily.
 
 ## NOPE selector specificity in action
 

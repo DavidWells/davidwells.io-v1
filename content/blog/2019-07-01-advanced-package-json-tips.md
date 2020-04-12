@@ -19,7 +19,7 @@ Over my years as a node dev, I've gathered some advanced patterns for making `np
 
 ## 1. Using NPM script `pre` & `post` lifecycle
 
-`npm` has built in lifecycle methods for your package `scripts`. When you use `pre` and `post` with commands, they will run before and after the given script.
+`npm` has built-in lifecycle methods for your package `scripts`. When you use `pre` and `post` with commands, they will run before and after the given script.
 
 **An Example**
 
@@ -73,7 +73,7 @@ Then use it:
 npm run pass-arg --name woot
 ```
 
-In this example we are running `lol.js` with the arg.
+In this example, we are running `lol.js` with the arg.
 
 ```js
 const argv = require('minimist')(process.argv.slice(2));
@@ -98,13 +98,13 @@ To avoid repeating configuration in a bunch of different scripts, You can refere
 }
 ```
 
-This is handy for certain occasions
+This is handy for certain occasions.
 
 ## 4. Using `cross-env` for cross platform scripts
 
-The setting environment variables in a script is pretty easy, however they aren't cross platform compatible (cough cough windows)
+The setting environment variables in a script is pretty easy; however, they aren't cross-platform compatible (cough cough windows)
 
-The `cross-env` pkg from npm allows you sets ENV vars for command to use so anyone running your scripts will be happy.
+The `cross-env` pkg from npm allows you set ENV vars for the command to use so anyone running your scripts will be happy.
 
 **Example:**
 
@@ -139,7 +139,7 @@ Rather than altering the existing script every time we want the arg, or duplicat
 }
 ```
 
-This example below will pass the `--watch` flag to the `my-script` command
+This example below will pass the `--watch` flag to the `my-script` command.
 
 ```bash
 npm run pass-flags-to-other-script

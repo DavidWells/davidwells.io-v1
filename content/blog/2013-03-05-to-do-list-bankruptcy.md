@@ -1,5 +1,5 @@
 ---
-title: To Do List Bankruptcy
+title: To-do list bankruptcy
 author: David Wells
 date: 2013-03-05 02:25:08
 layout: post
@@ -16,7 +16,7 @@ At this point, I declare to-do list bankruptcy.
 
 It's time to clear your cache, reboot, and start over.
 
-The list is combed through for things that actually matter, everything is deleted, and I get a fresh start.
+The list is combed through for things that matter, everything is deleted, and I get a fresh start.
 
 So the next time you run up an impossible list, it's okay to take a machete to it.
 

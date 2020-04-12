@@ -19,6 +19,7 @@ export default class BlogRoute extends React.Component {
 
     // merge with external posts
     const allPosts = posts.concat(externalPosts)
+
     // sort by date
     const sortedPosts = allPosts.sort((date1, date2) => {
       const one = getDate(date1)
@@ -32,7 +33,7 @@ export default class BlogRoute extends React.Component {
       if (post.node) {
         return <PostLink data={post} key={post.node.fields.slug} />
       }
-      return <PostLink data={post} key={post.url} />
+      return <PostLink data={post} key={post.url} externalUrl={post.url} />
     })
 
     return (

@@ -12,17 +12,17 @@ The modular nature of the JavaScript ecosystem is vast and truly incredible.
 
 The community has embraced the Unix philosophy:
 
-> Write programs that do one thing and do it well notion of things should do one thing and only one thing.
+> Write programs that do one thing and do it well
 
 Having a modular system does, however, come with some drawbacks.
 
 Mainly dependency management.
 
-Instead of maintaining all of your code internally, we leverage the power of the open source world and pull in a ton of third party (and first party) modules.
+Instead of maintaining all of your code internally, we leverage the power of the open-source world and pull in a ton of third party (and first-party) modules.
 
 Keeping these modules up to date can be a challenge...
 
-One way to curb the dependency blues is an awesome service call [greenkeeper.io](https://greenkeeper.io/).
+One way to curb the dependency blues is an excellent service call [greenkeeper.io](https://greenkeeper.io/).
 
 https://www.youtube.com/watch?v=COKpAj2sRs4
 
@@ -42,6 +42,6 @@ greenkeeper login
 greenkeeper enable
 ```
 
-Hope this saves you some time and keeps your projects fresh to def.
+I hope this saves you some time and keeps your projects fresh to def.
 
 Happy coding!

@@ -29,7 +29,7 @@ I came across the need for replacing a chainable API inside the `netlify-cli` fo
 
 We needed a global mechanism for disabling terminal colors made with `chalk`.
 
-There is a [setting for this](https://github.com/chalk/chalk/tree/1f77953f1a358fa8f626f0fd872792d63da6d58a#chalklevel) in chalk but that's the easy road out. We are a developer and we **must** re-invent the wheel. Also, wasn't working for my version of chalk...
+There is a [setting for this](https://github.com/chalk/chalk/tree/1f77953f1a358fa8f626f0fd872792d63da6d58a#chalklevel) in chalk but that's the easy road out. We are a developer, and we **must** re-invent the wheel. Also, wasn't working for my version of chalk...
 
 So... Let's try some proxies!
 

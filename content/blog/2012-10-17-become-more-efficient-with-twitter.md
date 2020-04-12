@@ -1,12 +1,12 @@
 ---
-title: "Inbound Now #52 - Become More Efficient with Twitter"
+title: "Inbound Now #52 - Become more efficient with twitter"
 author: David Wells
-date: 2012-10-17 12:00:00
+date: 2012-10-17 12:00
 layout: post
 category: "Marketing"
 tags:
   - video
-  - inboundnow
+  - inbound now
 ---
 
 Twitter can be a huge time suck. This episode is meant to give you back some of that time.

@@ -1,5 +1,5 @@
 ---
-title: "Inbound Now #50 - Keep Creativity Flowing with Noah Scalin"
+title: "Inbound Now #50 - Get unstuck & keep creativity flowing with Noah Scalin"
 author: David Wells
 date: 2012-09-19 12:00
 layout: post
@@ -34,9 +34,7 @@ In this episode, Noah explains how to foster creative growth and how to keep it 
 *   Real tangible things you can do to practice creativity
 *   & How to get outside your head to encourage those "eureka" moments
 
-<iframe src="https://www.youtube.com/embed/u96vhWwRUu4" width="600" height="338" frameborder="0"></iframe>
-
-## [Subscribe to the Show](http://inboundly.wpengine.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
+<iframe src="https://www.youtube.com/embed/u96vhWwRUu4" width="720" height="338" frameborder="0"></iframe>
 
 **David:** Hey everybody, welcome to another episode of Inbound Now. I'm your host, David Wells, and with me today is Noah Scalin. Noah I caught at South By Southwest. He gave an awesome presentation on one of his books called "Unstuck: 52 Ways to Get and Keep Your Creativity Flowing at Home, Work, and in the Studio", and I thought it was really inspiring so I reached out to him and asked him to come on so welcome to the show.
 

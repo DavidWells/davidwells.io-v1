@@ -24,7 +24,7 @@ PostCSS is much like Babel for JavaScript.
 
 [Babel](http://babeljs.io/) lets you transpile the future specification of JavaScript (ES2015 a.k.a ES6) into browser-friendly ES5 JavaScript. Meaning, you can write future JavaScript today!
 
-PostCSS is very similar. It parses your CSS, turns it into the raw AST (abstract syntax tree) then performs transformations to the css that today's browsers will understand and render!
+PostCSS is very similar. It parses your CSS, turns it into the raw AST (abstract syntax tree) then performs transformations to the CSS that today's browsers will understand and render!
 
 One such transformation, Using the [CSSNext plugin with PostCSS](https://github.com/MoOx/postcss-cssnext), allows you to write CSS4 (the future standard of CSS) today!
 

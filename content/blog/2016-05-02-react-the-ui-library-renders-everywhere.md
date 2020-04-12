@@ -13,17 +13,17 @@ tags:
 
 It's a great way to create declarative easy to understand user interfaces.
 
-It's pretty easy to learn with very little DSL (domain specific language) and a [tiny API surface](https://facebook.github.io/react/docs/component-specs.html).
+It's pretty easy to learn with very little DSL (domain-specific language) and a [tiny API surface](https://facebook.github.io/react/docs/component-specs.html).
 
-That's all well and good but, what makes React very interesting and **insanely** compelling is it's ability to render outside of the DOM.
+That's all well and good but, what makes React very interesting and **insanely** compelling is its ability to render outside of the DOM.
 
 # What does this mean for frontend developers?
 
-Well for starters, if you know JavaScript, you can now build native iOS and android applications.
+Well, for starters, if you know JavaScript, you can now build native iOS and Android applications.
 
-You are no longer bound to the browser. You no longer need to support IE8 (well no promises there).
+You are no longer bound to the browser. You no longer need to support IE8 (well, no promises there).
 
-So, scratch off "web developer" from your resume and replace it with **DEVELOPER GOD**
+So, scratch-off "web developer" from your resume and replace it with **DEVELOPER GOD**
 
 # Where can React render?
 
@@ -55,10 +55,10 @@ But it does allow for code sharing across platforms.
 
 **Awesome man!**
 
-Check out some [open source react native projects](https://react.rocks/tag/ReactNative) for how they handle this.
+Check out some [open source react-native projects](https://react.rocks/tag/ReactNative) for how they handle this.
 
 # Did I miss any bridges?
 
-If you know of any other React bridges, let me know in the comments below and I can add them to the list.
+If you know of any other React bridges, let me know in the comments below, and I can add them to the list.
 
 Happy coding!

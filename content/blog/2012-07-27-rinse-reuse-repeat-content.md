@@ -1,5 +1,5 @@
 ---
-title: "Content Strategy tip: Rinse, repurpose & reuse content in multiple mediums"
+title: "Leveraging content to the fullest: Rinse, repurpose & reuse content in multiple mediums"
 author: David Wells
 date: 2012-07-27 12:00:00
 layout: post

@@ -11,9 +11,9 @@ Like Ricky Bobby once said...
 
 > I want to go fast
 
-We all want to move quick. I'm going to share a quick tip on getting faster Netlify deployments.
+We all want to move quickly. I'm going to share a quick tip on getting faster Netlify deployments.
 
-Sometimes I just need a preview URL and I need it **right meow**.
+Sometimes I just need a preview URL, and I need it **right meow**.
 
 This is where the `netlify deploy` command comes in.
 
@@ -25,7 +25,7 @@ The CLI will return a unique preview URL for you to scope out and share with you
 
 ## But why?
 
-Well Timmy, not tiny change needs or deserves to be committed into `git` just to get back that **sweet, sweet deploy preview URL**.
+Well, Timmy, not every tiny change needs or deserves to be committed into `git` just to get back that **sweet, sweet deploy preview URL**.
 
 ## How
 
@@ -35,7 +35,7 @@ If you haven't installed the `netlify-cli` you can do so with `npm`
 npm install netlify-cli -g
 ```
 
-Then login to your [Netlify Account](https://app.netlify.com)
+Then log in to your [Netlify Account](https://app.netlify.com)
 
 ```bash
 netlify login
@@ -47,7 +47,7 @@ Then link your local site in your site's `cwd`
 netlify link
 ```
 
-Then run your local build. This step is important don't miss it!
+Then run your local build. This step is important, don't miss it!
 
 ```bash
 # build your beautiful site
@@ -60,7 +60,7 @@ Then deploy!!!!! 🚀🚀🚀🚀
 netlify deploy
 ```
 
-This will deploy your site to a draft URL and return back the link. Share this link with your team, your neighbors and your mom.
+This will deploy your site to a draft URL and return back the link. Share this link with your team, your neighbors, and your mom.
 
 ```bash
 ➜  davidwells.io git:(master) ✗ netlify deploy

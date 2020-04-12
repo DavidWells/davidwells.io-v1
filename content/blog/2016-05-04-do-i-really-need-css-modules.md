@@ -9,7 +9,7 @@ tags:
   - css
 ---
 
-You might have heard about [PostCSS](http://davidwells.io/blog/what-is-postcss/) and CSS modules but you are still recovering from the onslaught of 10,000 other frontend build process changes.
+You might have heard about [PostCSS](http://davidwells.io/blog/what-is-postcss/) and CSS modules, but you are still recovering from the onslaught of 10,000 other frontend build process changes.
 
 **The question you are asking yourself:**
 
@@ -18,7 +18,7 @@ You might have heard about [PostCSS](http://davidwells.io/blog/what-is-postcss/)
 >
 > -- You
 
-Let's discuss!
+Let's discuss it!
 
 # Checklist: Do I need CSS modules
 
@@ -29,38 +29,38 @@ Let's discuss!
 
 If you answered yes to any of these questions, then CSS modules are for you.
 
-**Congratulations!!!! (You get modules & you get modules in Oprah voice)**
+**Congratulations!!!! (You get modules & you get modules in Oprah's voice)**
 
-If not, CSS modules might be overkill and you can revisit them at a later time.
+If not, CSS modules might be overkill, and you can revisit them at a later time.
 
 # Let's break it down
 
-Let's run through each of those items in the checklist.
+Let's run through each of those items on the checklist.
 
 ## 1. Third-Party Environments
 
-A third party environment is basically one that you don't control.
+A third party environment is one that you don't control.
 
-Third party examples:
+Third-party examples:
 
 - running inside of WordPress (as a plugin or theme)
 - running inside of chrome, where extensions can mess up your CSS
 - running inside of firefox
 - running inside of other projects. a.k.a you are a CSS library author
 
-The truth is, ALLLLLLLLL of your markup and CSS is subject to bad things while living inside the browser. Thanks to extensions and third party JS running amuck on the web.
+The truth is, ALLLLLLLLL of your markup and CSS is subject to bad things while living inside the browser. Thanks to extensions and third-party JS running amuck on the web.
 
 ## 2. Working on a team
 
-If you are writing CSS with team mates in the global scope it's incredibly easy to step on each other's toes.
+If you are writing CSS with teammates in the global scope, it's incredibly easy to step on each other's toes.
 
 This is why 'rules' like [BEM](https://css-tricks.com/bem-101/) and [SUITCSS](http://suitcss.github.io/) came about to try and enforce CSS naming conventions to help stop CSS clashes.
 
 Unfortunately, even if you do follow one of these methodologies, someone is going to mess up somewhere.
 
-We are humans after all.
+We are humans, after all.
 
-## 3. Using Third Party CSS in your own
+## 3. Using Third-Party CSS in your own
 
 If you are using bootstrap, foundation, skeleton, or any other CSS third party library to achieve some out of the box styling you have probably noticed that styles you write clash with the frameworks quite often.
 
@@ -76,7 +76,7 @@ Lucky them! But most folks I know aren't in this boat!
 
 They are in the "WTF CSS!" boat, where they need to deal with these quirks of global CSS.
 
-We need our styles to look how they should across all browsers, no matter what the environment (browser plugins etc) looks like.
+We need our styles to look how they should across all browsers, no matter what the environment (browser plugins, etc.) looks like.
 
 So localizing CSS with CSS modules + webpack/gulp/grunt solves these issues for us.
 
@@ -107,7 +107,7 @@ Basically, they will take your normal CSS classes that might be generic like `.t
 
 Now your markup is safe(r) from things messing with it.
 
-**Note:** you can minify class names in production for less characters shipped to client.
+**Note:** you can minify class names in production for fewer characters shipped to the client.
 
 # Handy CSS Modules Resources
 

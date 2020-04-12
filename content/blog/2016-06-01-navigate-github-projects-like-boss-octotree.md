@@ -9,13 +9,13 @@ tags:
 ---
 Speeding up your workflow is important.
 
-Time is precious and all that jazz.
+Time is precious, and all that jazz.
 
 So, I'm back with another quick tip on how to navigate projects on GitHub faster!
 
 Introducing <a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en-US">octotree</a>, an amazing chrome extension, that adds a quick file navigation pane to public and private GitHub projects.
 
-I love the concept of baking in "missing" product features into sites via browser extensions and this one delivers
+I love the concept of baking in "missing" product features into sites via browser extensions, and this one delivers
 
 # Watch it in action
 

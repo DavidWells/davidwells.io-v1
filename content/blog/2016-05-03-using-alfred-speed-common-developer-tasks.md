@@ -16,7 +16,7 @@ See it in action here:
 
 https://www.youtube.com/watch?v=hPRCGlu_Fkw
 
-Here is the [github alfred extension](https://github.com/gharlan/alfred-github-workflow) I demonstrated in the video. It's handy for jumping to github repos & checking on issues you have assigned etc.
+Here is the [GitHub alfred extension](https://github.com/gharlan/alfred-github-workflow) I demonstrated in the video. It's handy for jumping to GitHub repos & checking on issues you have assigned etc.
 
 Also, check out this [collection of Alfred 2 workflows that will rock your world](https://github.com/zenorocha/alfred-workflows).
 

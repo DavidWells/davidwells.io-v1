@@ -4,7 +4,6 @@ author: David Wells
 date: 2012-07-25 12:00
 layout: post
 category: "Marketing"
-
 tags:
   - video
   - inbound now
@@ -26,9 +25,9 @@ Recently, she created "[The Ultimate Guide to Marketing Your Blog, Podcast, or V
 *   Which third-party Pinterest tools to help streamline your pinning
 *   & her best tip to businesses still on the fence about using Pinterest in their marketing mix
 
-<iframe src="http://www.youtube.com/embed/yAtuib-aQ5Y" width="600" height="450" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/yAtuib-aQ5Y" width="720" height="450" frameborder="0"></iframe>
 
-## Full Transcript - [Subscribe to the Show](http://inboundly.wpengine.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
+## Full Transcript
 
 <span style="text-decoration: underline;">David:</span> Who are you and what do you do?
 

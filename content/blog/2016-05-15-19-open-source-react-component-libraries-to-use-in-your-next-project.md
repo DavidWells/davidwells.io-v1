@@ -15,9 +15,9 @@ Tackling the reimplementation of common UI elements gives you the power to bring
 
 But, sometimes **you just need to get shit done** and recreating the wheel isn't in scope.
 
-So, I've compiled a list of React Component UI libraries to jump start your UI.
+So, I've compiled a list of React Component UI libraries to jump-start your UI.
 
-These are can be combined, mixed and matched to create your UI pretty quickly.
+These can be combined, mixed, and matched to create your UI pretty quickly.
 
 I've also used many of these libraries as a reference point when implementing my own components.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Practical Advice on "Learning to code"'
+title: 'Practical advice on "Learning to code"'
 author: DavidWells
 date: 2016-04-28 09:15:16
 layout: post
@@ -10,7 +10,7 @@ I stand behind the belief that everyone, somewhere deep down inside, has the abi
 
 It's not a skill reserved for the "smartest" of the smart.
 
-Subscribing to the fallacy "I'm not a technical person, so I can't learn to code" is just not true. It's a cop-out and an excuse I hear all too often.
+Subscribing to the fallacy, "I'm not a technical person, so I can't learn to code" is just not true. It's a cop-out and an excuse I hear all too often.
 
 Learning to code, like any other skill, is a process of accumulation.
 
@@ -18,7 +18,7 @@ It's a journey of trial and error. (lots of error)
 
 As you overcome these errors and solve problems you encounter, something magical happens: You start getting faster, better, and smarter.
 
-Each problem you bang your head against, and ultimately solve adds experience to your "collective pool of coding knowledge"
+Each problem you bang your head against, and ultimately solve will add experience to your "collective pool of coding knowledge."
 
 The key is to show up every day and add more "water" to your pool.
 
@@ -36,7 +36,7 @@ If you aren't passionate about the thing you are building, switch gears to somet
 
 # My story
 
-I got into coding back in college. I was in need of a website and I didn't have a red cent to my name. So I setup a basic WordPress site (which incredibly back then was just a one click install process)
+I got into coding back in college. I was in need of a website, and I didn't have a red cent to my name. So I set up a basic WordPress site (which incredibly back then was just a one-click install process)
 
 Then, I wanted to change some layout and design aspects of the site.
 
@@ -45,13 +45,13 @@ Then, I wanted to change some layout and design aspects of the site.
 
 This is where my journey began.
 
-Getting started can be a little rough for first timers. Figuring out how to access your site's files from an FTP client feels foreign and harder than it needs to be.
+Getting started can be a little rough for first-timers. Figuring out how to access your site's files from an FTP client feels foreign and harder than it needs to be.
 
-Once you get over an initial "setup" phase the real learning and aha moments begin.
+Once you get over an initial "setup" phase, the real learning and aha moments begin.
 
-I started simple with a dead simple approach.
+I started simple with a dead-simple approach.
 
-> "what happens when I change this"
+> "what happens when I change this?"
 > - me learning to code step by step
 
 An example of my thought process when starting out flowed something like this:
