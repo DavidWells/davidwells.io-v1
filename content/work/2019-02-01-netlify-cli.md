@@ -1,14 +1,14 @@
 ---
 title: Netlify CLI
-description: Netlify's extendable command line tool
+description: Netlify's extendable command-line tool
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/netlify-cli-image.jpg
 date: 2019-02-01
 layout: portfolio
 ---
 
-Rebuilt the [Netlify command line interface](https://github.com/netlify/cli/).
+I rebuilt the [Netlify command-line interface](https://github.com/netlify/cli/).
 
-This was a revamp of the Go based Netlify CLI.
+This project was a revamp of the Go-based Netlify CLI.
 
 The work involved designing the CLI API & interface, managing the project, and building out the [cli docs site](https://cli.netlify.com/).
 
@@ -35,7 +35,7 @@ See the latest commands in the [docs](https://cli.netlify.com/)
 Read the docs: https://www.netlify.com/docs/cli
 Support and bugs: https://github.com/netlify/cli/issues
 
-Netlify command line tool
+Netlify command-line tool
 
 VERSION
   netlify-cli/2.11.19 darwin-x64 node-v10.4.1
