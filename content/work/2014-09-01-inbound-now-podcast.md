@@ -9,9 +9,11 @@ layout: portfolio
 
 # Inbound Now Video Podcast
 
-I produced a number of inbound marketing focused podcasts back in the day.
+I produced a bunch of inbound marketing focused podcasts back in the day.
 
-[Watch](https://www.youtube.com/watch?v=PkhyrKtLHP8&list=PLrOKfeQHBOIwi7WVeBR72B_E9nHqsoQUD&index=36)
+[Watch on Youtube](https://www.youtube.com/watch?v=PkhyrKtLHP8&list=PLrOKfeQHBOIwi7WVeBR72B_E9nHqsoQUD&index=36)
+
+[Videos & transcripts][https://davidwells.io/tags/inbound-now/]
 
 [All episodes](https://www.pinterest.com/davidwells/inbound-now-tv-social-media-inbound-marketing-podc/)
 
