@@ -13,7 +13,7 @@ This week's show features Tamar Weinberg! Tamar is a big blogger contributing to
 
 She is also the author of The New Community Rules: Marketing on the Social Web, she manages Community Support & Advertising at Mashable and is a social media consultant.
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/dUDTpWM3dLU" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/dUDTpWM3dLU" frameborder="0" allowfullscreen=""></iframe>
 
 [Click here for just the audio](http://blog.hubspot.com/Default.aspx?app=LeadgenDownload&shortpath=docs%2ftamar_audio.mp3)
 

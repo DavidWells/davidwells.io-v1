@@ -13,7 +13,7 @@ Phil Simon joins us on the show to discuss how small companies are leveraging ne
 
 Phil is the author of [the New Small](http://www.thenewsmall.com/) and has a ton of great insights on how to make companies more agile with some of these new tools.
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/AgJ1-VYDULo" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/AgJ1-VYDULo" frameborder="0" allowfullscreen=""></iframe>
 
 ## **Transcript**
 

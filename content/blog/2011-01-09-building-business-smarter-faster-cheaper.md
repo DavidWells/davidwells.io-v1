@@ -19,7 +19,7 @@ We discuss some of the key concepts from his new book aptly titled [_"Smarter,
 * Why copying big brands might be bad for business
 * Why the key ingredient of content creation needs to be passion
 
-<iframe src="http://www.youtube.com/embed/dXP1WZoIziM" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/dXP1WZoIziM" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Full Transcript:
 

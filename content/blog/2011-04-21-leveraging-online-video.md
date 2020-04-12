@@ -20,7 +20,7 @@ Steve is author of [Get Seen](http://bit.ly/buy-getseen) and one of the world's 
 * The biggest mistakes to avoid in online video
 * and some tools & tricks to really rocking your online video
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/yC_NIfvgtbs" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/yC_NIfvgtbs" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

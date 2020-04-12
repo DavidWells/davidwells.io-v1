@@ -17,7 +17,7 @@ Scott Stratten joins us to share some killer insights from his new book.
 * Mistakes he made when starting out with social media
 * Maximizing customer touchpoints and closing the experience gap
 
-<iframe src="http://www.youtube.com/embed/yF7AcmA5ij8" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/yF7AcmA5ij8" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript:
 

@@ -24,7 +24,7 @@ Jason runs his own consulting agency, [Social Media Explorer](http://www.socialm
 * How to Attract and retain guest authors for your site
 * and some of Jason's favorite social media resources
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/BpadsINn6fM" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/BpadsINn6fM" frameborder="0" allowfullscreen=""></iframe>
 
 ## Follow the 3 Steps Below for our Free 9 Step Email Marketing Guide
 

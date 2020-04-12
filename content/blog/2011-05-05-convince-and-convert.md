@@ -21,7 +21,7 @@ Jay is a social media strategist, a speaker, and President of his own agency, [C
 * What social media training should consist of
 * and take a look into the future of the social web
 
-<iframe src="http://www.youtube.com/embed/7q2HBlNaYSo" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/7q2HBlNaYSo" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

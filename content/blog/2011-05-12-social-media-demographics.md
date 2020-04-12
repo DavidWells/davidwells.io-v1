@@ -22,7 +22,7 @@ In this episode 20 of Inbound Now, Brian Solis joins us to chat about:
 * F-commerce
 * Using infographics
 
-<iframe src="http://www.youtube.com/embed/0-HD5oI3NR0" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/0-HD5oI3NR0" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

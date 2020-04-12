@@ -11,7 +11,7 @@ tags:
 
 Mike Volpe joins us to talk about his experiences running the marketing at several B2B companies and some best practices he has learned along the way.
 
-<iframe src="http://www.youtube.com/embed/Ng-wUNszs3I" width="720" height="437" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/Ng-wUNszs3I" width="720" height="437" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

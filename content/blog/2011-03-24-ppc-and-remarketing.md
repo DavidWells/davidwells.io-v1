@@ -18,7 +18,7 @@ Joanna Lord of SEOMoz joins us for lucky number 13 to discuss some PPC best prac
 * How to use Adwords Remarketing Tools to target non-converters
 * And some of Joanna's Tips on Landing page best practices.
 
-<iframe src="http://www.youtube.com/embed/RuI7jBGYb6M" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/RuI7jBGYb6M" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

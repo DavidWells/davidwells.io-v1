@@ -18,7 +18,7 @@ Mari Smith, co-author of Facebook Marketing: an hour a day, joins us for another
 * What Facebook "Edge Rank" is and why you should care
 * and some of Mari's favorite third-party Facebook apps
 
-<iframe src="http://www.youtube.com/embed/jZ_YuOUBIyw" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/jZ_YuOUBIyw" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

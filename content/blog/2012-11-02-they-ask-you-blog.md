@@ -17,7 +17,7 @@ In the show, we discuss 7 different content creation techniques Marcus used to t
 
 My favorite thing about Marcus is that **he tells it like it is.** He clearly lays out actionable tips & insights for inbound marketing and leaves out all of the BS and fluff.
 
-<iframe src="http://www.youtube.com/embed/nKRPONHmsgo" frameborder="0" width="720" height="338"></iframe>
+<iframe src="https://www.youtube.com/embed/nKRPONHmsgo" frameborder="0" width="720" height="338"></iframe>
 
 ## Transcription
 

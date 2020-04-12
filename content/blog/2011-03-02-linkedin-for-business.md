@@ -18,7 +18,7 @@ This week Lewis Howes joins us to share his tips and best practices for using L
 * How to leverage Linkedin Groups
 * & How to build these activities into your daily workflow
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/vjYefMGKR68" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/vjYefMGKR68" frameborder="0" allowfullscreen=""></iframe>
 
 # Transcript
 

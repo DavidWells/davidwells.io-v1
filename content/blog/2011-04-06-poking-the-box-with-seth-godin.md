@@ -17,7 +17,7 @@ Seth Godin, my all time marketing hero, joins us to discuss his book "Poke the b
 * How companies can provide an environment that encourages innovation & doesn’t shun failure
 * And how companies can stand out and transcend traditional marketing tactics.
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/0ZT6XJj65ac" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/0ZT6XJj65ac" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

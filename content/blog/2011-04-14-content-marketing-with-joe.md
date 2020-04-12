@@ -18,7 +18,7 @@ Joe Pulizzi, of [Junta42](http://www.junta42.com/), joins the show to chat about
 * The difference between attraction content vs. retention content
 * and what's on the horizon for content marketing
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/wN_WEdV5lHw" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/wN_WEdV5lHw" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

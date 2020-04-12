@@ -29,7 +29,7 @@ Rand is the co-author of _[The Art of SEO](http://www.artofseobook.com/)_, and _
 * Leveraging user-generated content with YOUmoz
 * The future of SEO
 
-<iframe src="http://www.youtube.com/embed/TvE9T6JgH-U" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/TvE9T6JgH-U" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

@@ -19,7 +19,7 @@ During the show we chat about:
 * How he leverage his podcast to grow his agency
 * And some tips on creating remarkable content
 
-<iframe src="http://www.youtube.com/embed/09xVteLqOqw" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/09xVteLqOqw" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Marketing books that are a must read
 

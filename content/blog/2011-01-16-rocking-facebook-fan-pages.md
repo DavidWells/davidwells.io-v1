@@ -15,7 +15,7 @@ In this episode, John Haydon and I discuss the dos and don't of how to optimize 
 * Strategies on growing your reach on Facebook
 * A look into the future of Facebook marketing
 
-<iframe src="http://www.youtube.com/embed/Aj-7f5qM0xg" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/Aj-7f5qM0xg" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript:
 

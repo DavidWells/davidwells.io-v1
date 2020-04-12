@@ -22,7 +22,7 @@ Andy is the founder of [Marketing Pilgrim](http://www.marketingpilgrim.com/). He
 * Advice on starting monitoring programs
 * Inventive ways to use monitoring tools
 
-<iframe src="http://www.youtube.com/embed/LUTiVyE1X4U" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/LUTiVyE1X4U" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Transcript
 

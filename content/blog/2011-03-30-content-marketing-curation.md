@@ -17,7 +17,7 @@ CC Chapman joins the show to discuss his latest book Content Rules!
 * How to leverage content creation and where to start
 * and how curation can be a powerful tool in the content marketing tool belt
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/CgvLHRdfO-I" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/CgvLHRdfO-I" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 

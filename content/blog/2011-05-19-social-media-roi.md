@@ -21,7 +21,7 @@ Dan Zarrella joins us for Episode 21! He shares some valuable insights on how to
 * How to get more Twitter followers
 * The future of social media
 
-<iframe width="720" height="335" src="http://www.youtube.com/embed/h1x5qDh7GNI" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="335" src="https://www.youtube.com/embed/h1x5qDh7GNI" frameborder="0" allowfullscreen=""></iframe>
 
 ## Transcript
 
