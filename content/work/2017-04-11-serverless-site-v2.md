@@ -6,8 +6,6 @@ date: 2017-04-11
 layout: portfolio
 ---
 
-# Serverless.com v2
-
 Revamp of original [serverless site](https://davidwells.io/work/serverless-site/)
 
 Built using react, redux and [phenomic](https://github.com/MoOx/phenomic) this site is statically built using react serverside rendering on build

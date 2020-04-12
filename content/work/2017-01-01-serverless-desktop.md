@@ -6,9 +6,7 @@ date: 2017-01-01
 layout: portfolio
 ---
 
-# Serverless Desktop
-
-The serverless desktop is a cross platform GUI that wraps the serverless CLI with a GUI.
+The serverless desktop is a cross-platform GUI that wraps the serverless CLI with a GUI.
 
 <img width="350" src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-desktop-gif.gif">
 
@@ -16,12 +14,12 @@ The serverless desktop is a cross platform GUI that wraps the serverless CLI wit
 
 ## About
 
-- Cross platform app built with Electron
-- React UI
+- A cross-platform app built with Electron
+- React for UI
 - Instrumented with user analytics
 
 ## Goals of the Serverless Desktop app
-- Bring in more users to serverless framework
+- Bring in more users to the serverless framework
 - Educate new users about CLI + Serverless applications
 - Provide streamlined workflow for devs working locally
 - Collect real feedback from users on needed functionality

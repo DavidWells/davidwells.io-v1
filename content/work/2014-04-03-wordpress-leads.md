@@ -6,23 +6,15 @@ date: 2014-04-03
 layout: portfolio
 ---
 
-# WordPress Leads
-
 **Contributors:** David Wells, Hudson Atwell
-
-**Client:** Inbound Now
 
 **Date:** 2012
 
 **Demo Link:** [http://www.inboundnow.com/collecting-advanced-lead-intelligence-wordpress-free/](http://www.inboundnow.com/collecting-advanced-lead-intelligence-wordpress-free/)
 
-**Tags:** WordPress, Plugin, PHP, JavaScript
+Track visitor activity, capture and manage incoming leads, and send collected emails to your email service provider. This plugin is part of [Inbound Now](https://davidwells.io/work/inbound-now)'s suite of marketing plugins.
 
-Track visitor activity, capture and manage incoming leads, and send collected emails to your email service provider.
-
-Gives people free access to powerful marketing data that would otherwise cost hundreds (or thousands) of dollars a month with other solutions.
-
-This was fun to build.
+It gives people free access to powerful marketing data that would otherwise cost hundreds (or thousands) of dollars a month with other solutions.
 
 ![](https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/inbound-now-leads.jpg "media_1428098543598.jpg")
 

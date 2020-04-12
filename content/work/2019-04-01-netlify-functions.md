@@ -7,8 +7,6 @@ draft: true
 layout: portfolio
 ---
 
-# Netlify Functions
-
 Everything you ever wanted to know about Netlify Functions ⚡️
 
 - [Site](https://functions.netlify.com)

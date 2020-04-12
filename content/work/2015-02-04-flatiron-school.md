@@ -6,19 +6,13 @@ date: 2015-02-04
 layout: portfolio
 ---
 
-# Flatiron School
-
-**Contributors:** David Wells
-
 **Client:** FlatIron School
 
 **Date:** 2015
 
 **Demo Link:** [http://blog.flatironschool.com](http://blog.flatironschool.com)
 
-**Tags:** Site, PHP, WordPress
-
-WordPress site build for FlatIron Dev School
+WordPress site build for FlatIron Dev School.
 
 ### Homepage
 

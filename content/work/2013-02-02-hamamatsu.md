@@ -1,14 +1,10 @@
 ---
 title: Hamamatsu
-description: Hamamatsu needed a new consumer facing site to educate people on the types of research they conduct.
+description: Hamamatsu needed a new consumer-facing site to educate people on the types of research they conduct.
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2015/03/1425428439_The_Living_Image-450x347.jpg
 date: 2013-02-02
 layout: portfolio
 ---
-
-# Hamamatsu
-
-**Contributors:** David Wells
 
 **Client:** Hamamatsu
 
@@ -16,11 +12,9 @@ layout: portfolio
 
 **Demo Link:** [http://thelivingimage.hamamatsu.com/](http://thelivingimage.hamamatsu.com/)
 
-**Tags:** Site, PHP, WordPress
+Hamamatsu needed a new consumer-facing site to educate people on the types of research they conduct.
 
-Hamamatsu needed a new consumer facing site to educate people on the types of research they conduct.
-
-The project was a site build with a number of complex layouts and content specifications.
+The project was a site build with several complex layouts and content specifications.
 
 ### The Living Image
 

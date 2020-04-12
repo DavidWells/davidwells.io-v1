@@ -6,13 +6,9 @@ date: 2017-11-03
 layout: portfolio
 ---
 
-# Serverless Forms
-
 Collect and manage form data using serverless technology.
 
 [Demo](https://serverless-forms.netlify.com) | [Repo](https://github.com/serverless/forms-service)
-
-
 
 ## Frontend
 
@@ -26,7 +22,7 @@ Collect and manage form data using serverless technology.
 ## Backend
 
 - Node backend running in AWS Lambda Functions
-- DynamoDB noSQL for database
+- DynamoDB NoSQL for database
 - Authorization via API Gateway Custom Authorizer Function
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-form-service-backend.png" />

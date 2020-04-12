@@ -7,17 +7,9 @@ date: 2015-03-25
 layout: portfolio
 ---
 
-# Responsible.js
-
-**Contributors:** David Wells
-
-**Client:** The internet
-
 **Date:** 2015
 
 **Demo Link:** [Demo](https://s3-us-west-2.amazonaws.com/assets.davidwells.io/demos/responsible/index.html)
-
-**Tags:** JavaScript
 
 Give Users the choice of what mobile experience they want. Adds Toggle for mobile to desktop switching without page reloads
 

@@ -6,19 +6,11 @@ date: 2015-02-27
 layout: portfolio
 ---
 
-# One Kings Lane Intranet
-
-**Contributors:** David Wells
-
 **Client:** One Kings Lane
 
 **Date:** 2014
 
-**Demo Link:** NA
-
-**Tags:** Site, PHP, WordPress
-
-One kings lane needed a new intranet for employees to see benefits and events happening in their location.
+One Kings Lane needed a new intranet for employees to see benefits and events happening in their location.
 
 ### Welcome Screen
 

@@ -6,9 +6,7 @@ date: 2016-09-02
 layout: portfolio
 ---
 
-# Anypoint Platform UI
-
-This is the main dashboard for Mulesofts entreprise platform.
+This is the main dashboard for [Mulesoft's enterprise platform](https://www.mulesoft.com/).
 
 It's built using React & Redux and the [UX component library](http://davidwells.io/work/mulesoft-component-library/)
 

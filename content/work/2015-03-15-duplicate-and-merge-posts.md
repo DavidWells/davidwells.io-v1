@@ -6,17 +6,11 @@ date: 2015-03-15
 layout: portfolio
 ---
 
-# Duplicate and Merge Posts
-
-**Contributors:** David Wells
-
 **Client:** Exygy, Intuit
 
 **Date:** 2014
 
 **Demo Link:** [https://wordpress.org/plugins/duplicate-and-merge-posts/](https://wordpress.org/plugins/duplicate-and-merge-posts/)
-
-**Tags:** PHP, WordPress, Plugin
 
 This was a WordPress plugin that was requested by Intuit.
 
@@ -24,7 +18,7 @@ They needed to give the ability to duplicate existing WordPress posts and allow 
 
 Once the duplicated post was ready, they have a submission process that allows administrators to merge the post back into the original document.
 
-This was a fun project to work and and drastically increased the speed of creating new wordpress content. Should be merged into WP core in my opinion =)
+This was a fun project to work and drastically increased the speed of creating new WordPress content. Should be merged into WP core in my opinion =)
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/5ngkWcIcpsE?feature=oembed" frameborder="0" allowfullscreen=""></iframe>
 

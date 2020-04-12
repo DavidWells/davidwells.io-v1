@@ -6,21 +6,13 @@ date: 2015-03-19
 layout: portfolio
 ---
 
-# Inbound Analytics
-
-**Contributors:** David Wells
-
-**Client:** The internets
-
 **Date:** 2014
-
-**Tags:** JavaScript
 
 Read the [docs](http://inbound-analytic-docs.surge.sh/)
 
-Vanilla JavaScript Analytics library with zero dependancies.
+Inbound Analytics, is a vanilla JavaScript library with zero dependencies for tracking various user activities on a site.
 
-The library is a part of the WordPress Landing Pages, Leads, and Calls to action plugin
+The library is a part of the WordPress Landing Pages, Leads, and Calls to action plugin for [Inbound Now](https://davidwells.io/work/inbound-now)
 
 ### Inbound Analytics API Docs
 

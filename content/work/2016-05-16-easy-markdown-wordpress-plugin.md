@@ -1,17 +1,11 @@
 ---
 title: Easy Markdown WordPress Plugin
-description: Write github flavored markdown in WordPress without the hassle
+description: Write GitHub flavored markdown in WordPress without the hassle
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/legacy/2016/05/easy-md.png
 date: 2016-05-14
 layout: portfolio
 repo: https://github.com/DavidWells/easy-markdown
 ---
-
-# easy.md
-
-**Contributors:** David Wells
-
-**Client:** The internet
 
 **Date:** 2016
 
@@ -19,7 +13,7 @@ repo: https://github.com/DavidWells/easy-markdown
 
 **Source Code:** [https://github.com/DavidWells/easy-markdown](https://github.com/DavidWells/easy-markdown)
 
-> Write github flavored markdown in WordPress without the hassle
+> Write GitHub flavored markdown in WordPress without the hassle
 
 Blogging about code in WordPress has historically been a **HUGE** pain in the ass.
 

@@ -6,19 +6,13 @@ date: 2013-01-01
 layout: portfolio
 ---
 
-# Topline Leadership
-
-**Contributors:** David Wells
-
 **Client:** Topline Leadership
 
 **Date:** 2012
 
 **Demo Link:** [http://www.toplineleadership.com/](http://www.toplineleadership.com/)
 
-**Tags:** Site, PHP, WordPress
-
-WordPress Site Build and inbound marketing implementation with landing pages, calls to actions, and lead tracking
+WordPress Site Build and inbound marketing implementation with landing pages, calls to actions, and lead tracking.
 
 ### Topline Home Page
 

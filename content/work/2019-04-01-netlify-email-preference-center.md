@@ -7,8 +7,6 @@ draft: true
 layout: portfolio
 ---
 
-# Netlify Email Preference Center
-
 Allow users to subscribe & unsubscribe from specific types of emails from Netlify.
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/netlify-email-preferences-form.jpg" />

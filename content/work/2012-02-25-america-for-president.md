@@ -6,17 +6,11 @@ date: 2012-02-25
 layout: portfolio
 ---
 
-# America for President
-
-**Contributors:** David Wells
-
 **Client:** America for President
 
 **Date:** 2011
 
 **Demo Link:** [http://www.americaforpresident.com/](http://www.americaforpresident.com/)
-
-**Tags:** Site, PHP, WordPress
 
 WordPress Site Build
 

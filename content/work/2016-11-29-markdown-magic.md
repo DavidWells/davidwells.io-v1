@@ -6,8 +6,6 @@ date: 2016-11-29
 layout: portfolio
 ---
 
-# Markdown Magic
-
 ✨ Add a little magic to your markdown ✨
 
 [Video demo](http://www.youtube.com/watch?v=4V2utrvxwJ8) | [Repo](https://github.com/davidwells/markdown-magic) | [Example Repo](https://github.com/DavidWells/repo-using-markdown-magic)
@@ -26,10 +24,8 @@ The comments markdown magic uses are hidden in markdown and when viewed as HTML.
 
 This `README.md` is generated with `markdown-magic` [view the raw file](https://raw.githubusercontent.com/DavidWells/markdown-magic/master/README.md) to see how.
 
-
-
 ## Install
 
 ```bash
-npm i markdown-magic
+npm install markdown-magic
 ```

@@ -6,11 +6,9 @@ date: 2016-12-01
 layout: portfolio
 ---
 
-# Serverless.com
-
 Built using react, redux and [phenomic](https://github.com/MoOx/phenomic) this site is statically built using react serverside rendering on build
 
-It's hosted on the [netlify](https://www.netlify.com/) CDN for 🔥blazingly fast performance and scale.
+It is hosted on the [Netlify](https://www.netlify.com/) CDN for 🔥blazingly fast performance and scale.
 
 This site is 100% serverless! [Repo](https://github.com/serverless/site)
 

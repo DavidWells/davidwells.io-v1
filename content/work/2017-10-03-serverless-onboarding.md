@@ -1,20 +1,18 @@
 ---
-title: Serverless Onboarding
+title: Serverless user onboarding
 description: Serverless new user onboarding flow
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-onboarding-v2-thumb.jpg
 date: 2017-10-03
 layout: portfolio
 ---
 
-# Serverless User Onboarding
-
 Custom react app for onboarding new serverless users.
 
-This react app is embeddable third party JS. Meaning you can include into any page without altering the hosting app/site.
+This React app was the onboarding flow in serverless.com and inside the product.
 
-This was so we could reuse this onboarding flow in serverless.com and inside the product.
+The app itself was built to be used as embeddable third party JavaScript. This means it can be included on any page without altering the hosting app/site. This architecture made it **much** easier to alter/edit without blocking dependencies.
 
-The app saves the users progress as they go through the steps.
+The app saves the user's progress as they go through the steps.
 
 [Repo](https://github.com/serverless/provider-onboarding/)
 

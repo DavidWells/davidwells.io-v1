@@ -6,21 +6,15 @@ date: 2014-04-04
 layout: portfolio
 ---
 
-# Teach Your Child To Swim.com
-
-**Contributors:** David Wells
-
 **Client:** Teach Your Child To Swim for Exygy
 
 **Date:** 2014
 
 **Demo Link:** [https://teachyourchildtoswim.com](https://teachyourchildtoswim.com)
 
-**Tags:** Site, PHP, WordPress
-
 WordPress site build with an e-commerce component.
 
-I decided to use Easy digital download for the ecom part.
+I decided to use Easy Digital Downloads plugin for the e-commerce part.
 
 Design by cohere studio.
 

@@ -6,19 +6,13 @@ date: 2013-03-04
 layout: portfolio
 ---
 
-# Marin Independent Journal
-
-**Contributors:** David Wells
-
 **Client:** Marin Independent Journal
 
 **Date:** 2013
 
 **Demo Link:** [http://mediasuite.marinij.com/](http://mediasuite.marinij.com/)
 
-**Tags:** Site, PHP, WordPress, Hubspot integration
-
-Marin Independent Journal needed a new site to promote their advertising service offering as they transitioned into the digital marketing landscape.
+Marin Independent Journal needed a new site to promote its advertising service offering as it transitioned into the digital marketing landscape.
 
 This project was a WordPress site build. One of the specifics of the project is that the site needed to have an inbound marketing focus and have landing pages, calls to action, and lead tracking mechanisms that integrated into HubSpot.
 

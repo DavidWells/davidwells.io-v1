@@ -6,12 +6,6 @@ date: 2015-03-18
 layout: portfolio
 ---
 
-# Drafts for Friends
-
-**Contributors:** David Wells
-
-**Client:** The internet
-
 **Date:** 2015
 
 **Code: **[Download from Github](https://github.com/DavidWells/share-wordpress-drafts-with-non-users)
@@ -20,9 +14,9 @@ layout: portfolio
 
 This WordPress plugin gives you the ability to share drafted content with your friends without them logging into WordPress.
 
-The drafts are visible for a transient amount of time, then they revert to private drafts that require a login to view.
+The drafts are visible for a transient amount of time; then, they revert to private drafts that require a login to view.
 
-This was a WordPress plugin built with React. The entire user interface is JavaScript driven.
+This was a WordPress plugin built with React. The entire user interface is JavaScript-driven.
 
 PHP runs in the background to fetch the required data from WordPress.
 

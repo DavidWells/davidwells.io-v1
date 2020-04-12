@@ -6,19 +6,13 @@ date: 2013-04-03
 layout: portfolio
 ---
 
-# WordPress Landing Pages
-
 **Contributors:** David Wells, Hudson Atwell
-
-**Client:** Inbound Now
 
 **Date:** 2013
 
 **Demo Link:** [https://wordpress.org/plugins/landing-pages/](https://wordpress.org/plugins/landing-pages/)
 
-**Tags:** WordPress, Plugin, PHP, JavaScript
-
-Create landing pages for your WordPress site. Monitor and improve conversion rates, run A/B split tests, customize your own templates and more.
+Create landing pages for your WordPress site. Monitor and improve conversion rates, run A/B split tests, customize your own templates and more. This plugin is part of [Inbound Now](https://davidwells.io/work/inbound-now)'s suite of marketing plugins.
 
 ![](https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/inbound-now-landing-pages-media_1428099093133.jpg "media_1428099093133.jpg")
 
