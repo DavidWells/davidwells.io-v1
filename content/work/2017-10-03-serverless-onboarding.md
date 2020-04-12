@@ -6,17 +6,21 @@ date: 2017-10-03
 layout: portfolio
 ---
 
-Custom react app for onboarding new serverless users.
+Onboarding wizard for new [serverless.com](https://serverless.com) users.
 
 This React app was the onboarding flow in serverless.com and inside the product.
 
-The app itself was built to be used as embeddable third party JavaScript. This means it can be included on any page without altering the hosting app/site. This architecture made it **much** easier to alter/edit without blocking dependencies.
+The app itself was built to be used as embeddable third party JavaScript. This means it can be included on any page without altering the hosting app/site. This architecture made it **much** easier to alter/edit without blocking dependencies or waiting for full application deployments.
 
-The app saves the user's progress as they go through the steps.
+**Features:**
 
-[Repo](https://github.com/serverless/provider-onboarding/)
+- Embeddable anywhere
+- Saves the user's progress as they step through wizard
+- Support any number of steps/content
 
-## [v1 demo](https://s3-us-west-2.amazonaws.com/assets.davidwells.io/demos/serverless/onboarding/v1/index.html#get-started)
+## Version 1
+
+[v1 demo](https://s3-us-west-2.amazonaws.com/assets.davidwells.io/demos/serverless/onboarding/v1/index.html#get-started)
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-onboarding-v1-start.jpg
 " />
@@ -27,7 +31,9 @@ The app saves the user's progress as they go through the steps.
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-onboarding-v1-end.jpg
 " />
 
-## [v2 demo](http://serverless-onboarding.surge.sh/)
+## Version 2
+
+[v2 demo](http://serverless-onboarding.surge.sh/)
 
 <img src="https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/serverless-onboarding-v2-start.jpg
 " />

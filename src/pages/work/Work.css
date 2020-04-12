@@ -159,7 +159,6 @@
   }
   h3 {
     margin-top: 5px;
-    text-align: center;
     font-size: 18px;
     margin-bottom: 5px;
   }
@@ -172,7 +171,6 @@
   .thumbnailWrapper {
     min-width: 100%;
     max-width: 100%;
-    text-align: center;
     display: block;
   }
   .thumbnail {
@@ -182,7 +180,6 @@
     border: solid 1px #e3e3e3;
   }
   .description {
-    text-align: center;
     font-size: 12px;
     display: block;
     padding: 0px;
@@ -190,8 +187,7 @@
     /* text-align: left; */
   }
   .details {
-    display: flex;
-    align-items: center;
+    padding-left: 5px;
     flex-direction: column;
     justify-content: center;
     margin-top: 5px;
@@ -204,7 +200,7 @@
 @media (max-width: 1100px) {
   .grid {
     .item {
-      width: 47%;
+      width: 40%;
     }
   }
   .list {
@@ -223,6 +219,7 @@
     .item {
       width: 100%;
       margin-bottom: 30px;
+      text-align: center;
     }
   }
   .list {

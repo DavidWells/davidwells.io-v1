@@ -10,7 +10,9 @@ layout: portfolio
 
 **Live URL:** <a href="http://ux.mulesoft.com/">http://ux.mulesoft.com/</a>
 
-Mulesoft needed to port over some legacy angular one applications into a more modern centralized stack.
+**Date:** 2016
+
+[Mulesoft](https://mulesoft.com) needed to port over some legacy angular one applications into a more modern centralized stack.
 
 I worked with the UX team to create a scalable component library for all internal product teams to use.
 

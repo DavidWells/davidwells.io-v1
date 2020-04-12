@@ -1,5 +1,5 @@
 ---
-title: Netlify AWS CloudFormation Resource
+title: Netlify + AWS CloudFormation
 description: Deploy netlify sites as part of CloudFormation stack
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/netlify-cloudformation-thumb.jpg
 date: 2018-11-29
@@ -15,7 +15,7 @@ This project lets you define your site as infrastructure as code.
 
 ##  Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AQ-f-U8Pncc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="315" src="https://www.youtube.com/embed/AQ-f-U8Pncc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to use it?
 

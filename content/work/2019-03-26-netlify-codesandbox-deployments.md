@@ -1,5 +1,5 @@
 ---
-title: Netlify + CodeSandbox Deployments
+title: Netlify + CodeSandbox Deploys
 description: Deploy Netlify sites from Code Sandbox
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/csb-thumb.jpg
 date: 2019-03-26

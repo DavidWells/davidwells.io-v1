@@ -14,8 +14,6 @@ It works with any static site setup (Jekyll, Hugo, Phenomic, Gatsby, etc.)
 
 ## How does it work?
 
-<img align="right" width="500" height="313" src="https://cloud.githubusercontent.com/assets/532272/23643861/250f2ca0-02b9-11e7-9a1b-94676043f2aa.gif">
-
 1. A GitHub webhook fires when pull requests (aka new posts) are updated.
 
 2. If the pull request comment has a comment matching `schedule(MM/DD/YYYY H:MM pm)` and the person is a collaborator on the project, the post gets scheduled for you.
@@ -25,6 +23,8 @@ It works with any static site setup (Jekyll, Hugo, Phenomic, Gatsby, etc.)
 4. When the post is ready to be published, the cron function automatically merges the branch into `master`, and your site, if you have CI/CD built-in, will redeploy itself.
 
 To cancel scheduled posts, delete the scheduled comment, and it will unschedule the branch.
+
+<img width="600" height="360" src="https://cloud.githubusercontent.com/assets/532272/23643861/250f2ca0-02b9-11e7-9a1b-94676043f2aa.gif">
 
 ### Github Webhook Architecture Overview
 
