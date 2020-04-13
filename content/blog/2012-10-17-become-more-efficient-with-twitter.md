@@ -13,8 +13,6 @@ Twitter can be a huge time suck. This episode is meant to give you back some of 
 
 I have been using twitter for the past **4 years, 7 months, 28 days** (wow that is a lot of "look at my sandwich tweets"). In this time, I've tried pretty much every twitter tool on the market in search for ways to streamline how I do things.
 
-![](http://inboundnow.com/wp-content/uploads/2012/10/twitter-efficiency-300x300.jpg "twitter-efficiency")
-
 In this episode, I run through my current setup and how I use twitter on a daily basis and how I've been able to grow a number of twitter accounts over the years.
 
 You can follow along and implement the same strategies to streamline your day to day twitter activities and grow an audience.

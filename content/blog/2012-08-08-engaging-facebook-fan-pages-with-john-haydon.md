@@ -4,7 +4,6 @@ author: David Wells
 date: 2012-08-08 12:00
 layout: post
 category: "Marketing"
-
 tags:
   - video
   - inbound now
@@ -22,7 +21,7 @@ John is the author of [“Facebook Marketing for Dummies”](http://www.amazo
 *   The importance of content offers on your Facebook fan page
 *   Must have third party Facebook apps for marketing
 
-<iframe src="http://www.youtube.com/embed/IjYriZjHkg4" width="720" height="450" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/IjYriZjHkg4" width="720" height="450" frameborder="0"></iframe>
 
 ## Full Transcript
 

@@ -4,7 +4,6 @@ author: David Wells
 date: 2012-07-11 12:00
 layout: post
 category: "Marketing"
-
 tags:
   - video
   - inbound now
@@ -22,7 +21,7 @@ We dive into what optimization really means to Lee and how to take a holistic ap
 *   How Top Rank leverages their content to educate buyers and win clients
 *   and how Lee cranks out compelling content on a consistent basis
 
-<iframe src="http://www.youtube.com/embed/kIEf30SwcyY?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube.com/embed/kIEf30SwcyY?wmode=transparent" width="720" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## <span style="text-decoration: underline;">Show Notes</span>
 
