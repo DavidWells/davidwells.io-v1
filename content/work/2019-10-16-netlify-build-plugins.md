@@ -290,13 +290,13 @@ The events that build plugins can hook into are as follows
 
 | Event                                     | Description                        |
 | :---------------------------------------- | :--------------------------------- |
-| ⇩ ‏‏‎ ‏‏‎ ‏‏‎ **onInit** ‏‏‎ ‏‏‎ ‏‏‎      | Runs before anything else          |
-| ⇩ ‏‏‎ ‏‏‎ ‏‏‎ **onPreBuild** ‏‏‎ ‏‏‎ ‏‏‎  | Before build commands are executed |
-| ⇩ ‏‏‎ ‏‏‎ ‏‏‎ **onBuild** ‏‏‎ ‏‏‎ ‏‏‎     | Build commands are executed        |
-| ⇩ ‏‏‎ ‏‏‎ ‏‏‎ **onPostBuild** ‏‏‎ ‏‏‎ ‏‏‎ | After Build commands are executed  |
-| ⇩ ‏‏‎ ‏‏‎ ‏‏‎ **onSuccess** ‏‏‎ ‏‏‎ ‏‏‎   | Runs on build success              |
-| ⇩ ‏‏‎ ‏‏‎ ‏‏‎ **onError** ‏‏‎ ‏‏‎ ‏‏‎     | Runs on build error                |
-| 🎉 ‏‏‎ **onEnd** ‏‏‎ ‏‏‎ ‏‏‎              | Runs on build error or success     |
+| **onInit** ‏‏‎ ‏‏‎ ‏‏‎      | Runs before anything else          |
+| **onPreBuild** ‏‏‎ ‏‏‎ ‏‏‎  | Before build commands are executed |
+| **onBuild** ‏‏‎ ‏‏‎ ‏‏‎     | Build commands are executed        |
+| **onPostBuild** ‏‏‎ ‏‏‎ ‏‏‎ | After Build commands are executed  |
+| **onSuccess** ‏‏‎ ‏‏‎ ‏‏‎   | Runs on build success              |
+| **onError** ‏‏‎ ‏‏‎ ‏‏‎     | Runs on build error                |
+| **onEnd** ‏‏‎ ‏‏‎ ‏‏‎       | Runs on build error or success     |
 
 ### Inputs & Outputs
 
