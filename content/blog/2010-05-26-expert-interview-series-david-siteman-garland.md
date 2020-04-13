@@ -13,9 +13,9 @@ David Siteman Garland, founder of <a href="http://therisetothetop.com/">TheRiseT
 
 He points out that becoming a<strong> </strong>trusted resource/expert will organically build online trust and your organization will become a  resource people will seek out. Push marketing is dead and pulling people in with relevant useful   content is the new way of marketing online.
 <h5>The Video Interview (runtime 36min)</h5>
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="540" height="405" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://vimeo.com/moogaloop.swf?clip_id=12012236&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed type="application/x-shockwave-flash" width="540" height="405" src="http://vimeo.com/moogaloop.swf?clip_id=12012236&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
-<a href="http://vimeo.com/12012236">Expert Interview Series w/ David Siteman Garland - Socialize Your Cause</a> from <a href="http://vimeo.com/socializedcause">Socialize Your Cause</a> on <a href="http://vimeo.com">Vimeo</a>. <strong>Read on for the notes from the interview.</strong>
+<iframe src="https://player.vimeo.com/video/12012236" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/12012236">Expert Interview Series w/ David Siteman Garland - Socialize Your Cause</a> from <a href="https://vimeo.com/socializedcause">Socialize Your Cause</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 <h3><strong><strong><span style="text-decoration: underline;">Key Points</span>
 </strong></strong></h3>
