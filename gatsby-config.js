@@ -47,6 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-feed',
       options: {
+        title: "David Wells Blog RSS Feed",
         query: `
           {
             site {

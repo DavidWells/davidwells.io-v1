@@ -1,5 +1,5 @@
 ---
-title: Building a React Component Library & Styleguide for your Organization
+title: "Building a React Component Library & Styleguide for your Organization"
 event: At The Frontend Conference, Copenhagen
 video: https://vimeo.com/168469173
 date: 2015-05-25
