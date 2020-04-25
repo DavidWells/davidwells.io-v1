@@ -10,7 +10,7 @@ Responsive websites, the biggest trend since beanie babies.
 
 I think they are here to stay, but if you are a B2B company, make sure you think long and hard about how your content rearranged for mobile visitors.
 
-This is a follow-up post to "[Why Responsive Web Design is NOT Right For Your Website](http://inboundly.wpengine.com/why-responsive-web-design-is-not-right-for-your-website/)" that seemed to be more popular than Justin Bieber at a One Direction concert.
+This is a follow-up post to "[Why Responsive Web Design is NOT Right For Your Website](https://inboundnow.com/why-responsive-web-design-is-not-right-for-your-website/)" that seemed to be more popular than Justin Bieber at a One Direction concert.
 
 Responsive Design is can be used to do a lot of things but I sincerely believe that making content 100% of the width of your page and treating your site's sidebar/CTAs like second class citizens is a bad thing.
 

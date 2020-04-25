@@ -68,7 +68,7 @@ Be socially active with other blogs in your industry, you can leverage relations
 
 Lees blog is one of main ways he gets the word out their about his companies services.
 
-Try and get others on board contributing to your blog. We do this at inbound now with our [guest author page](http://inboundly.wpengine.com/blog/guest-post-for-inbound-now/).
+Try and get others on board contributing to your blog. We do this at inbound now with our [guest author page](https://inboundnow.com/blog/guest-post-for-inbound-now/).
 
 **People will work for a living but DIE for recognition. Find out a way to recognize those who deserve it.**
 

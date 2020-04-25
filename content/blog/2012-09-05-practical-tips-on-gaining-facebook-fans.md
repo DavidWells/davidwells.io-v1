@@ -67,7 +67,7 @@ Most companies will autofeed their facebook fan page with the RSS feed from thei
 
 **Being this lazy has no place in creating a likeable fan page**. Turn off your automation and develop a solid content strategy.
 
-Check out a previous episode with [John Haydon sharing how he develops an amazingly engaging facebook content strategy.](http://inboundly.wpengine.com/how-to-engage-grow-your-facebook-fan-page-with-john-haydon/)
+Check out a previous episode with [John Haydon sharing how he develops an amazingly engaging facebook content strategy.](https://inboundnow.com/how-to-engage-grow-your-facebook-fan-page-with-john-haydon/)
 
 We have taken his advice to heart and have seen a definite uptick in shares, likes, and oh yea TRAFFIC via facebook.
 
@@ -75,7 +75,7 @@ We have taken his advice to heart and have seen a definite uptick in shares, lik
 
 Content offers are very effective motivators to get people to like your facebook fan page.
 
-We created the [Facebook Like to Download App](http://inboundly.wpengine.com/apps/like-to-download-app/) for this exact reason. The app will allow you to like gate a particular link, which could be a pdf document, video, mp3, or link to a thank you page where they can download the deliverable.
+We created the [Facebook Like to Download App](https://inboundnow.com/apps/like-to-download-app/) for this exact reason. The app will allow you to like gate a particular link, which could be a pdf document, video, mp3, or link to a thank you page where they can download the deliverable.
 
 In order for the visitor to get that valuable piece of content they will have you like your fan page or any other URL you specify from your site.
 

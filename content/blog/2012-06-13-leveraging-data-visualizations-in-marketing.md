@@ -23,7 +23,7 @@ We chat specifically about how marketers/business owners can leverage the advan
 
 <iframe src="https://www.youtube.com/embed/osxUtjd82gY?wmode=transparent" width="600" height="335" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-## If you enjoyed the show, [Subscribe!](http://inboundly.wpengine.com/subscribe/)
+## If you enjoyed the show, [Subscribe!](https://inboundnow.com/subscribe/)
 
 ## <span style="text-decoration: underline;">Show Notes</span>
 

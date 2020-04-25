@@ -74,7 +74,7 @@ Derek and I are fans of lightbox popups for one simple fact, they convert very w
 
 Some industry gurus are against the popup and to solve this controversy Derek added in a feature box to top of his homepage. 
 
-[![](http://inboundly.wpengine.com/wp-content/uploads/2012/05/feature-box-example.png "feature box example")](http://inboundly.wpengine.com/wp-content/uploads/2012/05/feature-box-example.png)
+[![](https://inboundnow.com/wp-content/uploads/2012/05/feature-box-example.png "feature box example")](https://inboundnow.com/wp-content/uploads/2012/05/feature-box-example.png)
 
 ## Your Home and About Us Page are Critical!
 
