@@ -26,10 +26,6 @@ Jason runs his own consulting agency, [Social Media Explorer](http://www.socialm
 
 <iframe width="720" height="335" src="https://www.youtube.com/embed/BpadsINn6fM" frameborder="0" allowfullscreen=""></iframe>
 
-## Follow the 3 Steps Below for our Free 9 Step Email Marketing Guide
-
-<iframe src="http://inboundnow.hubspot.com/main/embed-api.php?fburl=http://www.facebook.com/inboundnow&amp;shareurl=http://www.inboundnow.tv/all-episodes/&amp;message=Check+out+%40HubSpot%5C%27s+%40InboundNow+show+featuring+Marketing+Industry+Experts+sharing+the+latest+inbound+marketing+trends&amp;twittername=&amp;api=http%3A%2F%2Fsocialchampions.app2.hubspot.com%2F%3Fapp%3Dleaddirector%26FormName%3DInbound%2BNow%2BEmail%2BSignup&amp;rurl=http%3A%2F%2Fhubspot.inboundnow.tv%2Fthank-you-9-step-email-guide%2F&amp;altlp=&amp;portalid=24748&amp;appdomain=socialchampions.app2.hubspot.com" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:593px; height:195px;" allowtransparency="true"></iframe>
-
 ## Transcript
 
 David Wells: Hey, everybody. Welcome to Episode Number 22 of Inbound Now. Yes, throw them up 22, that's not a gang sign, or maybe it is, I don't know, we'll see. I'm joined here with a special guest, Mr. Jason Falls. Jason runs his own consulting agency, Social Media Explorer, and it's also a very popular social media blog. I actually looked it up today and it's number 15 on the Ad Age 150 list, right above HubSpot. We're 60, we're coming for you, man, we're coming for you.

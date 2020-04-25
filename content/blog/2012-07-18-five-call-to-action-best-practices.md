@@ -10,7 +10,7 @@ Calls to action are a **critical** piece of any inbound marketing strategy.
 
 **Without calls to action telling your website visitors what to do next, all that traffic you are getting from creating great content is wasted**.
 
-<img src="http://inboundnow.com/wp-content/uploads/2012/07/call-to-action-creation.png" />
+<img src="https://inboundnow.com/wp-content/uploads/2012/07/call-to-action-creation.png" />
 
 You need the conversion points on your site to convert passive visitors into active prospects/leads. It's a relatively simple concept.
 

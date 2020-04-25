@@ -79,4 +79,4 @@ We created the [Facebook Like to Download App](http://inboundly.wpengine.com/app
 
 In order for the visitor to get that valuable piece of content they will have you like your fan page or any other URL you specify from your site.
 
-[![](http://inboundnow.com/wp-content/uploads/2012/09/inboundnow-podcast-box-300x300.jpg)](https://davidwells.io/tags/inbound-now/)
+[![](https://inboundnow.com/wp-content/uploads/2012/09/inboundnow-podcast-box-300x300.jpg)](https://davidwells.io/tags/inbound-now/)

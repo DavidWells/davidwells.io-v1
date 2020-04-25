@@ -6,7 +6,7 @@ layout: post
 category: "Marketing"
 ---
 
-On the Inbound Now blog, we got a lot of [guest post submissions](http://inboundnow.com/blog/guest-post-for-inbound-now/). We love them!
+On the Inbound Now blog, we got a lot of [guest post submissions](https://inboundnow.com/blog/guest-post-for-inbound-now/). We love them!
 
 They help us keep the awesome marketing & WordPress content flowing.
 
@@ -38,7 +38,7 @@ It may seem blatantly obvious that you wouldn't want to submit an article abo
 
 Look at what the site is about before submitting your pitch.
 
-I have my topics clearly listed out on my [guest submission page](http://inboundnow.com/blog/guest-post-for-inbound-now/):
+I have my topics clearly listed out on my [guest submission page](https://inboundnow.com/blog/guest-post-for-inbound-now/):
 
 > We are focused on the following categories, so guest posts should fit into one (or more) of these:
 >
@@ -60,7 +60,7 @@ You are probably familiar with the top 10 blogs in your industry or niche. After
 
 1.  go to one of those sites & read a couple of recent posts (hey you might even learn something)
 2.  Then find their twitter handle and send them a note
-3.  Brainstorm a good post idea to contribute to their site. Use the [Kill Writers Block App](http://inboundnow.com/apps/kill-writers-block/) for help with that.
+3.  Brainstorm a good post idea to contribute to their site. Use the [Kill Writers Block App](https://inboundnow.com/apps/kill-writers-block/) for help with that.
 4.  Then email or use their contact page to drop them a line with your great post idea **that is going to add value to their site.**
 
 ## Go Forth and Contribute

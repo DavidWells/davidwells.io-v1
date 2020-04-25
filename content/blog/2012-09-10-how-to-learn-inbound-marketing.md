@@ -28,7 +28,7 @@ Then, **get to work**.
 
 Replicate what you learn and implement those how to tips to see what sticks.
 
-You can read twenty thousand posts on [how to grow your Facebook fan base](http://inboundnow.com/no-bullsht-tactical-and-practical-tips-on-gaining-facebook-fans/), but unless you put theory into practice, you aren't going to learn anything and no results will be achieved.
+You can read twenty thousand posts on [how to grow your Facebook fan base](https://inboundnow.com/no-bullsht-tactical-and-practical-tips-on-gaining-facebook-fans/), but unless you put theory into practice, you aren't going to learn anything and no results will be achieved.
 
 > If you are **all theory and no action** a very unfortunate thing will happen, you will lack experience.
 
@@ -42,4 +42,4 @@ Here is your call to action:
 
 ## Stop reading and Start Doing.
 
-![learn by doing](http://inboundnow.com/wp-content/uploads/2012/09/learnbydoing-300x300.png)
+![learn by doing](https://inboundnow.com/wp-content/uploads/2012/09/learnbydoing-300x300.png)

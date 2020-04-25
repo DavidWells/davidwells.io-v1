@@ -49,7 +49,7 @@ If you want to boost subscribers it's a no brainer.
 
 ## 4. Encourage Blog Subscriptions with a Content Offer
 
-I made a [tool specifically for people trying to grow their feedburner subscriber count](http://inboundnow.com/apps/feedburner-subscribe-to-download/).
+I made a [tool specifically for people trying to grow their feedburner subscriber count](https://inboundnow.com/apps/feedburner-subscribe-to-download/).
 
 The app allows you to place a content offer behind the feedburner email subscribe form. If the visitor subscribes to your blogs feed they can download the content offer.
 
@@ -61,13 +61,13 @@ Simple and effective.
 
 Want to create one of these for your site's sidebar or for you to insert into the bottom of blog posts?
 
-### [Click here to create a subscribe to download embed for your site](http://inboundnow.com/apps/feedburner-subscribe-to-download/)
+### [Click here to create a subscribe to download embed for your site](https://inboundnow.com/apps/feedburner-subscribe-to-download/)
 
 ## 5. Get outside exposure into your site
 
 Once you have completed the above steps and it’s very clear why people should subscribe to your blog and very easy for them to do so, it’s time to venture outside of your site.
 
-Connect with bigger industry specific blogs that have an existing audience and see if you can contribute posts there as well. (need help? see [finding guest posting opportunities](http://inboundnow.com/fool-proof-way-to-increase-credible-inbound-links-to-your-site/))
+Connect with bigger industry specific blogs that have an existing audience and see if you can contribute posts there as well. (need help? see [finding guest posting opportunities](https://inboundnow.com/fool-proof-way-to-increase-credible-inbound-links-to-your-site/))
 
 This will help you two-fold:
 

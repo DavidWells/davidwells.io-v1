@@ -62,4 +62,4 @@ It really doesn't matter as long as you are creating a new page on your site tha
 
 These searches might very well be ready to take the next step, so give them the ability to "talk to a red widget expert today" and get them to convert.
 
-If are interested in [better targeting your calls to action on your site](http://inboundnow.com/introducing-the-contextual-calls-to-action-wordpress-plugin/), you might be interested in our contextual [call to action WordPress plugin](http://inboundnow.com/cta).
+If are interested in [better targeting your calls to action on your site](https://inboundnow.com/introducing-the-contextual-calls-to-action-wordpress-plugin/), you might be interested in our contextual [call to action WordPress plugin](https://inboundnow.com/cta).

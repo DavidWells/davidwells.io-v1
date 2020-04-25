@@ -19,7 +19,7 @@ You can follow along and implement the same strategies to streamline your day to
 
 <iframe src="https://www.youtube.com/embed/9sw6YoQelU4" width="720" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-## [Subscribe to the Show](http://inboundnow.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
+## [Subscribe to the Show](https://inboundnow.com/subscribe/ "Subscribe to the Inbound Now TV Social Media and Inbound Marketing Podcast")
 
 ### 1. Followerwonk
 
@@ -27,7 +27,7 @@ Followerwonk is a tool that allows you to quickly find influential people in y
 
 Once you find the influencers, look and see who they are following and who follows them. You are likely to find twitter users who are interested in your content as well. Follow them and make sure your twitter profile is interesting with a bunch of useful relevant stuff from your site and more importantly other sources.
 
-SEOMoz recently acquired followerwonk to no doubt make it more awesome. Check out my interview with [Rand Fishkin on SEO best practices](http://inboundnow.com/seo-best-practices-link-building-strategies/).
+SEOMoz recently acquired followerwonk to no doubt make it more awesome. Check out my interview with [Rand Fishkin on SEO best practices](https://inboundnow.com/seo-best-practices-link-building-strategies/).
 
 ### 2. SocialBro
 
@@ -45,7 +45,7 @@ The twitter interface leaves much to be desired for marketing and it's not easy 
 
 Hootsuite (or use tweetdeck whateves) columns give me a powerful dashboard to sort and filter through a bunch of information quickly and efficiently.
 
-For more on how I use hootsuite to find and engage with relevant conversations see this past episode: [Advanced Twitter Search Techniques: How to Find Relevant Business Conversations](http://inboundnow.com/how-to-create-and-promote-a-video-interview-podcast/).
+For more on how I use hootsuite to find and engage with relevant conversations see this past episode: [Advanced Twitter Search Techniques: How to Find Relevant Business Conversations](https://inboundnow.com/how-to-create-and-promote-a-video-interview-podcast/).
 
 Hootsuite recently launched an app marketplace, somewhere in there InboxQ.com has a tool to help find questions as well.
 

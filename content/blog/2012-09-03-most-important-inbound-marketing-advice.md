@@ -6,7 +6,7 @@ layout: post
 category: "Marketing"
 ---
 
-![inbound marketing path](http://inboundnow.com/wp-content/uploads/2012/09/inbound-way-300x263.png)
+![inbound marketing path](https://inboundnow.com/wp-content/uploads/2012/09/inbound-way-300x263.png)
 
 It’s time to cut the cord and stop sugar-coating the world of online inbound marketing.
 
@@ -34,7 +34,7 @@ All leads come in via the web due to our content, social, and conversion strateg
 
 Below is a screenshot from the month of our traffic and lead flow for the month August, our best month yet:
 
-<img src="http://inboundnow.com/wp-content/uploads/2012/09/August-Stats-800+-leads.jpg" />
+<img src="https://inboundnow.com/wp-content/uploads/2012/09/August-Stats-800+-leads.jpg" />
 
 **How is it done?**
 

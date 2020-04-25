@@ -9,7 +9,7 @@ tags:
   - inbound now
 ---
 
-John Haydon [returns](http://inboundnow.com/rocking-facebook-fan-pages-john-haydon/) to another episode of inbound now to share updated Facebook fan page best practices and his best insights on how he took his fan page from 3000 fans to over 15,000 in under a year.
+John Haydon [returns](https://inboundnow.com/rocking-facebook-fan-pages-john-haydon/) to another episode of inbound now to share updated Facebook fan page best practices and his best insights on how he took his fan page from 3000 fans to over 15,000 in under a year.
 
 John is the author of [“Facebook Marketing for Dummies”](http://www.amazon.com/Facebook-Marketing-Dummies-Business-Personal/dp/1118107403/) and runs his own inbound marketing and social media strategy firm [inbound zombie](http://inboundzombie.com/?utm_source=johnhaydon&utm_medium=aboutpage&utm_campaign=haydonzombieanalysis).
 

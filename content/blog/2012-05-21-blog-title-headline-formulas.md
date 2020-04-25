@@ -14,7 +14,7 @@ I wrote this post to illustrate how you can apply great headlines to _get more v
 
 Imagine yourself waiting in line at the grocery store. _What do you see?_
 
-![magazine-rack](http://inboundnow.com/wp-content/uploads/2012/05/magazine-rack-300x195.png)
+![magazine-rack](https://inboundnow.com/wp-content/uploads/2012/05/magazine-rack-300x195.png)
 
 Tons and Tons of sensational headlines that pique your interest (regardless of how true they are).
 
@@ -95,8 +95,8 @@ Example: 5 Reasons hiring in house SEO employees is better than our-sourcing to 
 
 Please see the below equation
 
-![increase organic traffic by blogging infographic](http://inboundnow.com/wp-content/uploads/2012/05/blog-infographic.jpg)
+![increase organic traffic by blogging infographic](https://inboundnow.com/wp-content/uploads/2012/05/blog-infographic.jpg)
 
 ### Simple as that.
 
-### If you'd like more keyword-rich blog post ideas check out our [Kill Writers Block App](http://inboundnow.com/apps/kill-writers-block/)
+### If you'd like more keyword-rich blog post ideas check out our [Kill Writers Block App](https://inboundnow.com/apps/kill-writers-block/)

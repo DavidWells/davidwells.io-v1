@@ -20,7 +20,7 @@ Well, start by optimizing the single most important piece of your facebook fan p
 
 ### The Single Most Important Part of Your Facebook Fan Page
 
-<img src="http://inboundnow.com/wp-content/uploads/2012/09/The_Single_Most_Important_Part_of_Your_Facebook_Fan_Page.png" />
+<img src="https://inboundnow.com/wp-content/uploads/2012/09/The_Single_Most_Important_Part_of_Your_Facebook_Fan_Page.png" />
 
 Have a live link back into your site! It's probably the most overlooked spot on fan pages and most people simply include text about their company in this section.
 
@@ -34,11 +34,11 @@ If you haven't done this... Come on Meow! It's easy, I will show you below.
 
 ### How to add a live link to about us section on Facebook
 
-<img src="http://inboundnow.com/wp-content/uploads/2012/09/How_to_add_live_link_to_about_us_section_on_facebook.png" />Click into your about us section from your timeline and then click the edit button.
+<img src="https://inboundnow.com/wp-content/uploads/2012/09/How_to_add_live_link_to_about_us_section_on_facebook.png" />Click into your about us section from your timeline and then click the edit button.
 
 ### Then make the simple change!
 
-<img src="http://inboundnow.com/wp-content/uploads/2012/09/Then_make_the_simple_change_.png" />In the about section, drop in your full http://www.yoursite.com link.
+<img src="https://inboundnow.com/wp-content/uploads/2012/09/Then_make_the_simple_change_.png" />In the about section, drop in your full http://www.yoursite.com link.
 
 If you want to be all "marketery" about it you could use bit.ly or another link shortener to track click throughs on the link.
 
