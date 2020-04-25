@@ -7,7 +7,7 @@
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",
-    "build": "gatsby build --log-pages",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "serve": "http-server public",
     "deploy": "netlify deploy -p --dir public",
     "postbuild": "cp -R resume public && node scripts/sitemap.js",
