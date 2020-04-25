@@ -1,6 +1,6 @@
 ---
 title: Topline Leadership
-description: "Site build with inbound marketing implementation. Landing pages, calls to actions, & lead tracking"
+description: "Site build with inbound marketing implementation Landing pages, calls to actions, & lead tracking"
 thumbnail: https://s3-us-west-2.amazonaws.com/assets.davidwells.io/work/topline-leadership-thumbnail.png
 date: 2013-01-01
 layout: portfolio
