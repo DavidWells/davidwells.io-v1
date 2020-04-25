@@ -7,7 +7,7 @@ layout: post
 permalink: http://davidwells.io/charity-trust/
 ---
 
-Just to give you a basis for thought, in 2009 businesses had a disastrous year when it came to consumer trust.  According to the <a href="http://www.edelman.com/trust/2009/">2009 Edelman Trust Barometer</a> overall trust dropped about 20% from 2008, which is a pretty drastic decline.  Also important to note is that Edlemen asserts that <strong>communication</strong> is JUST as important as product quality in generating trust; the two go hand in hand.
+Just to give you a basis for thought, in 2009 businesses had a disastrous year when it came to consumer trust.  According to the <a href="http://www.edelman.com/trust/2009/">2009 Edelman Trust Barometer</a> overall trust dropped about 20% from 2008, which is a pretty drastic decline. Also important to note is that Edlemen asserts that <strong>communication</strong> is JUST as important as product quality in generating trust; the two go hand in hand.
 
 
 Additionally, a <a href="http://news.harrisinteractive.com/profiles/investor/ResLibraryView.asp?BzID=1963&amp;ResLibraryID=36598&amp;Category=1765">poll</a> by Harris Interactive ranks the most trusted non-profits and organizations; those gracing the top ten include St. Jude’s Research Hospital (in the top spot), Salvation Army, The Smithsonian, and Susan B. Komen For the Cure, just to name a few.  St. Jude’s and Susan B. Komen also ranked in the top ten for non-profits people were most likely to donate to.  According to the poll:
