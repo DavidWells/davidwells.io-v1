@@ -19,6 +19,7 @@ Below is the promisified file system calls I use a bunch in projects.
 
 I've added `createDir`, `fileExists`, and `deleteDir` to smooth over some of the core `fs` methods that can be a little awkward to work with.
 
+
 ```js
 const fs = require('fs')
 const mkdirp = require('mkdirp')
@@ -43,7 +44,13 @@ module.exports = {
 }
 ```
 
-How to use
+Install `mkdirp` and `rimraf` npm packages for `deleteDir` & `createDir`
+
+```
+npm install mkdirp rimraf
+```
+
+Then you can use it in your project
 
 ```js
 const path = require('path')
