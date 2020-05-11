@@ -9,7 +9,7 @@ tags:
   - node
 ---
 
-Node introduced the `promisify` utilities in back in version 8. These utils are quite handy!
+Node introduced the `promisify` utilities in back in version 8.
 
 Using `promisify` you can use the node.js file system utilities with `async/await` and `promises.`
 
@@ -19,8 +19,8 @@ Below is the promisified file system calls I use a bunch in projects.
 
 I've added `createDir`, `fileExists`, and `deleteDir` to smooth over some of the core `fs` methods that can be a little awkward to work with.
 
-
 ```js
+/* ./utils/fs.js */
 const fs = require('fs')
 const mkdirp = require('mkdirp')
 const rimraf = require('rimraf')
@@ -54,7 +54,7 @@ Then you can use it in your project
 
 ```js
 const path = require('path')
-const { fileExists, readFile } = require('./fs')
+const { fileExists, readFile } = require('./utils/fs')
 
 async function doIt(filePath) {
   const exists = await fileExists(filePath)  
