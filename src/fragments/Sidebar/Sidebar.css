@@ -18,6 +18,37 @@ $sidebarWidth: 23%;
     top: -60px;
   }
 }
+.icons {
+  width: 90px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  a {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 5px;
+  }
+  svg {
+    cursor: pointer;
+    width: 35px;
+    fill: #8b8b8b;
+    &:hover {
+      fill: #000;
+    }
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: #cccccc;
+    margin: 0px auto;
+  }
+}
 .sidebarFixed {
   position: fixed;
   display: flex;
@@ -25,6 +56,7 @@ $sidebarWidth: 23%;
   height: 100vh;
   width: $sidebarWidth;
   min-width: $sidebarWidth;
+  justify-content: space-between;
   a {
     text-decoration: none;
     color: #8b8b8b;
@@ -119,11 +151,28 @@ $sidebarWidth: 23%;
   .sidebarInner {
     padding-bottom: 10px;
   }
+  .icons {
+    margin-left: 20px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    svg {
+      width: 25px;
+    }
+    a {
+      margin-right: 20px;
+    }
+    &::after {
+      height: 0px;
+    }
+  }
 }
 
 @media (max-width: 720px) {
   .sidebar {
     border-right: none;
+  }
+  .icons {
+    display: none;
   }
 
 }
