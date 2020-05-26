@@ -35,7 +35,7 @@ $sidebarWidth: 23%;
     &:hover, &:focus {
       transform: translateY(-3px);
       svg {
-        fill: $primary; 
+        fill: $primary;
       }
     }
   }
@@ -166,6 +166,8 @@ $sidebarWidth: 23%;
       margin-right: 20px;
     }
     &::after {
+      display: none;
+      width: 0px;
       height: 0px;
     }
   }
