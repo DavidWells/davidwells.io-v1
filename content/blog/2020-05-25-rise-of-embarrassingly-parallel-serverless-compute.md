@@ -21,8 +21,6 @@ A world where **embarrassingly parallel compute** is not only possible but acces
 
 ## Monolithic limitations
 
-Let's take a look at using single machines.
-
 Even with gigantic instances, there are physical hardware limitations when compute is isolated to an individual machine.
 
 Given these constraints, it makes sense to shard the machines, spin up new instances, and batch up the work for parallel processing. Share the burden & get multiple machines to pitch in. I love it!
@@ -37,7 +35,7 @@ There is "no moore free lunch" as processing power seems to be slowing & when [M
 
 ![no-moore-free-lunch-image](https://user-images.githubusercontent.com/532272/84102123-716eea80-a9c4-11ea-951a-07c733c36bbd.jpg)
 
-**Note:** If you are comfortable with Kubernetes and scaling out clusters for big data jobs & the parallel workloads described below, godspeed! The approach described below in "serverless compute" section would work in in managed servers with the typical caveats.
+**Note:** If you are comfortable with Kubernetes and scaling out clusters for big data jobs & the parallel workloads described below, godspeed! The approach described below in "serverless compute" section would work in in managed servers with the typical manage it yourself caveats.
 
 **For the adventurous**, curious about how this looks in a serverless world, continue reading.
 
