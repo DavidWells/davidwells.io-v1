@@ -4,6 +4,3 @@
 
 [build.environment]
 NODE_VERSION = "12"
-
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
