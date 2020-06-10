@@ -1,6 +1,6 @@
 ---
 title: "Mocking chainable APIs with ES6 JavaScript Proxies"
-descriptions: "How to stub out chainable APIs using ES6 Javascript Proxies"
+description: "How to stub out chainable APIs using ES6 Javascript Proxies"
 author: DavidWells
 date: 2019-07-22 09:30:00
 layout: post

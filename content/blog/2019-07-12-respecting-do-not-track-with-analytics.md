@@ -1,6 +1,6 @@
 ---
 title: "How to Respect Visitor \"Do Not Track\" settings with your Analytics tools"
-descriptions: "Using the do not track spec to disable web analytics on your website or app"
+description: "Using the do not track spec to disable web analytics on your website or app"
 author: DavidWells
 date: 2019-07-12 09:30:00
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: "Building sustainable developer workshops"
-descriptions: "Tips & tricks on building developer workshops without the hassle, uptime & time"
+description: "Tips & tricks on building developer workshops without the hassle, uptime & time"
 author: DavidWells
 date: 2019-06-04 09:30:00
 layout: post

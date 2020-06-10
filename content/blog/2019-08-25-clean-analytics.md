@@ -1,6 +1,6 @@
 ---
 title: "Using event naming conventions to keep analytics data clean."
-descriptions: "How to keep analytics data nice and clean for use in downstream marketing & data science tools"
+description: "How to keep analytics data nice and clean for use in downstream marketing & data science tools"
 author: DavidWells
 date: 2019-08-25 09:30:00
 layout: post

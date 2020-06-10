@@ -1,6 +1,6 @@
 ---
 title: "Don't fix things that aren't broken"
-descriptions: "Resist all of the urges to 'fix' things that work and instead focus on things that don't"
+description: "Resist all of the urges to 'fix' things that work and instead focus on things that don't"
 author: DavidWells
 date: 2020-03-05 09:30:00
 layout: post

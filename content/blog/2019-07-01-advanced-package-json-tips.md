@@ -1,6 +1,6 @@
 ---
 title: "5 Advanced npm package.json configuration tips"
-descriptions: "Advanced patterns for making `npm` scripts & `package.json` even more awesome"
+description: "Advanced patterns for making `npm` scripts & `package.json` even more awesome"
 author: DavidWells
 date: 2019-07-01 09:30:00
 layout: post

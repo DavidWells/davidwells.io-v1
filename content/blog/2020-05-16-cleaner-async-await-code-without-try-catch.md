@@ -1,6 +1,6 @@
 ---
 title: "Cleaner async JavaScript code without the try/catch mess."
-descriptions: "How to use safeAwait to wrap promises for better error handling in async await JavaScript code"
+description: "How to use safeAwait to wrap promises for better error handling in async await JavaScript code"
 author: DavidWells
 date: 2020-05-16 09:30:00
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: "Simplify form handling in your app using valid HTML elements"
-descriptions: "Using valid HTML form inputs for streamlined form handling in your app"
+description: "Using valid HTML form inputs for streamlined form handling in your app"
 author: DavidWells
 date: 2019-09-04 09:30:00
 layout: post

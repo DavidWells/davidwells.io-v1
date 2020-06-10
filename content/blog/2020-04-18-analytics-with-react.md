@@ -1,6 +1,6 @@
 ---
 title: "Analytics with React"
-descriptions: "Instrumenting analytics in react applications can be challenging, but luckily, it doesn't have do be"
+description: "Instrumenting analytics in react applications can be challenging, but luckily, it doesn't have do be"
 author: DavidWells
 date: 2020-04-18 09:30:00
 layout: post

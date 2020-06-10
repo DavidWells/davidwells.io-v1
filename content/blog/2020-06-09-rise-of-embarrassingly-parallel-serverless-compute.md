@@ -1,8 +1,8 @@
 ---
 title: "The rise of embarrassingly parallel serverless compute"
-descriptions: "How distributed serverless compute changes the game on whats possible"
+description: "How distributed serverless compute changes the game on whats possible"
 author: DavidWells
-date: 2020-05-25 09:30:00
+date: 2020-06-09 09:30:00
 layout: post
 category: dev
 ---
@@ -185,6 +185,7 @@ If you have seen others. Please let me know in the comments below!
 - [Serverless State](https://acloud.guru/series/serverlessconf-nyc-2019/view/serverless-state) - Tim Wagner's keynote from SLS conf 2019
 - [Tiny functions for codecs, compilation, and (maybe) soon everything](https://www.youtube.com/watch?v=O9qqSZAny3I) - Stanford Seminar
 - [GG framework demo](https://youtu.be/O9qqSZAny3I?t=3313)
+- [Occupy the Cloud: Distributed Computing for the 99%](https://shivaram.org/publications/pywren-socc17.pdf)
 - [A Berkeley View on Serverless Computing](https://acloud.guru/series/serverlessconf-nyc-2019/view/berkeley-view)
 - [Parrellel computing history](https://youtu.be/8pTEmbeENF4?t=1318)
 - [Jeremy Daly & Michael Hart discuss massively-parallel-hyperparameter-optimization on Lambda](https://www.serverlesschats.com/19)

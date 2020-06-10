@@ -1,6 +1,6 @@
 ---
 title: "7 Serverless Auth Strategies for Protecting Gated Functions"
-descriptions: "Gating serverless function invocations using various authentication methods"
+description: "Gating serverless function invocations using various authentication methods"
 author: DavidWells
 date: 2019-07-16 09:30:00
 layout: post
