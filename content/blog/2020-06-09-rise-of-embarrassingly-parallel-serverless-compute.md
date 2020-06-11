@@ -198,7 +198,7 @@ Imagine a world where nearly everything becomes MUCH faster.
 
 Massive data science jobs runtimes can be reduced for scientists to simulate models faster! Search can improve. Software compilation & dev cycles can be dramatically reduced... You get the point.
 
-Think of the possibilities.
+Think of the possibilities!
 
 Some challenges lie ahead:
 
@@ -206,4 +206,6 @@ Some challenges lie ahead:
 - Improving tooling & DX to make these methods approachable by all (not just Ops folks)
 - Educating folks on serverless methodologies & what is possible today with managed cloud services
 
-I will leave you with a question. What will you do with your serverless supercomputer?
+I will leave you with a question:
+
+**What will you do with your serverless supercomputer?**
