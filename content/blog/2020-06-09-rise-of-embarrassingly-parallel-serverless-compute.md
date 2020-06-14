@@ -13,7 +13,7 @@ Let's begin by suspending disbelief for a moment and imagine this scenario:
 
 Is this science fiction? Perhaps a developer's fever dream? Or possibly fake news?
 
-None of the above. This is a reality today. This quote is an excerpt from this excellent [Standford seminar](https://www.youtube.com/watch?v=O9qqSZAny3I) by Keith Winstein where he details the research being put into the future of compute.
+None of the above. This is a reality today. This quote is an excerpt from this excellent [Stanford seminar](https://www.youtube.com/watch?v=O9qqSZAny3I) by Keith Winstein where he details the research being put into the future of compute.
 
 We've entered an era of the [serverless supercomputer](https://read.acloud.guru/https-medium-com-timawagner-the-serverless-supercomputer-555e93bbfa08?gi=abc7aa084f4b).
 
