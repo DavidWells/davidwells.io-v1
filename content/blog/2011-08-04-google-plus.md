@@ -11,7 +11,7 @@ tags:
 
 > **Editors Note:**
 
-> This post did not age well 😅. RIP google plus!
+> This post did not age well 😅. RIP google plus.
 
 > [See other episodes of the show](https://davidwells.io/tags/inbound-now)
 
