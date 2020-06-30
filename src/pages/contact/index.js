@@ -149,7 +149,7 @@ export default class Contact extends Component {
         <SEO title='Contact David Wells' slug={location.pathname} />
 
         <div className={styles.page}>
-          <h1>Contact David</h1>
+          <h3>Contact David</h3>
           {this.renderLoader()}
           {this.renderForm()}
         </div>
