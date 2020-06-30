@@ -1,20 +1,22 @@
 ---
-title: David Wells - Full Stack Serverless Developer in San Francisco
-description: David Wells is full-stack serverless developer located in the SF bay area.
+title: David Wells - Serverless Consultant in San Francisco
+description: David Wells is Serverless Cloud Consultant located in the SF bay area.
 layout: page
 ---
 
-> **TL;DR** – Marketing nerd turned full stack developer & entrepreneur.
+👋 **Hi, I'm David.**
 
-I'm working with [Netlify](http://netlify.com) as a technical product manager, where I help steer the direction of what we are building, get my hands dirty with code & help to educate folks on JAMStack & serverless technologies.
+I like building fun things with serverless tech.
 
-Previously, I was working as a full stack developer & dev advocate at [Serverless](http://serverless.com). Before that, I was the lead developer on the UI/UX team at [Mulesoft](http://www.mulesoft.com), building their design system.
+Most of my time is spent on software architecture, user experience, and product development.
 
-Before that, I ran a company called [Inbound Now](http://www.inboundnow.com), where we built a variety of open-source marketing tools.
+I'm currently working with [Netlify](http://netlify.com), as a technical product manager, where I help bring to life new software to help developers build more awesome faster.
 
-Before learning to code, I was a marketing consultant working at [HubSpot](http://www.hubspot.com). I've helped hundreds of companies with their content strategy, conversion rate optimization, and inbound lead generation.
+Before Netlify, I was hustling as a full stack developer & dev advocate at [Serverless Inc.](http://serverless.com). Before that, I was the lead developer on the UI/UX team at [Mulesoft](http://www.mulesoft.com), building their design system.
 
-Today, I focus on **serverless cloud architecture**, **user experience**, and **product development**
+Long ago, in a galaxy far far away, I ran a company called [Inbound Now](http://www.inboundnow.com), where we built a variety of open-source marketing tools to help companies to grow their businesses.
+
+Before writing a line of code, I was a marketing consultant at [HubSpot](http://www.hubspot.com), where I helped hundreds of companies with their content strategy, conversion rate optimization, and inbound lead generation.
 
 * See some of my [**projects**](/work)
 * Watch some [**tech talks**](/talks)
