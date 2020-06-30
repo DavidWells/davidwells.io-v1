@@ -59,7 +59,7 @@ const Sidebar = ({ children }) => {
               </h1>
             </Link>
             <div className={styles.about}>
-              <h2>Full Stack Developer</h2>
+              <h2>Builder of things</h2>
               <h3>
                 Serverless Architectures
                 <br />

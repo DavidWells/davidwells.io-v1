@@ -426,6 +426,9 @@ code, :not(pre)>code[class=language-text] {
 	code, :not(pre)>code[class=language-text] {
 	  font-size: 12px;
 	}
+	.lets-talk {
+		display: block;
+	}
 	#disqus_thread {
 		margin-left: 0px;
 	}

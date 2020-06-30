@@ -23,4 +23,4 @@ Before writing a line of code, I was a marketing consultant at [HubSpot](http://
 * Read the [**blog**](/blog)
 * Checkout the <a href="https://davidwells.io/resume" target="_blank"><strong>CV</strong></a>
 
-Have a question or need help on a project? [**Lets talk**](/contact)
+Have a question or need help on a project? <span class='lets-talk'>[**Lets talk**](/contact)</span>
