@@ -50,10 +50,12 @@ video {
 
 body {
 	font-size: $fontSize;
-	line-height: 1.9;
+	line-height: 26px;
 	/* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
-	font-family: 'proxima-nova', 'Helvetica', sans-serif;
+	font-family: "benton-sans", sans-serif;
 	/*font-family: 'proxima-nova', 'Helvetica', sans-serif;*/
+	color: rgba(0,0,0,0.80);
+	font-weight: 500;
 }
 
 /**
@@ -70,8 +72,16 @@ h3 { font-size: 2.0rem; line-height: 1.3;  letter-spacing: -.025rem; }
 h4 { font-size: 1.8rem; line-height: 1.35; letter-spacing: -.02rem; }
 h5 { font-size: 1.6rem; line-height: 1.5;  letter-spacing: -.02rem; }
 h6 { font-size: 1.2rem; line-height: 1.6;  letter-spacing: 0; }
-p {  letter-spacing: 0; }
-
+p {
+	letter-spacing: 0;
+	margin-bottom: 24px;
+}
+blockquote p {
+	margin-bottom: 14px;
+}
+strong {
+	color: #000;
+}
 /**
  * Image alignment
  * @type {[type]}
@@ -319,7 +329,7 @@ code, :not(pre)>code[class=language-text] {
   display: inline-block;
   padding: 3px 5px;
   color: #e91e63;
-  font-size: 14px;
+  font-size: 13px;
   background: rgba(0,0,0,0.04);
 }
 
@@ -409,6 +419,13 @@ code, :not(pre)>code[class=language-text] {
 }
 
 @media (max-width: 768px) {
+	body, blockquote {
+		font-size: 1.5rem;
+		line-height: 23px;
+	}
+	code, :not(pre)>code[class=language-text] {
+	  font-size: 12px;
+	}
 	#disqus_thread {
 		margin-left: 0px;
 	}

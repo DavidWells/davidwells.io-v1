@@ -10,7 +10,7 @@ I'm working with [Netlify](http://netlify.com) as a technical product manager, w
 
 Previously, I was working as a full stack developer & dev advocate at [Serverless](http://serverless.com). Before that, I was the lead developer on the UI/UX team at [Mulesoft](http://www.mulesoft.com), building their design system.
 
-Before that, I founded [Inbound Now](http://www.inboundnow.com), where we built a variety of open-source marketing tools.
+Before that, I ran a company called [Inbound Now](http://www.inboundnow.com), where we built a variety of open-source marketing tools.
 
 Before learning to code, I was a marketing consultant working at [HubSpot](http://www.hubspot.com). I've helped hundreds of companies with their content strategy, conversion rate optimization, and inbound lead generation.
 

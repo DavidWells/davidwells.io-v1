@@ -33,6 +33,9 @@ $sidebarWidth: 23%;
   .content {
     width: 100%;
   }
+  blockquote {
+    line-height: 23px;
+  }
 }
 
 @media (max-width: 720px) {

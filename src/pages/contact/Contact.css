@@ -26,6 +26,9 @@
   label {
     display: none;
   }
+  textarea {
+    font-family: "benton-sans", sans-serif;
+  }
 }
 
 .fieldSet {
@@ -51,5 +54,6 @@
   }
   .form textarea {
     font-size: 16px;
+
   }
 }
