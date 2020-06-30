@@ -21,7 +21,8 @@ const unit = 'rem'
 const baseFontSize = (baseValue * 1.6) + unit
 
 module.exports = {
-  textSelection: '#80cbbf',
+  textSelection: '#fff',
+  textSelectionBg: '#0685c4',
   // -- Colors
   primary: '#0685c4',
   primaryHover: '#009dea',

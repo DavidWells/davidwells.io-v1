@@ -10,7 +10,7 @@ I like building fun things with serverless tech.
 
 Most of my time is spent on software architecture, user experience, and product development.
 
-I'm currently working with [Netlify](http://netlify.com), as a technical product manager, where I help bring to life new software to help developers build more awesome faster.
+I'm currently working with [Netlify](http://netlify.com), as a technical product manager, where I help bring to life new software to help developers streamline their workflows & build more awesome.
 
 Before Netlify, I was hustling as a full stack developer & dev advocate at [Serverless Inc.](http://serverless.com). Before that, I was the lead developer on the UI/UX team at [Mulesoft](http://www.mulesoft.com), building their design system.
 

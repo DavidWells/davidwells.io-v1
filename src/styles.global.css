@@ -16,7 +16,8 @@ html {
 }
 
 ::selection {
-	background: $textSelection;
+	color: $textSelection;
+	background: $textSelectionBg;
 }
 
 /*
@@ -277,7 +278,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: #005cc5;
   background: none;
-  text-shadow: 0 1px white;
+  text-shadow: none;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   text-align: left;
   white-space: pre;
