@@ -6,17 +6,17 @@ layout: post
 category: "Marketing"
 ---
 
-You can scour the Internet and find a never-ending supply of great marketing tips and advice to implement on top of your current marketing strategies.
+You can scour the Internet and find a never-ending supply of marketing tips and advice to implement on top of your current marketing strategies.
 
 _Whoopty freakin' do..._
 
-While the tips out there are not to be discounted (they can absolutely help, depending on what it is...), most are focused on optimizing tiny bits of your overall marketing strategies.
+The overwhelming majority of the advice is focused on tactics around optimizing tiny bits of your overall marketing strategies.
 
-Rarely do folks go back to the **fundamentals** of marketing.
+Tactics are cool but rarely do folks go back to the **fundamentals** of marketing.
 
-All the noise on the Internet tends to lead marketers down the never-ending rabbit hole of micro optimizations. These micro optimizations tend to be very tedious things to implement with a very minimal return.
+All the noise on the Internet tends to lead marketers down the never-ending rabbit hole of micro-optimizations. These micro-optimizations tend to be very tedious things to implement with a very minimal return.
 
-You want more bang for your buck?
+Do you want more bang for your buck?
 
 **Here is the one thing you need to remember, the one immutable truth in online marketing:**
 
@@ -36,12 +36,12 @@ The effort you were going to waste in that "awesome" Instagram campaign should b
 *   Can people reach you with having to pick up a phone and dial your number?
 *   Are you documenting frequently asked questions?
 *   Do your landing pages forms ask for too much information?
-*   Can people one click follow you on a variety of social platforms?
-*   Do your highly trafficked pages have relevant calls to action on them?
+*   Can people one-click follow you on a variety of social platforms?
+*   Do your highly-trafficked pages have relevant calls to action on them?
 
-There are many other things to consider and they will be pretty specific on a per website basis.
+There are many other things to consider, and they will be pretty specific on a per-website basis.
 
-Use your common sense and think about things that are antiquated, slow, and/or sucky about your current website and fix them.
+Use common sense. **Really** think about antiquated, slow, and sucky things about your current website and fix them.
 
 Put yourself in the shoes of a person who has little time to learn every nook and cranny of your site and wants something NOW. Then give them what they want.
 
