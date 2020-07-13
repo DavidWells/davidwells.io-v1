@@ -40,11 +40,11 @@ As an aside, I highly recommend John Cutler's "one-pager" format for dispersing 
 
 ![one-pager-template](https://user-images.githubusercontent.com/532272/87268079-52a9bb00-c47e-11ea-8e93-9dd225c38523.png)
 
-These communication challenges get amplified when you are trying to build something that is brand new. Valid criticisms, confusion, and FUD will pop in to say hello from time to time. It's important to keep these framed as coming with the **best of intentions**. Everyone is on the same team and we all want what is best for the company & our users.
+These communication challenges get amplified when you are trying to build something that is brand new. Valid criticisms, confusion, and FUD will pop in to say hello from time to time. It's important to keep these framed as coming with the **best of intentions**. Everyone is on the same team, and we all want what is best for the company & our users.
 
-Keeping a humble attitude and having thick skin is a prerequisite when creating, pitching, & re-pitching ideas. This is especially true when various stakeholders want opposite outcomes or different priorities covered first. It's the PMs job to balance this intake & plan accordingly.
+Keeping a humble attitude and having thick skin is a prerequisite when creating, pitching, & re-pitching ideas. This is especially true when various stakeholders want opposite outcomes or different priorities covered first. It's the PM's job to balance this intake & plan accordingly.
 
-It takes constant communication, repetition, re-phrasing and sync ups to keep folks on the same page. This was one of the learning curves and an area I got a mega crash course in this past year.
+It takes constant communication, repetition, re-phrasing, and sync ups to keep folks on the same page. This was one of the learning curves and an area I got a mega crash course in this past year.
 
 Do me a favor and [**hug your PM**](http://eleganthack.com/the-myths-of-product-management/) next time you see them.
 
@@ -52,7 +52,7 @@ If you are curious to learn more product management, I highly recommend the book
 
 Also, soft skills. Soft skills are a crucial part in keeping teams cohesive.
 
-Contrary to popular belief, soft skills are not acquired by drinking copious amounts of soft serve ice cream. Instead, it's about empathizing with your compatriots & taking the time to deepen relationships & trust.
+Contrary to popular belief, soft skills are not acquired by drinking copious amounts of soft-serve ice cream. Instead, it's about empathizing with your compatriots & taking the time to deepen relationships & trust.
 
 ---
 
