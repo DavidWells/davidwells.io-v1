@@ -8,11 +8,15 @@ layout: portfolio
 
 **Date**: 2019
 
-[Netlify Build Plugins](https://github.com/netlify/build/) offers a programmatic interface on top of the Netlify CI pipeline.
+[Netlify Build Plugins](https://github.com/netlify/build/) are a layer on top of Netlify's CI pipeline that adds a pluggable programmatic interface for users to extend to fit any use case.
 
 - [Background & vision](#project-background)
 - [Build Plugin Spec](#netlify-build-plugins-spec)
 - [Build Plugin API Design](#plugin-api-design)
+
+<br/>
+
+## Launch video
 
 <iframe width="720" height="315" src="https://www.youtube.com/embed/4m6Hi4_qEVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -190,7 +190,7 @@ blockquote ul {
 }
 
 hr {
-  border-color: #e2e2e2;
+  border-color: rgba(227, 227, 227, 0.33);
   border-width: 0.5px;
 }
 
