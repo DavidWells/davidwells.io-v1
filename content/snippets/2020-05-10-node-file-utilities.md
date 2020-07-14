@@ -35,6 +35,8 @@ module.exports = {
   readFile: promisify(fs.readFile),
   // Write file
   writeFile: promisify(fs.writeFile),
+  // Copy file
+  copyFile: promisify(fs.copyFile),
   // Recursively create directory
   createDir: mkdirp,
   // Read directory file names
