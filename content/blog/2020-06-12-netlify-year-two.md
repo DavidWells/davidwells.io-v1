@@ -66,8 +66,7 @@ Launching build plugins on stage at [JAMstack conf 2019](https://www.youtube.com
 
 ![jamstack-sf-2019](https://user-images.githubusercontent.com/532272/87262674-b37dc700-c46f-11ea-8714-adf787f9044b.jpg)
 
-After the initial early alpha launch, things slowly started to change.
-This lil' project was now becoming a big piece of Netlify, and everyone was rallying around the cause. Talk about mounting pressures 😅.
+After the initial early alpha launch, things slowly started to change. This lil' project was now becoming a big piece of Netlify, and everyone was rallying around the cause. Talk about mounting pressures 😅.
 
 As my hat shifted from developing features into more project & product management, there were many bumps & hurdles along the way. Ultimately, the team came together and had a great launch.
 
@@ -337,7 +336,7 @@ The `netlify build` command allows users to do this.
 
 - Helped get a security vulnerability fixed. 🎉 (Ask me about this in 20 years)
 - Setup a solid telemetry pipeline for our build system
-- Continued with some of the marketing Ops work from [last year](https://davidwells.io/blog/netlify-year-one)
+- Continued with some of the marketing Ops work from [last year](https://davidwells.io/blog/netlify-year-one), helping build/maintain various serverless microservices.
 - Worked on a couple different partner [add-on integrations](https://github.com/netlify/addons)
 - Wrote many many specs, notion docs, GitHub issues, & slack messages 😅
 - Learned a metric F ton!
