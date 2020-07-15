@@ -10,7 +10,7 @@ export default class MainLayout extends React.Component {
     return (
       <Base className={styles.test}>
         <Helmet>
-          <script src='https://d26s9dlh9vivqr.cloudfront.net/go.js' type='text/javascript' />
+          <script src='https://cdn.leanstats.com/go.js' type='text/javascript' />
         </Helmet>
         <div className={styles.wrapper}>
           <Sidebar>
