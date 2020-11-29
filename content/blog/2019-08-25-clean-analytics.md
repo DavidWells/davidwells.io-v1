@@ -257,3 +257,4 @@ See below resources for additional analytics information:
 - https://segment.com/academy/collecting-data/naming-conventions-for-clean-data/
 - http://www.kristaseiden.com/events-best-practices-for-hierarchies-and-naming-conventions/
 - http://drakondigital.com/blog/google-analytics-event-tracking-naming-strategy/
+- https://www.searchenginewatch.com/2013/08/09/10-google-analytics-custom-events-that-track-the-untrackable/
