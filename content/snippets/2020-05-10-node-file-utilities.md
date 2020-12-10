@@ -89,7 +89,9 @@ Hope this helps!
 
 Below is an example of using `require('fs').promises` instead of `promisify` from `utils.
 
-```
+```js
+/* ./utils/fs.js */
+const path = require('path')
 const rimraf = require('rimraf')
 const { promises, constants } = require('fs')
 const { promisify } = require('util')
@@ -97,6 +99,11 @@ const { promisify } = require('util')
 const fs = promises
 
 const deleteDir = promisify(rimraf)
+
+const deleteFile = (s) => fs.unlink(s).catch((e) => {
+  if (e.code === 'ENOENT') return // ignore already deleted files
+  throw e
+})
 
 const fileExists = (s) => fs.access(s, constants.F_OK).then(() => true).catch(() => false)
 
@@ -138,12 +145,16 @@ async function copyDir(src, dest, recursive = true) {
 module.exports = {
   // Check if file exists
   fileExists: fileExists,
-  // Read file
-  readFile: fs.readFile,
   // Write file
   writeFile: fs.writeFile,
+  // Read file
+  readFile: fs.readFile,
   // Copy file
   copyFile: fs.copyFile,
+  // Delete file
+  deleteFile: deleteFile,
+  // Check if directory exists
+  directoryExists: fileExists,
   // Recursively create directory
   createDir: createDir,
   // Recursively get file names in dir
