@@ -28,6 +28,14 @@ const { promisify } = require('util')
 
 const fileExists = (s) => new Promise(r => fs.access(s, fs.F_OK, e => r(!e)))
 
+// Recursive read dir
+async function readDir(dir, allFiles = []) {
+  const files = (await fs.readdir(dir)).map((file) => path.join(dir, file))
+  allFiles.push(...files)
+  await Promise.all(files.map(async (file) => (await fs.stat(file)).isDirectory() && readDir(file, allFiles)))
+  return allFiles
+}
+
 module.exports = {
   // Check if file exists
   fileExists: fileExists,
@@ -41,6 +49,8 @@ module.exports = {
   createDir: mkdirp,
   // Read directory file names
   readDir: promisify(fs.readdir),
+
+  readDirResurvsive
   // Recursively delete directory & contents
   deleteDir: promisify(rimraf),
 }
@@ -74,5 +84,75 @@ doIt(file).then((contents) => {
 ```
 
 Hope this helps!
+
+## Update
+
+Below is an example of using `require('fs').promises` instead of `promisify` from `utils.
+
+```
+const rimraf = require('rimraf')
+const { promises, constants } = require('fs')
+const { promisify } = require('util')
+
+const fs = promises
+
+const deleteDir = promisify(rimraf)
+
+const fileExists = (s) => fs.access(s, constants.F_OK).then(() => true).catch(() => false)
+
+// Recursive read dir
+async function readDir(dir, recursive = true, allFiles = []) {
+  const files = (await fs.readdir(dir)).map((file) => path.join(dir, file))
+  if (!recursive) return files
+  allFiles.push(...files)
+  await Promise.all(files.map(async (file) => {
+    return (await fs.stat(file)).isDirectory() && readDirResurvsive(file, recursive, allFiles)
+  }))
+  return allFiles
+}
+
+async function createDir(directoryPath, recursive = true) {
+  // ignore errors - throws if the path already exists
+  return fs.mkdir(directoryPath, { recursive: recursive }).catch((e) => {})
+}
+
+async function copyDir(src, dest, recursive = true) {
+  await createDir(dest, recursive) // Ensure directory exists
+
+  const filePaths = await fs.readdir(src)
+  await Promise.all(filePaths.map(async (item) => {
+    const srcPath = path.join(src, item)
+    const destPath = path.join(dest, item)
+    const itemStat = await fs.lstat(srcPath)
+
+    if (itemStat.isFile()) {
+      return fs.copyFile(srcPath, destPath)
+    }
+    // Return early if recursive false
+    if (!recursive) return
+    // Copy child directory
+    return copyDir(srcPath, destPath, recursive)
+  }))
+}
+
+module.exports = {
+  // Check if file exists
+  fileExists: fileExists,
+  // Read file
+  readFile: fs.readFile,
+  // Write file
+  writeFile: fs.writeFile,
+  // Copy file
+  copyFile: fs.copyFile,
+  // Recursively create directory
+  createDir: createDir,
+  // Recursively get file names in dir
+  readDir: readDir,
+  // Recursively copy directory
+  copyDir: copyDir,
+  // Recursively delete directory & contents
+  deleteDir: deleteDir,
+}
+```
 
 Let me know if you have other file system utilities you like to use in the comments below.
