@@ -6,7 +6,7 @@ date: 2016-09-01
 layout: portfolio
 ---
 
-**Demo Link:** <a href="http://anypoint-platform-ui.surge.sh/">http://anypoint-platform-ui.surge.sh/</a>
+**Demo Link:** <a href="https://anypoint-platform-ui.netlify.app/">https://anypoint-platform-ui.netlify.app/</a>
 
 **Live URL:** <a href="http://ux.mulesoft.com/">http://ux.mulesoft.com/</a>
 
