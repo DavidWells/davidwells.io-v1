@@ -113,7 +113,7 @@ async function readDir(dir, recursive = true, allFiles = []) {
   if (!recursive) return files
   allFiles.push(...files)
   await Promise.all(files.map(async (file) => {
-    return (await fs.stat(file)).isDirectory() && readDirResurvsive(file, recursive, allFiles)
+    return (await fs.stat(file)).isDirectory() && readDir(file, recursive, allFiles)
   }))
   return allFiles
 }
